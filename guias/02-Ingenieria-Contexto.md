@@ -154,3 +154,6 @@ A continuación, una comparativa de las cuatro estrategias que hemos revisado:
 | **Fuente** | Resumen de la historia | El humano carga documentos | El agente mismo decide qué escribir | Delegación a otros agentes |
 | **Uso Típico** | Chatbots de larga duración | "Chat con tus Documentos" | Asistentes personales | Sistemas complejos multi-paso |
 
+---
+
+[**&laquo; Guía Anterior: Ingeniería de Prompts**](./01-Ingenieria-Prompts.md) | [**Volver al Índice**](../) | [**Siguiente Guía: Estrategia de Datos &raquo;**](./03-Estrategia-Datos.md)
