@@ -11,7 +11,14 @@
   <body>
     <div class="wrapper">
       <section>
+        
+        {% if page.url != "/" %}
+          <p style="margin-bottom: 2rem; font-size: 0.9rem;">
+            <a href="{{ "/" | relative_url }}">&laquo; Volver al Índice Principal</a>
+          </p>
+        {% endif %}
         {{ content }}
+
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
