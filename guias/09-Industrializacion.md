@@ -1,5 +1,3 @@
----
-
 ### **Guía 09: Industrialización de IA**
 
 **(Subtítulo: Del "Ingeniero de Prototipos" al "Director de Operaciones")**

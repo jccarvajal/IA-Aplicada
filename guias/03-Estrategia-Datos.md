@@ -1,5 +1,3 @@
----
-
 ### **Guía 03: La Guía Definitiva de la Estrategia de Datos**
 
 **(Subtítulo: Del "Jefe de Operaciones" al "Arquitecto de la Información")**

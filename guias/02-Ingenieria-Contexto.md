@@ -1,5 +1,3 @@
----
-
 ### **Guía 02: La Guía Definitiva de la Ingeniería de Contexto y Memoria**
 
 **(Subtítulo: Resolviendo la "Brecha de Aprendizaje" de la IA)**

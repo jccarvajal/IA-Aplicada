@@ -1,5 +1,3 @@
----
-
 ### **Guía 05: Diseño de Sistemas Cognitivos**
 
 **(Subtítulo: El Plano de la Mente: De 'Trabajadores' Reactivos a 'Equipos' Cognitivos)**

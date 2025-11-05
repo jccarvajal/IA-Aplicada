@@ -1,5 +1,3 @@
----
-
 ### **Bloque 1: Los Fundamentos (Cómo funciona)**
 
 ### **Guía 01: La Guía Definitiva de la Ingeniería de Prompts**

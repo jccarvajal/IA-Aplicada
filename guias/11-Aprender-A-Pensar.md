@@ -1,5 +1,3 @@
----
-
 ### **Guía 11: Aprender a Pensar con IA: Habilidades y Tácticas por Rol**
 
 **(Subtítulo: Alfabetización Cognitiva: De Usuario Pasivo a Co-Piloto Estratégico)**

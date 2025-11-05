@@ -1,5 +1,3 @@
----
-
 ### **Bloque 3: La Operación (Cómo se gestiona)**
 
 ### **Guía 07: La Guía Definitiva de la Gobernanza de IA**

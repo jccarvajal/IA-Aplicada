@@ -1,5 +1,3 @@
----
-
 ### **Guía 12: Estrategia y Valor en la Era de la IA**
 
 **(Subtítulo: Del "Director de Transformación" al "Director de Estrategia")**

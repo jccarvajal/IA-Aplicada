@@ -1,5 +1,3 @@
----
-
 ### **Guía 08: Evaluación, Calidad y Validación de IA**
 
 **(Subtítulo: El Laboratorio de Control de Calidad: De la "Sensación" a la Métrica)**
