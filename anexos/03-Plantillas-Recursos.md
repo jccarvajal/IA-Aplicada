@@ -1,12 +1,11 @@
----
-
 ### **Anexo 03: Plantillas y Recursos**
 
 **(Subtítulo: El "Cinturón de Herramientas" del Arquitecto)**
 
 #### **Propósito**
 
-Este anexo no es una guía narrativa; es el "cinturón de herramientas" práctico de toda la obra. Es un repositorio centralizado de checklists, plantillas y matrices mencionadas a lo largo de las guías.  
+Este anexo no es una guía narrativa; es el "cinturón de herramientas" práctico de toda la obra. Es un repositorio centralizado de checklists, plantillas y matrices mencionadas a lo largo de las guías. 
+
 No está diseñado para "leerse" de principio a fin, sino para "usarse" como referencia rápida en el trabajo diario de diseño, gobernanza y estrategia de IA.
 
 ---

@@ -1,5 +1,3 @@
----
-
 ### **Anexo 05: Modelos y Mercado LLM**
 
 **(Subtítulo: Del "Jefe de Adquisiciones" al "Arquitecto de Portafolio")**
@@ -7,6 +5,8 @@
 #### **Propósito en la Obra**
 
 En guías anteriores aprendimos a diseñar y **gobernar** —es decir, controlar de forma segura— los sistemas de IA. Este anexo es el manual de adquisiciones. Su objetivo no es señalar al "mejor" modelo, sino entregar una metodología para construir un ecosistema de portafolio. El rol estratégico no es elegir un solo motor, sino diseñar un portafolio flexible que combine modelos de manera inteligente.
+
+---
 
 #### **1\. El Panorama 2025-2026: Los Tres Ecosistemas**
 
@@ -33,6 +33,8 @@ Como "Jefes de Adquisiciones" de nuestra fábrica de IA, el mercado de "motores"
 * **Fortaleza:** Implementación en tiempo récord y soluciones enfocadas (ej. ofimática, investigación). Costo inicial bajo (suscripción).  
 * **Riesgo:** Flexibilidad técnica baja ("caja negra"). La **Gobernanza** (el control de seguridad y datos) depende 100% del contrato con el proveedor.
 
+---
+
 #### **2\. El "Triángulo de Adquisición" (Revisado)**
 
 Como "Jefe de Adquisiciones", no puedes tenerlo todo. Cada decisión equilibra tres fuerzas. Hemos reemplazado "Capacidad" por "Control", un término más robusto y estratégico.
@@ -44,6 +46,8 @@ Como "Jefe de Adquisiciones", no puedes tenerlo todo. Cada decisión equilibra t
    * **Personalización:** ¿Puedes hacer Ajuste Fino al modelo?  
    * **Seguridad:** ¿Cómo se manejan los riesgos de Gobernanza?  
 3. **Costo (Economía):** El costo total, no solo el precio por token. Incluye el costo de infraestructura (GPUs), licencias y el costo de personal (Industrialización).
+
+---
 
 #### **3\. La Solución Estratégica: El "Agente Enrutador"**
 
@@ -61,6 +65,8 @@ El "Agente Enrutador" (que puede ser un "Agente Director") es un "cerebro" metac
 6. **Agente Enrutador (Actúa):** Llama al modelo Open-Source (Ecosistema B) hosteado localmente para garantizar la soberanía de los datos.  
 * **Beneficio:** Obtienes el máximo Rendimiento cuando lo necesitas y el máximo Control y Costo-eficiencia cuando no. Has optimizado el "Triángulo de Adquisición".  
 * **Validación de Mercado (2025):** Esta estrategia de portafolio ("Comprar" o "Arrendar" en lugar de "Construir" todo desde cero) no es solo teórica. Informes de la industria de 2025 (como el "State of AI in Business" del MIT) revelan que las iniciativas de "Comprar" (asociaciones estratégicas) tienen el **doble de tasa de éxito** (aprox. 66%) que las de "Construir" (desarrollo interno) (aprox. 33%).
+
+---
 
 #### **4\. Metodología Práctica de Selección (Checklist)**
 
@@ -90,6 +96,8 @@ Para diseñar tu portafolio, usa este proceso:
 | ¿Necesitamos customización profunda (Ajuste Fino)? | \[ \] | \[ \] | (Si es SÍ: Requerir Open-Source) |
 | ¿Tenemos capacidad de Industrialización interna? | \[ \] | \[ \] | (Si es NO: Priorizar API o AaaS, o planificar contratación) |
 
+---
+
 #### **5\. Enfoque Especial: Sector Público y Entornos Regulados**
 
 Para instituciones públicas o reguladas (finanzas, salud), el factor **Control** (Soberanía de Datos, Auditoría) debe superar casi siempre al Rendimiento.
@@ -98,6 +106,6 @@ Para instituciones públicas o reguladas (finanzas, salud), el factor **Control*
 2. **Exigir Transparencia y Auditoría:** Exigir documentación técnica clara y la capacidad de auditar los procesos y los logs.  
 3. **Contratar con Cláusulas de Gobernanza:** Al usar APIs (Ecosistema A) o AaaS (Ecosistema C), incluir cláusulas contractuales específicas sobre residencia de datos, trazabilidad y retención de logs.
 
-#### **6\. Conclusión: De Gobernador a Arquitecto de Portafolio**
+#### **Conclusión: De Gobernador a Arquitecto de Portafolio**
 
 La maestría no reside en saber qué LLM es "mejor", sino en tener el juicio de ingeniería para diseñar un ecosistema flexible: rendimiento donde importa, Control donde hay riesgo, y Costo donde la escala lo exige. El rol final no es solo gobernar una fábrica; es ser el "Arquitecto del Portafolio de IA".

@@ -1,5 +1,3 @@
----
-
 ### **Anexo 02: Lecciones de Implementación (Blueprints)**
 
 **(Subtítulo: Blueprints y Casos de Estudio)**
@@ -18,6 +16,8 @@ Cada blueprint es una plantilla de solución que detalla:
 * La Sinergia (el nuevo rol del humano vs. el rol del agente, y la redefinición del valor).
 
 Es la pieza que conecta la estrategia (las Guías) con la ejecución, y forma parte del "Portafolio del Arquitecto".
+
+---
 
 #### **El Portafolio del Arquitecto**
 

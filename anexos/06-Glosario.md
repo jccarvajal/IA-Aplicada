@@ -1,5 +1,3 @@
----
-
 ### **Anexo 06: Glosario Unificado**
 
 #### **Propósito en la Obra**

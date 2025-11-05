@@ -1,5 +1,3 @@
----
-
 ### **Anexos (Biblioteca del Arquitecto)**
 
 ### **Anexo 01: Ajuste Fino y Adaptación de Modelos**
@@ -8,15 +6,20 @@
 
 #### **Introducción: De "Leer Libros" a "Ir a la Universidad"**
 
-En las guías principales, hemos establecido que la Ingeniería de Contexto (Guía 02\) es clave. La herramienta principal que exploramos fue **RAG (Generación Aumentada por Recuperación)**, nuestra arquitectura del "Bibliotecario Asistente".  
+En las guías principales, hemos establecido que la Ingeniería de Contexto (Guía 02\) es clave. La herramienta principal que exploramos fue **RAG (Generación Aumentada por Recuperación)**, nuestra arquitectura del "Bibliotecario Asistente". 
+
 RAG es la forma de darle "libros" (conocimiento externo) al "cerebro" (LLM) para que los lea en tiempo real.  
-Pero RAG tiene limitaciones. Es excelente para el **conocimiento** (hechos, datos), pero terrible para la **habilidad** (estilo, tono, formato).  
+
+Pero RAG tiene limitaciones. Es excelente para el **conocimiento** (hechos, datos), pero terrible para la **habilidad** (estilo, tono, formato). 
+
 Este anexo presenta la segunda herramienta clave: el **Fine-Tuning (Ajuste Fino)**.
 
 * **RAG:** Es darle a un agente genérico un libro de medicina para que lo lea.  
 * **Ajuste Fino:** Es tomar a un agente genérico y mandarlo a la facultad de medicina durante 6 meses hasta que *piense* como un médico.
 
 Tu rol aquí es el de "Especialista de Motores". No estás usando el motor, lo estás modificando.
+
+---
 
 #### **El Dilema Central: ¿Cuándo Usar RAG vs. Cuándo Usar "Fine-Tuning"?**
 
@@ -69,7 +72,8 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 #### **Parte 4: El "Stack" Técnico (Cómo se hace sin 500 GPUs)**
 
-En el pasado, hacer "ajuste fino" requería un centro de datos. Hoy, gracias a los modelos Open-Source y nuevas técnicas, un "Ingeniero de Prototipos" (Guía 06\) puede hacerlo en una sola laptop o un servidor en la nube.  
+En el pasado, hacer "ajuste fino" requería un centro de datos. Hoy, gracias a los modelos Open-Source y nuevas técnicas, un "Ingeniero de Prototipos" (Guía 06\) puede hacerlo en una sola laptop o un servidor en la nube. 
+ 
 La clave es no re-entrenar el modelo entero. Solo "afinas" una pequeña fracción de él.
 
 1. **El Modelo Base:** Eliges un modelo Open-Source (ej. Llama 3 8B).  
@@ -89,7 +93,8 @@ Cuando ejecutas tu agente, "cargas" el modelo base y "encima" le pones tu "adapt
 
 #### **Conclusión: El Verdadero Rol del "Especialista de Motores"**
 
-RAG y el Ajuste Fino no son competidores; son un equipo.  
+RAG y el Ajuste Fino no son competidores; son un equipo. 
+
 El "Ingeniero de Prototipos" (Guía 06\) usa esta "Guía de Especialización" para construir una "fábrica" industrializada (Guía 09\) verdaderamente optimizada.
 
 * Usas **RAG** para darle a tus agentes el **conocimiento** que necesitan.  

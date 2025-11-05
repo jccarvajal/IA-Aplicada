@@ -1,4 +1,3 @@
----
 
 ### **Anexo 04: Política Institucional de IA (Propuesta Marco)**
 
@@ -35,8 +34,6 @@ Todo uso de la IA en el Servicio se regirá por:
 5. **Equidad y No Discriminación:** Los algoritmos serán diseñados y auditados para evitar sesgos y resultados que constituyan una **discriminación arbitraria**, según lo define la Ley N° 20.609.  
 6. **Gobernanza Financiera y de Seguridad:** Se implementarán controles técnicos (como "Interruptores Automáticos") para prevenir **Bucles de Costos** y riesgos de seguridad, como la **Inyección de Prompts**.  
 7. **Privacidad desde el Diseño:** La protección de datos (Ley 19.628) se integrará desde la formulación inicial del proyecto, aplicando principios de minimización y proporcionalidad.
-
-#### 
 
 #### **4\. Directriz Central: Uso de IA Generativa y Agentes Autónomos**
 
