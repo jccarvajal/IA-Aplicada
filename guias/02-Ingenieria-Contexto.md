@@ -20,6 +20,8 @@ Esta guía, al definir las arquitecturas de memoria como **RAG** (la "biblioteca
 
 No buscamos una "charla" brillante que se degrada; buscamos construir sistemas de IA robustos que aprendan y recuerden.
 
+---
+
 #### **Conceptos Fundamentales (El Problema)**
 
 **¿Qué es la "Ventana de Contexto"?**  
@@ -75,6 +77,7 @@ La Ingeniería de Contexto es el arte de balancear estas tres variables.
 Estas son las estrategias y arquitecturas para construir sistemas de IA que no olviden y que gestionen el "Dilema Central", resolviendo la "Brecha de Aprendizaje".
 
 **1\. Compactación (Gestión Eficiente de la "Pizarra")**
+Esta es la estrategia principal para gestionar el historial de la conversación y evitar que el 'ruido' de tokens degrade el contexto.
 
 * **¿Qué es?** Es la práctica de tomar una conversación larga que se acerca al límite, usar un LLM para resumirla y destilarla, y luego iniciar una nueva conversación con ese resumen de alta fidelidad.  
 * **¿Por qué funciona?** Es como borrar la pizarra y reemplazar 50 notas por un solo párrafo clave. Elimina el "ruido" y vuelve a poner la información importante al principio del contexto, venciendo el problema del "punto ciego".  

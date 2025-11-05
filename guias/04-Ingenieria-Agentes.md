@@ -14,6 +14,8 @@ Hemos pasado de usar la IA como un "Oráculo" (un sabelotodo que responde) a usa
 
 No buscamos una "respuesta". Buscamos acción autónoma. Queremos que la IA deje de ser un cerebro en un frasco al que le hacemos preguntas, y se convierta en un trabajador digital con "manos y pies" para interactuar con el mundo real por nosotros. Esta guía presenta los conceptos para dirigir a ese trabajador.
 
+---
+
 #### **Conceptos Fundamentales**
 
 **¿Qué es un Agente de IA?**
@@ -65,9 +67,12 @@ El agente ahora debe "razonar" y "actuar" en un bucle:
    * *Pensamiento:* "Email enviado. El objetivo ('buscar' Y 'enviar') está cumplido."  
    * *(El bucle se detiene)*
 
-**Respuesta Final al Usuario:** "Listo. El clima en Valparaíso es de 18C, parcialmente nublado. Te he enviado el resumen."  
-Las Herramientas (Tools): Las "Manos" del Agente  
+**Respuesta Final al Usuario:** "Listo. El clima en Valparaíso es de 18C, parcialmente nublado. Te he enviado el resumen." 
+
+**Las Herramientas (Tools): Las "Manos" del Agente**
+
 Las herramientas son la conexión del cerebro de la IA con el mundo digital. Sin herramientas, es solo un "conversador". Con herramientas, es un "actor".  
+
 *Ejemplos de Herramientas:*
 
 * buscar\_en\_google()  

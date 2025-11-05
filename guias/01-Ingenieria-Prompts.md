@@ -8,6 +8,8 @@
 
 La ingeniería de prompts es la disciplina que convierte la conversación con una IA en un proceso de desarrollo controlado y predecible. No buscamos "charlar", buscamos obtener resultados. Esta guía presenta un método completo que combina una estructura robusta con el juicio práctico necesario para aplicarla eficazmente en el mundo real.
 
+---
+
 #### **Conceptos Fundamentales**
 
 **¿Qué es un LLM (Large Language Model)?**  
@@ -24,6 +26,8 @@ Es la instrucción, pregunta o conjunto de datos que le proporcionamos al LLM pa
 * **Ejemplo 2 Detallado:** "Actúa como un historiador literario especializado en el Siglo de Oro español. Redacta una respuesta de 150 palabras para un estudiante de secundaria explicando no solo quién escribió 'Don Quijote', sino también su relevancia histórica en la literatura universal."
 
 La diferencia en la calidad y especificidad de la respuesta entre ambos ejemplos es abismal.
+
+---
 
 #### **El Método de Prompting en 7 Pasos**
 

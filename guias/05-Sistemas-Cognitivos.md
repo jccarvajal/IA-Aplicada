@@ -2,11 +2,13 @@
 
 **(Subtítulo: El Plano de la Mente: De 'Trabajadores' Reactivos a 'Equipos' Cognitivos)**
 
-#### **Propósito**
+#### **Introducción: Del "Trabajador" al "Equipo Pensante"**
 
 En la guía anterior, "contratamos" a nuestro trabajador: un **agente**, el sistema de IA capaz de razonar y actuar usando herramientas. Pero un agente sin un "plano de la mente" es solo un "loro" reactivo. Es una causa principal de la **"Brecha de Aprendizaje" (Learning Gap)** que identifican los informes de la industria: las herramientas de IA fracasan porque no pueden *adaptarse* a flujos de trabajo complejos o aprender de sus errores.
 
 Esta guía es el puente. Aquí diseñamos el "plano de la mente" del agente, su arquitectura cognitiva. Dejamos de tratarlo como un "loro" reactivo y empezamos a diseñarlo como un "equipo" pensante.
+
+---
 
 #### **1\. El Salto Cognitivo: Del Trabajador Reactivo al Equipo Pensante**
 
@@ -20,6 +22,8 @@ El error más común es tratar a un LLM (un Modelo de Lenguaje Grande) como una 
   * *Metáfora:* Un "Jefe de Taller" que recibe el objetivo, consulta el inventario (una herramienta), habla con el equipo de logística (otra herramienta) y luego presenta un plan de acción.
 
 Esta guía se enfoca en diseñar al "Jefe de Taller".
+
+---
 
 #### **2\. Patrones de Razonamiento: El "Manual de Procedimientos" de la IA**
 
@@ -68,9 +72,12 @@ Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un pat
 * **Metáfora:** El "Auditor de Calidad" al final de la línea de ensamblaje que revisa el producto y, si encuentra un defecto, lo devuelve para su corrección.  
 * **Cuándo usarlo:** Para tareas que requieren alta precisión y fiabilidad (ej. generación de código, redacción de contratos, análisis financieros).
 
+---
+
 #### **3\. Metacognición: El "Jefe de Taller" (Agente Enrutador)**
 
-Ya no pensamos en un solo "trabajador". El sistema cognitivo más robusto es un equipo modular.  
+Ya no pensamos en un solo "trabajador". El sistema cognitivo más robusto es un equipo modular. 
+
 No construyas un "super-agente" monolítico. Construye una "cuadrilla de especialistas" dirigida por un "Jefe de Taller".
 
 * **El "Jefe de Taller" (Agente Enrutador):** Este es un agente de **Metacognición** (piensa sobre el pensamiento). Su único trabajo es recibir la solicitud del usuario y decidir qué "especialista" es el mejor para la tarea. Es el que optimiza el portafolio de modelos.  
@@ -82,6 +89,8 @@ No construyas un "super-agente" monolítico. Construye una "cuadrilla de especia
 
 Esta arquitectura modular es la implementación técnica de tu estrategia de portafolio.
 
+---
+
 #### **4\. El "Plano Cognitivo": El Entregable de Diseño**
 
 Antes de escribir una sola línea de código para tu prototipo, debes entregar este "Plano Cognitivo". Este plano es la "Ficha de Diseño de Agente" (que encontrarás en los Anexos) y debe responder obligatoriamente:
@@ -92,6 +101,8 @@ Antes de escribir una sola línea de código para tu prototipo, debes entregar e
 4. **La Arquitectura de Equipo:** ¿Es un solo agente o un sistema modular con un "Jefe de Taller" (Enrutador)?  
 5. **El Criterio de Éxito:** ¿Cómo sabe el agente (y nosotros) que ha terminado y lo ha hecho bien?
 
+---
+
 #### **5\. Cognición y Control: La Conexión con la Gobernanza**
 
 Un sistema que "piensa" es poderoso, pero también puede fallar de formas complejas. Un agente ReAct puede entrar en un bucle infinito, costar una fortuna en llamadas de API, o "alucinar" un plan desastroso.  
@@ -100,6 +111,8 @@ Por lo tanto, un diseño cognitivo debe incluir "guardarrailes" (barandillas). E
 * **Interruptores (Circuit Breakers):** Un límite máximo de pasos o de costo.  
 * **Validación Humana:** Puntos de control donde el agente debe detenerse y pedir aprobación a un humano antes de ejecutar una acción crítica (ej: "He encontrado 3 vuelos. ¿Apruebas la compra de este?").  
 * **Monitoreo (Observabilidad):** La capacidad de ver la "cadena de pensamiento" (CoT) del agente para poder auditarla.
+
+---
 
 #### **Conclusión**
 
