@@ -1,21 +1,23 @@
 <style>
   .wrapper {
     max-width: 960px; 
-    padding: 30px; /* <-- Padding por defecto para COMPUTADOR */
+    padding: 30px;    /* Padding en Computador */
     margin: 0 auto;
   }
   section {
     width: 100%; 
     float: none;
     padding: 0;
-    font-size: 1.1rem; /* <-- El tamaño de fuente que ajustamos */
+    font-size: 1.1rem; /* <-- Tamaño de fuente en COMPUTADOR */
   }
 
-  /* --- ARREGLO PARA MÓVIL --- */
-  /* Si la pantalla es más chica que 768px... */
+  /* --- Reglas para MÓVIL --- */
   @media screen and (max-width: 768px) {
     .wrapper {
-      padding: 15px; /* <-- ...reducimos el padding para MÓVIL */
+      padding: 15px;    /* Padding más chico en Móvil */
+    }
+    section {
+      font-size: 1.0rem;  /* <-- Fuente normal en MÓVIL */
     }
   }
 </style>
