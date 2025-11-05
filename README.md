@@ -34,7 +34,7 @@ La obra está diseñada como un viaje de aprendizaje secuencial.
 #### Bloque 1: Los Fundamentos (Cómo funciona)
 * [Guía 01: Ingeniería de Prompts](./guias/01-Ingenieria-Prompts.md)
 * [Guía 02: Ingeniería de Contexto y Memoria](./guias/02-Ingenieria-Contexto.md)
-* [Guía 03: Estrategia de Datos](./guias/03-EstrategIA-Datos.md)
+* [Guía 03: Estrategia de Datos](./guias/03-Estrategia-Datos.md)
 
 #### Bloque 2: La Construcción (Cómo se hace)
 * [Guía 04: Ingeniería de Agentes de IA](./guias/04-Ingenieria-Agentes.md)
