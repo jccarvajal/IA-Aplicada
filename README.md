@@ -51,7 +51,7 @@ La obra está diseñada como un viaje de aprendizaje secuencial.
 * [Guía 11: Aprender a Pensar con IA](./guias/11-Aprender-A-Pensar.md)
 * [Guía 12: Estrategia y Valor en la Era de la IA](./guias/12-Estrategia-Valor.md)
 
-#### Bloque 5: La Expánsion (Cómo proyectamos)
+#### Bloque 5: La Expansión (Cómo proyectamos)
 * [Guía 13: Perspectivas y Futuro de la IA](./guias/13-Perspectivas-Futuro.md)
 
 ---
