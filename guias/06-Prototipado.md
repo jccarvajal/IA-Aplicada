@@ -1,5 +1,3 @@
----
-
 ### **Guía 06: Prototipado y Experimentación**
 
 **(Subtítulo: Del "Arquitecto de Portafolio" al "Ingeniero Jefe de Prototipos")**
@@ -20,8 +18,6 @@ El "Ingeniero Jefe de Prototipos" busca lo opuesto: el "Quick Win" (Victoria Rá
 
 * **El Objetivo:** Encontrar un caso de uso que tenga el **Máximo Valor de Negocio** con el **Mínimo Riesgo Técnico y de Seguridad**.  
 * **El Enfoque:** No buscamos perfección, buscamos demostrar valor.
-
----
 
 #### **Parte 1: Identificar el Caso de Uso (La Elección del Piloto)**
 
