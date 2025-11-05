@@ -25,6 +25,20 @@
   section table {
     display: block;
     width: 100%;
-    overflow-x: auto; /* <-- Habilita el scroll horizontal SÓLO para la tabla */
+    overflow-x: auto;
+  }
+
+  /* --- NUEVO: ESTILOS PARA NAVEGACIÓN INFERIOR --- */
+  /* Apunta al párrafo que viene justo después de la línea (---) */
+  section hr + p {
+    font-size: 0.9rem;  /* <-- Mismo tamaño que el enlace superior */
+    margin-top: 2rem;   /* <-- Espacio para separarlo */
+    text-align: center; /* (Opcional) Centra los tres enlaces */
+  }
+  
+  /* Anula la negrita (**) que usaste en el Markdown */
+  section hr + p a strong {
+    font-weight: normal; /* <-- QUITA LA NEGRITA */
+    color: inherit;      /* <-- Hereda el color del enlace (azul) */
   }
 </style>
