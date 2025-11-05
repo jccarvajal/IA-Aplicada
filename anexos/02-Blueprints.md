@@ -4,7 +4,8 @@
 
 #### **Introducción: ¿Qué es un "Blueprint"?**
 
-En el contexto de esta obra, un "Blueprint" es un caso de estudio práctico y un plano de arquitectura. Su función es ser el puente entre la teoría y la práctica.  
+En el contexto de esta obra, un "Blueprint" es un caso de estudio práctico y un plano de arquitectura. Su función es ser el puente entre la teoría y la práctica. 
+ 
 Toma los conceptos abstractos de las Guías (el "qué" y el "por qué") y los manuales técnicos de los Anexos (el "cómo") y los ensambla para resolver un problema de negocio real y específico.
 
 Cada blueprint es una plantilla de solución que detalla:

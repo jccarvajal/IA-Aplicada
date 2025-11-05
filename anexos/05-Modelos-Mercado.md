@@ -2,7 +2,7 @@
 
 **(Subtítulo: Del "Jefe de Adquisiciones" al "Arquitecto de Portafolio")**
 
-#### **Propósito en la Obra**
+#### **Introducción: Del Gobierno al Portafolio**
 
 En guías anteriores aprendimos a diseñar y **gobernar** —es decir, controlar de forma segura— los sistemas de IA. Este anexo es el manual de adquisiciones. Su objetivo no es señalar al "mejor" modelo, sino entregar una metodología para construir un ecosistema de portafolio. El rol estratégico no es elegir un solo motor, sino diseñar un portafolio flexible que combine modelos de manera inteligente.
 

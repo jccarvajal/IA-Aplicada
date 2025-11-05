@@ -3,7 +3,7 @@
 
 **(Subtítulo: Plantilla de Gobernanza para el Sector Público)**
 
-#### **Propósito**
+#### **Introducción: De la Guía a la Política**
 
 Esta es una plantilla marco de política institucional, diseñada para el sector público. No es un documento final, sino un punto de partida que debe ser adaptado al contexto legal y misional específico de cada institución.
 

@@ -2,7 +2,7 @@
 
 **(Subtítulo: Lecturas Clave para el Arquitecto y el Vigilante Estratégico)**
 
-#### **Propósito**
+#### **Introducción: Las Fuentes del Criterio**
 
 Este anexo no es una lista exhaustiva, sino un conjunto curado de lecturas fundacionales. Su objetivo es proporcionar al "Arquitecto" y al "Vigilante Estratégico" las fuentes primarias sobre las que se construye el "criterio" de esta obra.
 

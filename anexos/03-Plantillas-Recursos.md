@@ -2,7 +2,7 @@
 
 **(Subtítulo: El "Cinturón de Herramientas" del Arquitecto)**
 
-#### **Propósito**
+#### **Introducción: El "Cinturón de Herramientas"**
 
 Este anexo no es una guía narrativa; es el "cinturón de herramientas" práctico de toda la obra. Es un repositorio centralizado de checklists, plantillas y matrices mencionadas a lo largo de las guías. 
 
