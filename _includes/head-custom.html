@@ -8,7 +8,7 @@
     width: 100%; 
     float: none;
     padding: 0;
-    font-size: 1.0rem; /* <-- Tamaño de fuente en COMPUTADOR */
+    font-size: 1.1rem; /* <-- Tamaño de fuente en COMPUTADOR */
   }
 
   /* --- Reglas para MÓVIL --- */
@@ -28,17 +28,34 @@
     overflow-x: auto;
   }
 
-  /* --- NUEVO: ESTILOS PARA NAVEGACIÓN INFERIOR --- */
-  /* Apunta al párrafo que viene justo después de la línea (---) */
-  section hr + p {
-    font-size: 0.9rem;  /* <-- Mismo tamaño que el enlace superior */
-    margin-top: 2rem;   /* <-- Espacio para separarlo */
-    text-align: center; /* (Opcional) Centra los tres enlaces */
-  }
+  /* --- NUEVO: ESTILOS PARA NAVEGACIÓN INFERIOR (CON FLEXBOX) --- */
   
-  /* Anula la negrita (**) que usaste en el Markdown */
+  /* 1. Convierte el párrafo en un contenedor Flexbox */
+  section hr + p {
+    display: flex;            /* Activa Flexbox */
+    justify-content: space-between; /* Reparte el espacio */
+    margin-top: 2rem;
+    font-size: 0;             /* <-- TRUCO: Oculta el texto (los '|') */
+  }
+
+  /* 2. Estiliza los enlaces hijos */
+  section hr + p a {
+    font-size: 0.9rem;  /* <-- Devuelve el tamaño de fuente a los enlaces */
+    flex: 1;            /* Dales a todos el mismo espacio (1/3 c/u) */
+    text-align: center; /* Alinea al centro el segundo enlace */
+  }
+
+  /* 3. Sobrescribe la alineación del primero y el último */
+  section hr + p a:first-child {
+    text-align: left;     /* Alinea el primero a la izquierda */
+  }
+  section hr + p a:last-child {
+    text-align: right;    /* Alinea el último a la derecha */
+  }
+
+  /* 4. Anula la negrita (**) */
   section hr + p a strong {
-    font-weight: normal; /* <-- QUITA LA NEGRITA */
-    color: inherit;      /* <-- Hereda el color del enlace (azul) */
+    font-weight: normal; 
+    color: inherit;
   }
 </style>
