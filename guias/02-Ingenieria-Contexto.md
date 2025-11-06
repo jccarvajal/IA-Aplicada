@@ -76,14 +76,20 @@ La Ingeniería de Contexto es el arte de balancear estas tres variables.
 
 Estas son las estrategias y arquitecturas para construir sistemas de IA que no olviden y que gestionen el "Dilema Central", resolviendo la "Brecha de Aprendizaje".
 
+---
+
 **1\. Compactación (Gestión Eficiente de la "Pizarra")**
+
 Esta es la estrategia principal para gestionar el historial de la conversación y evitar que el 'ruido' de tokens degrade el contexto.
 
 * **¿Qué es?** Es la práctica de tomar una conversación larga que se acerca al límite, usar un LLM para resumirla y destilarla, y luego iniciar una nueva conversación con ese resumen de alta fidelidad.  
 * **¿Por qué funciona?** Es como borrar la pizarra y reemplazar 50 notas por un solo párrafo clave. Elimina el "ruido" y vuelve a poner la información importante al principio del contexto, venciendo el problema del "punto ciego".  
 * **Ideal para:** Chatbots de larga duración, asistentes personales.
 
+---
+
 **2\. Generación Aumentada por Recuperación (RAG) (La "Biblioteca Externa")**  
+
 Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
 * **¿Qué es?** Es la técnica de no poner el conocimiento en la pizarra, sino dejarlo en una "biblioteca" externa (como una Base de Datos Vectorial, un concepto clave de la estrategia de datos). Cuando el usuario pregunta, un sistema "Recuperador" busca el dato exacto y se lo "pincha" en la pizarra a la IA.  
@@ -101,38 +107,89 @@ Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
      * **Aumentar el Prompt:** El sistema arma un nuevo prompt que incluye los trozos recuperados como contexto.  
      * **Respuesta Final:** El LLM genera una respuesta precisa, basada solo en los datos frescos y relevantes.
 
-**3\. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)**  
+---
+
+### **3\. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)**
+
 Si RAG es la "biblioteca" (conocimiento estático externo), la Memoria Explícita es el "bloc de notas personal" del agente (memoria dinámica interna).
 
-* **¿Qué es?** Es darle al **agente** —el sistema de IA que puede razonar y usar herramientas (como veremos en la Guía 04)— un "bloc de notas" externo y la habilidad de escribir y leer de él. Es una memoria a largo plazo persistente.  
-* **¿Por qué funciona?** Permite al agente recordar hechos clave ("El proyecto Alfa vence el 15/11") a través de múltiples sesiones, incluso después de que la "pizarra" se haya borrado. Resuelve la parte de "aprender del feedback" de la "Brecha de Aprendizaje".  
-* **Ideal para:** Proyectos largos, recordar preferencias del usuario.  
-* Cómo Funciona (El Ciclo ReAct):  
-  El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar su memoria:  
-  1. **El Usuario da Información (Lunes):**  
-     * *Usuario:* "Mi proyecto clave se llama 'Alfa' y la fecha límite es el 15 de noviembre."  
-     * *Agente (Razona):* "Dato fáctico importante para el futuro. Debo usar mi herramienta escribir\_nota."  
-     * *Agente (Actúa):* \[Llamada: escribir\_nota(llave='proyecto\_alfa', valor='{ "deadline": "2025-11-15" }')\]  
-  2. **El Usuario Pregunta (Martes, Pizarra Limpia):**  
-     * *Usuario:* "¿Cuánto falta para la entrega del proyecto 'Alfa'?"  
-     * *Agente (Razona):* "No sé qué es 'Alfa' en mi contexto actual. Antes de responder, debo revisar mi bloc de notas."  
-     * *Agente (Actúa):* \[Llamada: leer\_nota(llave='proyecto\_alfa')\]  
-     * *Agente (Observa):* (Resultado: { "deadline": "2025-11-15" })  
-     * *Agente (Responde):* "Según mis notas, faltan 22 días para el proyecto 'Alfa'."
+* **¿Qué es?** Es darle al **agente** —el sistema de IA que puede razonar y usar herramientas (como veremos en la Guía 04)— un "bloc de notas" externo y la habilidad de escribir y leer de él. Es una memoria a largo plazo persistente.
+* **¿Por qué funciona?** Permite al agente recordar hechos clave ("El proyecto Alfa vence el 15/11") a través de múltiples sesiones, incluso después de que la "pizarra" se haya borrado. Resuelve la parte de "aprender del feedback" de la "Brecha de Aprendizaje".
+* **Ideal para:** Proyectos largos, recordar preferencias del usuario.
 
-**4\. Arquitecturas de Agentes (Los "Sub-Agentes")**  
+**Cómo Funciona (El Ciclo ReAct):**
+
+El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar su memoria:
+
+1.  **El Usuario da Información (Lunes):**
+    * *Usuario:* "Mi proyecto clave se llama 'Alfa' y la fecha límite es el 15 de noviembre."
+    * *Agente (Razona):* "Dato fáctico importante para el futuro. Debo usar mi herramienta `escribir_nota`."
+    * *Agente (Actúa):*
+        ```json
+        {
+          "acción": "escribir_nota",
+          "argumentos": {
+            "llave": "proyecto_alfa",
+            "valor": "2025-11-15"
+          }
+        }
+        ```
+
+2.  **El Usuario Pregunta (Martes, Pizarra Limpia):**
+    * *Usuario:* "¿Cuánto falta para la entrega del proyecto 'Alfa'?"
+    * *Agente (Razona):* "No sé qué es 'Alfa' en mi contexto actual. Antes de responder, debo revisar mi bloc de notas."
+    * *Agente (Actúa):*
+        ```json
+        {
+          "acción": "leer_nota",
+          "argumentos": {
+            "llave": "proyecto_alfa"
+          }
+        }
+        ```
+    * *Agente (Observa):* (Resultado: `{"deadline": "2025-11-15"}`)
+    * *Agente (Responde):* "Según mis notas, faltan 22 días para el proyecto 'Alfa'."
+
+---
+
+### **4\. Arquitecturas de Agentes (Los "Sub-Agentes")**
+
 Esta es la estrategia de contexto más avanzada. En lugar de un solo "cerebro" tratando de manejar todo en una "pizarra", creas un equipo de "cerebros especialistas".
 
-* **¿Qué es?** Es la estrategia de "divide y vencerás". En lugar de un agente con una pizarra gigante, tienes un **"Agente Director"** (que se explora en la Guía 04\) que coordina **"Sub-agentes"** especialistas, cada uno con su pizarra limpia.  
-* **¿Por qué funciona?** Aísla el "ruido" en tareas desechables. Cada sub-agente trabaja en su contexto limpio y devuelve solo el resultado final.  
-* **Ideal para:** Tareas complejas que requieren múltiples pasos o herramientas.  
-* **Cómo Funciona (El Flujo de "Equipo de Agentes"):**  
-  1. *Usuario:* "Planifica un viaje a París de 5 días con un presupuesto de $2000."  
-  2. *Agente Director (Pizarra A):* (Razona) "Tarea compleja. Necesito un 'Agente de Vuelos' y un 'Agente de Itinerarios'." (Actúa) \[Llamada: Agente\_Vuelos(destino='París', presupuesto\_vuelo='$800')\]  
-  3. *Agente Vuelos (Pizarra B \- Limpia):* (Opera en su propio contexto, busca vuelos, etc.) (Responde al Director) "Vuelos encontrados: $750."  
-  4. *Agente Director (Pizarra A):* (Observa) "OK, $750 gastados. Quedan $1250." (Actúa) \[Llamada: Agente\_Itinerario(destino='Paris', presupuesto\_hoteles='$1250')\]  
-  5. *Agente Itinerario (Pizarra C \- Limpia):* (Opera en su propio contexto, busca hoteles, museos, etc.) (Responde al Director) "Itinerario listo: \[ver adjunto\]."  
-  6. *Agente Director (Pizarra A):* (Sintetiza la información de los dos sub-agentes y responde al Usuario).
+* **¿Qué es?** Es la estrategia de "divide y vencerás". En lugar de un agente con una pizarra gigante, tienes un **"Agente Director"** (que se explora en la Guía 04) que coordina **"Sub-agentes"** especialistas, cada uno con su pizarra limpia.
+* **¿Por qué funciona?** Aísla el "ruido" en tareas desechables. Cada sub-agente trabaja en su contexto limpio y devuelve solo el resultado final.
+* **Ideal para:** Tareas complejas que requieren múltiples pasos o herramientas.
+
+**Cómo Funciona (El Flujo de "Equipo de Agentes"):**
+
+1.  *Usuario:* "Planifica un viaje a París de 5 días con un presupuesto de $2000."
+2.  *Agente Director (Pizarra A):* (Razona) "Tarea compleja. Necesito un 'Agente de Vuelos' y un 'Agente de Itinerarios'."
+    * *Agente (Actúa):*
+        ```json
+        {
+          "acción": "llamar_agente",
+          "agente": "Agente_Vuelos",
+          "argumentos": {
+            "destino": "París",
+            "presupuesto_vuelo": "$800"
+          }
+        }
+        ```
+3.  *Agente Vuelos (Pizarra B - Limpia):* (Opera en su propio contexto, busca vuelos, etc.) (Responde al Director) "Vuelos encontrados: $750."
+4.  *Agente Director (Pizarra A):* (Observa) "OK, $750 gastados. Quedan $1250."
+    * *Agente (Actúa):*
+        ```json
+        {
+          "acción": "llamar_agente",
+          "agente": "Agente_Itinerario",
+          "argumentos": {
+            "destino": "Paris",
+            "presupuesto_hoteles": "$1250"
+          }
+        }
+        ```
+5.  *Agente Itinerario (Pizarra C - Limpia):* (Opera en su propio contexto, busca hoteles, museos, etc.) (Responde al Director) "Itinerario listo: [ver adjunto]."
+6.  *Agente Director (Pizarra A):* (Sintetiza la información de los dos sub-agentes y responde al Usuario).
 
 ---
 
