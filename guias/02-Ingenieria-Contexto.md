@@ -2,7 +2,7 @@
 
 Subtítulo: Resolviendo la "Brecha de Aprendizaje" de la IA
 
-#### **Introducción: Del Prompt Perfecto a la Coherencia Sostenida**
+#### Introducción: Del Prompt Perfecto a la Coherencia Sostenida
 
 Si la Ingeniería de Prompts (Guía 01\) es la disciplina que nos permite construir una *instrucción* perfecta, la Ingeniería de Contexto es la ciencia de darle *memoria*.
 
@@ -22,7 +22,7 @@ No buscamos una "charla" brillante que se degrada; buscamos construir sistemas d
 
 ---
 
-#### **Conceptos Fundamentales (El Problema)**
+#### Conceptos Fundamentales (El Problema)
 
 **¿Qué es la "Ventana de Contexto"?**  
 Pensemos en la "Ventana de Contexto" como la memoria a corto plazo de la IA, o mejor aún, como una pizarra blanca.
@@ -55,7 +55,7 @@ Este es el problema central que la ingeniería de contexto resuelve. Es lo que o
 
 ---
 
-#### **El Dilema Central (El Criterio)**
+#### El Dilema Central (El Criterio)
 
 En la ingeniería de contexto, no hay soluciones mágicas, solo *trade-offs* ("compensaciones") que debemos gestionar como arquitectos.
 
@@ -72,13 +72,13 @@ La Ingeniería de Contexto es el arte de balancear estas tres variables.
 
 ---
 
-#### **Arquitecturas Fundamentales (La Solución)**
+#### Arquitecturas Fundamentales (La Solución)
 
 Estas son las estrategias y arquitecturas para construir sistemas de IA que no olviden y que gestionen el "Dilema Central", resolviendo la "Brecha de Aprendizaje". Abordaremos cuatro soluciones esenciales: la **Compactación**, la **Generación Aumentada por Recuperación (RAG)**, la **Gestión de Memoria Explícita** y las **Arquitecturas de Agentes (Sub-Agentes)**.
 
 ---
 
-#### **1\. Compactación (Gestión Eficiente de la "Pizarra")**
+#### 1. Compactación (Gestión Eficiente de la "Pizarra")
 
 Esta es la estrategia principal para gestionar el historial de la conversación y evitar que el 'ruido' de tokens degrade el contexto.
 
@@ -88,7 +88,7 @@ Esta es la estrategia principal para gestionar el historial de la conversación 
 
 ---
 
-#### **2\. Generación Aumentada por Recuperación (RAG) (La "Biblioteca Externa")**  
+#### 2. Generación Aumentada por Recuperación (RAG) (La "Biblioteca Externa")
 
 Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
@@ -109,7 +109,7 @@ Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
 ---
 
-#### **3\. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)**
+#### 3. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)
 
 Si RAG es la "biblioteca" (conocimiento estático externo), la Memoria Explícita es el "bloc de notas personal" del agente (memoria dinámica interna).
 
@@ -152,7 +152,7 @@ El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar s
 
 ---
 
-#### **4\. Arquitecturas de Agentes (Los "Sub-Agentes")**
+#### 4. Arquitecturas de Agentes (Los "Sub-Agentes")
 
 Esta es la estrategia de contexto más avanzada. En lugar de un solo "cerebro" tratando de manejar todo en una "pizarra", creas un equipo de "cerebros especialistas".
 
@@ -193,7 +193,7 @@ Esta es la estrategia de contexto más avanzada. En lugar de un solo "cerebro" t
 
 ---
 
-#### **Conclusión: De Arquitecto de Prompts a Arquitecto de Sistemas**
+#### Conclusión: De Arquitecto de Prompts a Arquitecto de Sistemas
 
 La ingeniería de prompts (Guía 01\) te transforma de usuario a arquitecto de resultados. La Ingeniería de Contexto y Memoria te da el siguiente ascenso: de Arquitecto de Prompts a Arquitecto de Sistemas de IA.
 
