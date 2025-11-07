@@ -1,10 +1,10 @@
-### **Anexos (Biblioteca del Arquitecto)**
+### Anexos (Biblioteca del Arquitecto)
 
-### **Anexo 01: Ajuste Fino y Adaptación de Modelos**
+### Anexo 01: Ajuste Fino y Adaptación de Modelos
 
-**(Subtítulo: El Manual del "Especialista de Motores")**
+Subtítulo: El Manual del "Especialista de Motores"
 
-#### **Introducción: De "Leer Libros" a "Ir a la Universidad"**
+#### Introducción: De "Leer Libros" a "Ir a la Universidad"
 
 En las guías principales, hemos establecido que la Ingeniería de Contexto (Guía 02\) es clave. La herramienta principal que exploramos fue **RAG (Generación Aumentada por Recuperación)**, nuestra arquitectura del "Bibliotecario Asistente". 
 
@@ -21,7 +21,7 @@ Tu rol aquí es el de "Especialista de Motores". No estás usando el motor, lo e
 
 ---
 
-#### **El Dilema Central: ¿Cuándo Usar RAG vs. Cuándo Usar "Fine-Tuning"?**
+#### El Dilema Central: ¿Cuándo Usar RAG vs. Cuándo Usar "Fine-Tuning"?
 
 Este es el *trade-off* más importante de la arquitectura de IA. Usar la herramienta incorrecta es caro e ineficiente.
 
@@ -37,7 +37,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### **Parte 1: Caso de Uso N°1 (Habilidad) \- "La Voz de la Marca"**
+#### Parte 1: Caso de Uso N°1 (Habilidad) \- "La Voz de la Marca"
 
 * **El Problema:** Tienes un "Agente PM de Servicio al Cliente". Usando solo Prompts (Guía 01), tienes que recordarle en cada chat tu tono de voz: "Recuerda ser empático, profesional, usar estas 5 frases clave y nunca sonar robótico." Es ineficiente y el resultado es inconsistente.  
 * **La Solución (Ajuste Fino):**  
@@ -48,7 +48,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### **Parte 2: Caso de Uso N°2 (Formato) \- "El Experto en JSON"**
+#### Parte 2: Caso de Uso N°2 (Formato) \- "El Experto en JSON"
 
 * **El Problema:** Tu "Dashboard de Gobernanza" (Guía 07\) necesita que tus agentes reporten su estado en un formato JSON extremadamente complejo y específico. Usar Prompts (Guía 01\) es frágil; el agente a menudo olvida un campo o añade comillas extra.  
 * **La Solución (Ajuste Fino):**  
@@ -59,7 +59,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### **Parte 3: Caso de Uso N°3 (Razonamiento) \- "El Abogado"**
+#### Parte 3: Caso de Uso N°3 (Razonamiento) \- "El Abogado"
 
 * **El Problema:** Quieres un agente que razone como un abogado. RAG puede darle la ley (el "libro"), pero no le enseña a *pensar* como un abogado (la "habilidad").  
 * **La Solución (Ajuste Fino):**  
@@ -70,7 +70,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### **Parte 4: El "Stack" Técnico (Cómo se hace sin 500 GPUs)**
+#### Parte 4: El "Stack" Técnico (Cómo se hace sin 500 GPUs)
 
 En el pasado, hacer "ajuste fino" requería un centro de datos. Hoy, gracias a los modelos Open-Source y nuevas técnicas, un "Ingeniero de Prototipos" (Guía 06\) puede hacerlo en una sola laptop o un servidor en la nube. 
  
@@ -91,7 +91,7 @@ Cuando ejecutas tu agente, "cargas" el modelo base y "encima" le pones tu "adapt
 
 ---
 
-#### **Conclusión: El Verdadero Rol del "Especialista de Motores"**
+#### Conclusión: El Verdadero Rol del "Especialista de Motores"
 
 RAG y el Ajuste Fino no son competidores; son un equipo. 
 
