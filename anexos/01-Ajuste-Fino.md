@@ -37,7 +37,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### Caso de Uso N°1 (Habilidad) \- "La Voz de la Marca"
+#### A. Caso de Uso N°1 (Habilidad) \- "La Voz de la Marca"
 
 * **El Problema:** Tienes un "Agente PM de Servicio al Cliente". Usando solo Prompts (Guía 01), tienes que recordarle en cada chat tu tono de voz: "Recuerda ser empático, profesional, usar estas 5 frases clave y nunca sonar robótico." Es ineficiente y el resultado es inconsistente.  
 * **La Solución (Ajuste Fino):**  
@@ -48,7 +48,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### Caso de Uso N°2 (Formato) \- "El Experto en JSON"
+#### B. Caso de Uso N°2 (Formato) \- "El Experto en JSON"
 
 * **El Problema:** Tu "Dashboard de Gobernanza" (Guía 07\) necesita que tus agentes reporten su estado en un formato JSON extremadamente complejo y específico. Usar Prompts (Guía 01\) es frágil; el agente a menudo olvida un campo o añade comillas extra.  
 * **La Solución (Ajuste Fino):**  
@@ -59,7 +59,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### Caso de Uso N°3 (Razonamiento) \- "El Abogado"
+#### C. Caso de Uso N°3 (Razonamiento) \- "El Abogado"
 
 * **El Problema:** Quieres un agente que razone como un abogado. RAG puede darle la ley (el "libro"), pero no le enseña a *pensar* como un abogado (la "habilidad").  
 * **La Solución (Ajuste Fino):**  
@@ -70,7 +70,7 @@ Este es el *trade-off* más importante de la arquitectura de IA. Usar la herrami
 
 ---
 
-#### El "Stack" Técnico (Cómo se hace sin 500 GPUs)
+#### D. El "Stack" Técnico (Cómo se hace sin 500 GPUs)
 
 En el pasado, hacer "ajuste fino" requería un centro de datos. Hoy, gracias a los modelos Open-Source y nuevas técnicas, un "Ingeniero de Prototipos" (Guía 06\) puede hacerlo en una sola laptop o un servidor en la nube. 
  
