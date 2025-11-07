@@ -32,7 +32,7 @@ Todo uso de la IA en el Servicio se regirá por:
 3. **Gobernanza de la Fuente (Basura Entra, Basura Sale):** La calidad de un agente de IA es inseparable de la calidad de sus datos. El Servicio se compromete a una **Gobernanza de Datos**  activa para asegurar que los sistemas se alimenten de "combustible limpio": datos curados, verificados y actualizados.  
 4. **Transparencia y Licencia Social:** El funcionamiento de los algoritmos será transparente y documentado. Se debe informar a la ciudadanía sobre su uso y beneficios para obtener y mantener la **"Licencia Social"** (aceptación pública).  
 5. **Equidad y No Discriminación:** Los algoritmos serán diseñados y auditados para evitar sesgos y resultados que constituyan una **discriminación arbitraria**, según lo define la Ley N° 20.609.  
-6. **Gobernanza Financiera y de Seguridad:** Se utilizarán controles automáticos para prevenir bucles de uso excesivo (procesos que se repiten indefinidamente, generando costos inesperados) y riesgos de seguridad, como la **Inyección de Prompts** (intentos de un usuario malintencionado de manipular el sistema con comandos ocultos).
+6. **Gobernanza Financiera y de Seguridad:** Se utilizarán controles automáticos para prevenir riesgos financieros como **Bucles de Costos** (procesos que se repiten indefinidamente generando costos excesivos inesperados), y riesgos de seguridad como **Inyección de Prompts** (intentos de un usuario malintencionado de manipular el sistema con instrucciones ocultas).
 7. **Privacidad desde el Diseño:** La protección de datos (Ley 19.628) se integrará desde la formulación inicial del proyecto, aplicando principios de minimización y proporcionalidad.
 
 #### 4. Directriz Central: Uso de IA Generativa y Agentes Autónomos
