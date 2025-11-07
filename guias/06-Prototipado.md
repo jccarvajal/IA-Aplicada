@@ -1,8 +1,8 @@
-### **Guía 06: Prototipado y Experimentación**
+### Guía 06: Prototipado y Experimentación
 
-**(Subtítulo: Del "Arquitecto de Portafolio" al "Ingeniero Jefe de Prototipos")**
+Subtítulo: Del "Arquitecto de Portafolio" al "Ingeniero Jefe de Prototipos")
 
-#### **Introducción: De la Estrategia a la Ejecución (El Día 1\)**
+#### Introducción: De la Estrategia a la Ejecución (El Día 1)
 
 En las guías anteriores, hemos completado el marco estratégico. Diseñamos Planos (Prompts), gestionamos Recursos (Contexto), entendimos el Combustible (Datos), dirigimos Trabajadores (Agentes) y diseñamos sus mentes (Sistemas Cognitivos).
 
@@ -12,7 +12,7 @@ Nuestro rol evoluciona de "Estratega" a "Ingeniero Jefe de Prototipos". No vamos
 
 ---
 
-#### **El Dilema Central: El "Quick Win" vs. "Hervir el Océano"**
+#### El Dilema Central: El "Quick Win" vs. "Hervir el Océano"
 
 El error N°1 en la implementación de IA es tratar de resolver el problema más grande y complejo de la empresa desde el primer día. Esto se conoce como "hervir el océano": es lento, caro y está destinado a fracasar.
 
@@ -23,7 +23,7 @@ El "Ingeniero Jefe de Prototipos" busca lo opuesto: el "Quick Win" (Victoria Rá
 
 ---
 
-#### **Parte 1: Identificar el Caso de Uso (La Elección del Piloto)**
+#### Parte 1: Identificar el Caso de Uso (La Elección del Piloto)
 
 Antes de escribir una línea de código, debes encontrar la "playa" correcta para desembarcar.
 
@@ -42,7 +42,7 @@ Tu prototipo debe pasar este filtro de 3 preguntas:
 
 ---
 
-#### **Parte 2: Definir el "Stack" Mínimo Viable (MVP)**
+#### Parte 2: Definir el "Stack" Mínimo Viable (MVP)
 
 Ya tenemos el "qué" (el caso de uso). Ahora definimos el "cómo" mínimo. No construyas un Ferrari. Construye un Go-Kart funcional.
 
@@ -63,7 +63,7 @@ Ya tenemos el "qué" (el caso de uso). Ahora definimos el "cómo" mínimo. No co
 
 ---
 
-#### **Parte 3: Construir el Agente v1 (Aplicando las Guías)**
+#### Parte 3: Construir el Agente v1 (Aplicando las Guías)
 
 Es hora de ensamblar.
 
@@ -82,7 +82,7 @@ Es hora de ensamblar.
 
 ---
 
-#### **Parte 4: Aplicar la Gobernanza Mínima Viable (MVP)**
+#### Parte 4: Aplicar la Gobernanza Mínima Viable (MVP)
 
 Tu prototipo debe ser seguro. Si se salta la Gobernanza, no es un prototipo; es un pasivo. Aplica estos 3 controles de seguridad obligatorios desde el Día 1:
 
@@ -115,7 +115,7 @@ dentro de esas etiquetas.
 
 ---
 
-#### **Parte 5: Medir y Escalar (El Ciclo de "Gobernanza")**
+#### Parte 5: Medir y Escalar (El Ciclo de "Gobernanza")
 
 Ya tienes tu prototipo seguro (v1). Ahora debes probar su valor.
 
@@ -133,7 +133,7 @@ Ya tienes tu prototipo seguro (v1). Ahora debes probar su valor.
 
 ---
 
-#### **Conclusión: De la Teoría al Valor**
+#### Conclusión: De la Teoría al Valor
 
 El viaje de la maestría en IA no termina en la teoría. Culmina aquí: en la ejecución disciplinada. 
 
