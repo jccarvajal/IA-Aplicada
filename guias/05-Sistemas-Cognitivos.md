@@ -10,7 +10,7 @@ Esta guía es el puente. Aquí diseñamos el "plano de la mente" del agente, su 
 
 ---
 
-#### 1. El Salto Cognitivo: Del Trabajador Reactivo al Equipo Pensante
+#### Parte 1. El Salto Cognitivo: Del Trabajador Reactivo al Equipo Pensante
 
 El error más común es tratar a un LLM (un Modelo de Lenguaje Grande) como una calculadora (un sistema reactivo).
 
@@ -25,7 +25,7 @@ Esta guía se enfoca en diseñar al "Jefe de Taller".
 
 ---
 
-#### 2. Patrones de Razonamiento: El "Manual de Procedimientos" de la IA
+#### Parte 2. Patrones de Razonamiento: El "Manual de Procedimientos" de la IA
 
 Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un patrón de razonamiento). Estos son los patrones más cruciales que debes diseñar:
 
@@ -74,7 +74,7 @@ Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un pat
 
 ---
 
-#### 3. Metacognición: El "Jefe de Taller" (Agente Enrutador)
+#### Parte 3. Metacognición: El "Jefe de Taller" (Agente Enrutador)
 
 Ya no pensamos en un solo "trabajador". El sistema cognitivo más robusto es un equipo modular. 
 
@@ -91,7 +91,7 @@ Esta arquitectura modular es la implementación técnica de tu estrategia de por
 
 ---
 
-#### 4. El "Plano Cognitivo": El Entregable de Diseño
+#### Parte 4. El "Plano Cognitivo": El Entregable de Diseño
 
 Antes de escribir una sola línea de código para tu prototipo, debes entregar este "Plano Cognitivo". Este plano es la "Ficha de Diseño de Agente" (que encontrarás en los Anexos) y debe responder obligatoriamente:
 
@@ -103,7 +103,7 @@ Antes de escribir una sola línea de código para tu prototipo, debes entregar e
 
 ---
 
-#### 5. Cognición y Control: La Conexión con la Gobernanza
+#### Parte 5. Cognición y Control: La Conexión con la Gobernanza
 
 Un sistema que "piensa" es poderoso, pero también puede fallar de formas complejas. Un agente ReAct puede entrar en un bucle infinito, costar una fortuna en llamadas de API, o "alucinar" un plan desastroso.  
 Por lo tanto, un diseño cognitivo debe incluir "guardarrailes" (barandillas). El diseño de la mente está inseparablemente ligado a la **Gobernanza**. Tu plano cognitivo debe incluir:
