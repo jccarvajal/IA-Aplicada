@@ -1,12 +1,12 @@
-### **Anexo 06: Glosario Unificado**
+### Anexo 06: Glosario Unificado
 
-#### **Introducción: Un Lenguaje Común**
+#### Introducción: Un Lenguaje Común
 
 Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La terminología en este campo es precisa, y un malentendido conceptual puede llevar a errores de arquitectura. Este glosario no es solo una lista de definiciones; es un mapa de referencia cruzada que conecta los conceptos clave con las guías donde se exploran en profundidad. Úsalo para solidificar tu comprensión y asegurar que todo el equipo hable el mismo idioma.
 
 ---
 
-#### **Léxico de "Inteligencia Artificial Aplicada"**
+#### Léxico de "Inteligencia Artificial Aplicada"
 
 **Abdicación vs. Aumento (Abdication vs. Augmentation)**
 
