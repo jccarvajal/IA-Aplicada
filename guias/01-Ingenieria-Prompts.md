@@ -85,8 +85,14 @@ Aquí es donde potencias tu prompt para tareas complejas que requieren razonamie
 Una vez que recibes la respuesta, revísala críticamente. La confianza ciega en un LLM es un error de principiante. ¿Cumple con el objetivo del Paso 1? ¿Respetó el rol, las restricciones y el formato? ¿La información es factualmente correcta?. Los LLM pueden "alucinar" (inventar datos). Siempre verifica la información importante. La validación es un proceso dual.
 
 1. **Validación Interna (Calidad y Coherencia):** Usa el propio LLM como un primer filtro. Utiliza autocrítica y self-consistency para mejorar la coherencia, claridad y lógica interna de la respuesta.  
-   * *Prompt de Ejemplo 1:* "Revisa la respuesta anterior. ¿Es el tono adecuado para un inversor? ¿Hay ambigüedades? Propón una versión corregida."  
-   * *Prompt de Ejemplo 2:* "Revisa la respuesta anterior que me diste. ¿Contiene alguna afirmación que pueda ser ambigua o factualmente incorrecta? Si es así, corrigela y proporciona una versión mejorada."  
+   * *Prompt de Ejemplo 1:* 
+     ```text
+     Revisa la respuesta anterior. ¿Es el tono adecuado para un inversor? ¿Hay ambigüedades? Propón una versión corregida.
+     ```
+   * *Prompt de Ejemplo 2:* 
+     ```text
+     Revisa la respuesta anterior que me diste. ¿Contiene alguna afirmación que pueda ser ambigua o factualmente incorrecta? Si es así, corrigela y proporciona una versión mejorada.
+     ``` 
 2. **Validación Externa (La Sabiduría Práctica):** Advertencia: Ninguna técnica de Prompting sustituye la verificación humana. Para cualquier información crítica (financiera, médica, legal, de seguridad), la validación externa contra fuentes fiables no es opcional, es obligatoria. Las técnicas internas reducen errores, pero no garantizan la veracidad. El desarrollo de este juicio crítico es un pilar de la alfabetización cognitiva.
 
 **Paso 7: Itera con Intención**  
@@ -109,7 +115,10 @@ Estas técnicas se integran en el método para resolver problemas más complejos
 
 * **¿Qué es?** Pedirle explícitamente al modelo que "piense paso a paso" o que explique su razonamiento antes de llegar a la conclusión. Este es un concepto fundamental en el diseño de cómo "piensan" los sistemas de IA.  
 * **¿Por qué funciona?** Fuerza al modelo a seguir un proceso lógico en lugar de saltar a una conclusión, lo que aumenta drásticamente la precisión en problemas matemáticos, lógicos y de razonamiento complejo.  
-* **Ejemplo:** "Resuelve este acertijo lógico: \[acertijo\]. Muestra tu cadena de pensamiento, deduciendo cada conclusión paso a paso antes de presentar la solución final."  
+* **Ejemplo:** 
+  ```text
+  Resuelve este acertijo lógico: \[acertijo\]. Muestra tu cadena de pensamiento, deduciendo cada conclusión paso a paso antes de presentar la solución final.
+  ``` 
 * **Ideal para:** Modelos de frontera muy capaces (como los modelos más potentes del mercado) en tareas de lógica, matemáticas y planificación.  
 * **Menos efectivo en:** Modelos más pequeños, que pueden imitar el formato del razonamiento sin una lógica real. Para ellos, es mejor usar Prompt Chaining.
 
@@ -117,8 +126,14 @@ Estas técnicas se integran en el método para resolver problemas más complejos
 
 * **¿Qué es?** En lugar de pedir una sola respuesta, se le pide al modelo que genere varias respuestas diferentes para el mismo prompt y luego, a menudo, se le pide que elija la mejor o se elige manualmente. Aumenta la fiabilidad y la creatividad.  
 * **¿Por qué funciona?** Reduce la probabilidad de obtener una respuesta incorrecta o sesgada al explorar múltiples "caminos de razonamiento". Es útil para la creatividad y la resolución de problemas ambiguos.  
-* **Ejemplo 1:** "Genera 3 eslóganes diferentes para una nueva marca de café orgánico. Luego, evalúa cuál de los tres es más memorable y por qué."  
-* **Ejemplo 2:** "Genera 3 titulares distintos para un artículo sobre el teletrabajo. Luego, indica cuál es el más persuasivo y justifica tu elección."
+* **Ejemplo 1:**
+  ```text
+  Genera 3 eslóganes diferentes para una nueva marca de café orgánico. Luego, evalúa cuál de los tres es más memorable y por qué.
+  ```
+* **Ejemplo 2:**
+  ```text
+  Genera 3 titulares distintos para un artículo sobre el teletrabajo. Luego, indica cuál es el más persuasivo y justifica tu elección.
+  ```
 
 **Prompt Chaining (Encadenamiento de Prompts)**
 
