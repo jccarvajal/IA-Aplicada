@@ -1,8 +1,8 @@
-### **Guía 05: Diseño de Sistemas Cognitivos**
+### Guía 05: Diseño de Sistemas Cognitivos
 
-**(Subtítulo: El Plano de la Mente: De 'Trabajadores' Reactivos a 'Equipos' Cognitivos)**
+Subtítulo: El Plano de la Mente: De 'Trabajadores' Reactivos a 'Equipos' Cognitivos
 
-#### **Introducción: Del "Trabajador" al "Equipo Pensante"**
+#### Introducción: Del "Trabajador" al "Equipo Pensante"
 
 En la guía anterior, "contratamos" a nuestro trabajador: un **agente**, el sistema de IA capaz de razonar y actuar usando herramientas. Pero un agente sin un "plano de la mente" es solo un "loro" reactivo. Es una causa principal de la **"Brecha de Aprendizaje" (Learning Gap)** que identifican los informes de la industria: las herramientas de IA fracasan porque no pueden *adaptarse* a flujos de trabajo complejos o aprender de sus errores.
 
@@ -10,7 +10,7 @@ Esta guía es el puente. Aquí diseñamos el "plano de la mente" del agente, su 
 
 ---
 
-#### **1\. El Salto Cognitivo: Del Trabajador Reactivo al Equipo Pensante**
+#### 1. El Salto Cognitivo: Del Trabajador Reactivo al Equipo Pensante
 
 El error más común es tratar a un LLM (un Modelo de Lenguaje Grande) como una calculadora (un sistema reactivo).
 
@@ -25,7 +25,7 @@ Esta guía se enfoca en diseñar al "Jefe de Taller".
 
 ---
 
-#### **2\. Patrones de Razonamiento: El "Manual de Procedimientos" de la IA**
+#### 2. Patrones de Razonamiento: El "Manual de Procedimientos" de la IA
 
 Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un patrón de razonamiento). Estos son los patrones más cruciales que debes diseñar:
 
@@ -74,7 +74,7 @@ Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un pat
 
 ---
 
-#### **3\. Metacognición: El "Jefe de Taller" (Agente Enrutador)**
+#### 3. Metacognición: El "Jefe de Taller" (Agente Enrutador)
 
 Ya no pensamos en un solo "trabajador". El sistema cognitivo más robusto es un equipo modular. 
 
@@ -91,7 +91,7 @@ Esta arquitectura modular es la implementación técnica de tu estrategia de por
 
 ---
 
-#### **4\. El "Plano Cognitivo": El Entregable de Diseño**
+#### 4. El "Plano Cognitivo": El Entregable de Diseño
 
 Antes de escribir una sola línea de código para tu prototipo, debes entregar este "Plano Cognitivo". Este plano es la "Ficha de Diseño de Agente" (que encontrarás en los Anexos) y debe responder obligatoriamente:
 
@@ -103,7 +103,7 @@ Antes de escribir una sola línea de código para tu prototipo, debes entregar e
 
 ---
 
-#### **5\. Cognición y Control: La Conexión con la Gobernanza**
+#### 5. Cognición y Control: La Conexión con la Gobernanza
 
 Un sistema que "piensa" es poderoso, pero también puede fallar de formas complejas. Un agente ReAct puede entrar en un bucle infinito, costar una fortuna en llamadas de API, o "alucinar" un plan desastroso.  
 Por lo tanto, un diseño cognitivo debe incluir "guardarrailes" (barandillas). El diseño de la mente está inseparablemente ligado a la **Gobernanza**. Tu plano cognitivo debe incluir:
@@ -114,7 +114,7 @@ Por lo tanto, un diseño cognitivo debe incluir "guardarrailes" (barandillas). E
 
 ---
 
-#### **Conclusión**
+#### Conclusión
 
 Hemos pasado de "contratar" al trabajador a diseñar su "plan de trabajo" detallado. Ahora tenemos el "plano de la mente". Con este plano cognitivo en mano, estamos listos para ir al taller y construir la primera versión funcional de la maquinaria en la **Guía 06: Prototipado y Experimentación**.
 
