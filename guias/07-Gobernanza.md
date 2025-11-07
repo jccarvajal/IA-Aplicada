@@ -1,10 +1,10 @@
-## **Bloque 3: La Operación (Cómo se gestiona)**
+## Bloque 3: La Operación (Cómo se gestiona)
 
-### **Guía 07: La Guía Definitiva de la Gobernanza de IA**
+### Guía 07: La Guía Definitiva de la Gobernanza de IA
 
-**(Subtítulo: Del "Director de Orquesta" al "Jefe de Operaciones")**
+Subtítulo: Del "Director de Orquesta" al "Jefe de Operaciones"
 
-#### **Introducción: De Orquestar Resultados a Gobernar Sistemas**
+#### Introducción: De Orquestar Resultados a Gobernar Sistemas
 
 En las guías anteriores, dominamos el arte de la construcción: diseñamos el plano (la **Ingeniería de Prompts**), gestionamos los recursos (la **Ingeniería de Contexto**), entendimos el combustible (la **Estrategia de Datos**) y dirigimos a los **agentes** —los trabajadores autónomos capaces de razonar y actuar—. Hemos construido con éxito nuestra primera "máquina".
 
@@ -12,7 +12,7 @@ Ahora, comienza el trabajo real: operarla. Esta guía aborda la siguiente capa d
 
 ---
 
-#### **Parte 1: La Filosofía de Uso (El Manual de Operaciones)**
+#### Parte 1: La Filosofía de Uso (El Manual de Operaciones)
 
 Saber que una herramienta es poderosa no te dice cómo usarla. Esta es la política que el "Jefe de Operaciones" debe implementar con su equipo.
 
@@ -30,7 +30,7 @@ El mayor error operativo es tratar a la IA como un "mago" (un oráculo infalible
 
 ---
 
-#### **Parte 2: La Seguridad de la IA (La Gestión de Riesgos)**
+#### Parte 2: La Seguridad de la IA (La Gestión de Riesgos)
 
 En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes para actuar en el mundo. Ahora, como "Jefes de Seguridad", debemos entender cómo un atacante (o el propio agente) puede causar un desastre. El "perímetro de ataque" ha cambiado:
 
@@ -91,7 +91,7 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
 
 ---
 
-#### **Parte 3: El Pilar de la Gobernanza (Observabilidad)**
+#### Parte 3: El Pilar de la Gobernanza (Observabilidad)
 
 No puedes "gobernar" lo que no puedes "ver". Muchos sistemas de IA son percibidos como "cajas negras", un problema conocido como **opacidad**: la incapacidad de entender cómo un sistema llega a un resultado. Para combatir la opacidad, la **Observabilidad** es el pilar central de la gobernanza.
 
@@ -111,7 +111,7 @@ Es el panel de control en tiempo real de tu "fábrica" de IA. Es la única forma
 
 ---
 
-#### **Conclusión: De Director a Gobernador**
+#### Conclusión: De Director a Gobernador
 
 Hemos recorrido el camino de la Instrucción, a la Memoria y a la Acción. Esta guía cierra el círculo con la Gobernanza. Nuestro rol final no es solo dirigir la orquesta, sino ser el "Gobernador" de esta nueva fuerza de trabajo digital: el que define las políticas, opera la maquinaria, monitorea su rendimiento y la protege de amenazas externas e internas.  
 
