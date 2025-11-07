@@ -39,3 +39,13 @@ Este documento fue desarrollado por Juan Carlos Carvajal, quien es el autor prin
 Para la redacción y generación de los borradores iniciales se utilizó el modelo de lenguaje avanzado Gemini como herramienta de asistencia principal. Adicionalmente, el modelo ChatGPT fue empleado como 'sparring' crítico para revisar, cuestionar y refinar las ideas y el texto.
 
 Las ideas, estructura y visión final son plenamente autorales; las herramientas de IA fueron utilizadas como instrumentos de apoyo, nunca como sustituto del pensamiento crítico.
+
+---
+<div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
+  <div>
+    <a href="../">Volver al Índice</a>
+  </div>
+  <div>
+    <a href="./anclajes-conceptuales.html">Anclajes Conceptuales »</a>
+  </div>
+</div>
