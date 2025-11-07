@@ -99,10 +99,19 @@ Una vez que recibes la respuesta, revísala críticamente. La confianza ciega en
 No "pruebes cosas al azar". Ajusta tu prompt para cerrar la brecha entre el resultado obtenido y las métricas de éxito que definiste en el Paso 1\. Un objetivo bien definido no solo establece la intención, sino que también contiene los criterios de aceptación de la respuesta.
 
 * **Ejemplo de Iteración Dirigida:**  
-  * *V1:* "Escribe un email para invitar a un cliente a un webinar."  
+  * *V1:*
+    ```text
+    Escribe un email para invitar a un cliente a un webinar.
+    ```  
   * *Resultado V1:* El email generado es demasiado largo (300 palabras). Métrica Fallida: Límite de 150 palabras.  
-  * *Ajuste en V2:* Añadir la restricción explícita: "La longitud total del email no debe superar las 150 palabras."  
-  * *V2 (Iteración):* "Eres un experto en marketing B2B. Escribe un email persuasivo de 150 palabras para invitar a un cliente potencial (gerente de TI) a un webinar sobre ciberseguridad. El tono debe ser profesional pero cercano. Incluye un llamado a la acción claro para registrarse." (Respuesta mucho más específica y útil).  
+  * *Ajuste en V2:* Añadir la restricción explícita:
+    ```text
+    La longitud total del email no debe superar las 150 palabras.
+    ```
+  * *V2 (Iteración):* (Respuesta mucho más específica y útil)
+    ```text
+    Eres un experto en marketing B2B. Escribe un email persuasivo de 150 palabras para invitar a un cliente potencial (gerente de TI) a un webinar sobre ciberseguridad. El tono debe ser profesional pero cercano. Incluye un llamado a la acción claro para registrarse.
+    ```
 * **Recomendación Práctica Refinada:** Al definir tu objetivo en el Paso 1, incluye métricas de éxito claras. Por ejemplo: Precisión Factual, Adherencia al Estilo, Relevancia, Formato. La iteración del Paso 7 no es para que la respuesta "se sienta mejor", sino para cerrar la brecha entre la respuesta actual y estos criterios predefinidos, un proceso clave en la evaluación de calidad.
 
 ---
