@@ -85,7 +85,7 @@ El desafío más aterrizado es el costo de la inteligencia. Los LLM actuales (ba
 
 La obra termina aquí, pero la "Maestría" es un ciclo. 
 
-Has pasado de ser un Usuario (preguntando "¿qué hace esto?") a un Arquitecto (decidiendo "qué debe hacer") y un Gobernador (asegurando "qué no debe hacer").  
+Has pasado de ser un Usuario (preguntando "¿qué hace esto?") a un Arquitecto (decidiendo "qué debe hacer") y a un Gobernador (asegurando "qué no debe hacer").  
 
 Ahora, asumes el rol de Vigilante, mirando hacia el futuro. 
 
