@@ -4,8 +4,7 @@ Subtítulo: Del "Jefe de Operaciones" al "Arquitecto de la Información"
 
 #### Introducción: El Combustible de la Fábrica
 
-En las guías anteriores, definimos los fundamentos de la IA: cómo darle Instrucciones precisas (Guía 01\) y cómo gestiona su Memoria limitada (Guía 02).  
-Hemos descrito el "motor" de la IA. Ahora, debemos hablar del combustible: los datos. 
+En las guías anteriores, definimos los fundamentos de la IA: cómo darle Instrucciones precisas (Guía 01\) y cómo gestiona su Memoria limitada (Guía 02). Hemos descrito el "motor" de la IA. Ahora, debemos hablar del combustible: los datos. 
 
 Esta guía es el manual para el "Arquitecto de la Información". Es la guía fundamental que precede a la construcción de agentes y la industrialización. Si la Guía 01 (Prompts) es el plano, esta guía es sobre la materia prima sin la cual el plano no se puede construir.
 
