@@ -41,7 +41,7 @@ La diferencia en la calidad y especificidad de la respuesta entre ambos ejemplos
 
 ---
 
-#### El Método de Prompting en 7 Pasos
+#### Parte 1: El Método de Prompting en 7 Pasos
 
 Este es un marco de trabajo que te guiará desde la idea inicial hasta un resultado pulido y de alta calidad.
 
@@ -116,7 +116,7 @@ No "pruebes cosas al azar". Ajusta tu prompt para cerrar la brecha entre el resu
 
 ---
 
-#### Técnicas Avanzadas de Prompting (Herramientas de Precisión)
+#### Parte 2: Técnicas Avanzadas de Prompting (Herramientas de Precisión)
 
 Estas técnicas se integran en el método para resolver problemas más complejos.
 
@@ -176,7 +176,7 @@ Estas técnicas se integran en el método para resolver problemas más complejos
 
 ---
 
-#### Maximizando el Valor: Qué Técnicas Usar en Cada Paso
+#### Parte 3: Maximizando el Valor: Qué Técnicas Usar en Cada Paso
 
 Aquí conectamos las técnicas avanzadas con el método de 7 pasos para ver dónde aportan más valor.
 
