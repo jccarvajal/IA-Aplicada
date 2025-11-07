@@ -1,8 +1,8 @@
-### **Guía 08: Evaluación, Calidad y Validación de IA**
+### Guía 08: Evaluación, Calidad y Validación de IA
 
-**(Subtítulo: El Laboratorio de Control de Calidad: De la "Sensación" a la Métrica)**
+Subtítulo: El Laboratorio de Control de Calidad: De la "Sensación" a la Métrica
 
-#### **Introducción: Del "Control de Seguridad" al "Control de Calidad"**
+#### Introducción: Del "Control de Seguridad" al "Control de Calidad"
 
 En el prototipado, construimos una máquina que "funciona". En la **Gobernanza**, definimos las reglas de seguridad para evitar que explote.
 
@@ -12,7 +12,7 @@ Esta guía es el "Laboratorio de Control de Calidad" (QA) de nuestra fábrica. E
 
 ---
 
-#### **1\. El Desafío: Medir lo "Blando"**
+#### 1. El Desafío: Medir lo "Blando"
 
 En el software tradicional, la QA es binaria: el botón funciona o no (Pasa / Falla). En la IA Generativa, la calidad es "blanda" y subjetiva. Una respuesta puede ser:
 
@@ -25,7 +25,7 @@ Para gestionar la fábrica, debemos tomar estas cualidades "blandas" y convertir
 
 ---
 
-#### **2\. El "Golden Set": La Pista de Pruebas Estándar**
+#### 2. El "Golden Set": La Pista de Pruebas Estándar
 
 No puedes probar tu sistema "al azar". Necesitas una "pista de pruebas" estandarizada. En IA, esto se llama un "Golden Set" (Set Dorado) o Benchmark.
 
@@ -36,7 +36,7 @@ No puedes probar tu sistema "al azar". Necesitas una "pista de pruebas" estandar
 
 ---
 
-#### **3\. El "Dashboard de Calidad": Qué Medimos**
+#### 3. El "Dashboard de Calidad": Qué Medimos
 
 La Gobernanza nos exige un "Dashboard de Observabilidad". Esta guía define las métricas clave que deben ir en él, usando el "Triángulo de Calidad".
 
@@ -58,7 +58,7 @@ La Gobernanza nos exige un "Dashboard de Observabilidad". Esta guía define las 
 
 ---
 
-#### **4\. Métodos de Evaluación: ¿Quién Mide?**
+#### 4. Métodos de Evaluación: ¿Quién Mide?
 
 Una vez que tienes tu "Golden Set" y tus "Métricas", ¿quién hace el trabajo de calificar? Tienes dos opciones, y ambas se basan en la "Rúbrica de Evaluación de Calidad" (disponible en los Anexos).
 
@@ -78,7 +78,7 @@ Una vez que tienes tu "Golden Set" y tus "Métricas", ¿quién hace el trabajo d
 
 ---
 
-#### **5\. De la Evaluación a la Producción: "Humano-en-el-Bucle" (HitL)**
+#### 5. De la Evaluación a la Producción: "Humano-en-el-Bucle" (HitL)
 
 La evaluación no es solo algo que haces *antes* de la Industrialización. Es algo que continúa *durante* ella.
 
@@ -88,7 +88,7 @@ El Humano-en-el-Bucle no es un usuario pasivo. Es un "Auditor de Calidad" que ap
 
 ---
 
-#### **Conclusión**
+#### Conclusión
 
 Sin un Laboratorio de Control de Calidad (Guía 08), la Gobernanza (Guía 07\) es ciega, porque no sabe qué medir ni cómo. Y la Industrialización (Guía 09\) es imprudente, porque no puede garantizar la consistencia del producto.
 
