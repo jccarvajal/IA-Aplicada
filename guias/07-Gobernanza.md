@@ -126,6 +126,6 @@ Al dominar la gobernanza, dejas de orquestar resultados para empezar a garantiza
     <a href="../">Volver al Índice</a>
   </div>
   <div>
-    <a href="./08-Evaluación-Calidad.html">Siguiente Guía »</a>
+    <a href="./08-Evaluacion-Calidad.html">Siguiente Guía »</a>
   </div>
 </div>
