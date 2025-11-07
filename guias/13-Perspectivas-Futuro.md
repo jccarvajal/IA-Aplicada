@@ -77,7 +77,9 @@ El desafío más aterrizado es el costo de la inteligencia. Los LLM actuales (ba
 
 ---
 
-<p><b>Nota sobre la AGI:</b> Escucharás sobre la "Inteligencia Artificial General" (AGI), un sistema de IA hipotético con la capacidad de comprender, aprender y aplicar inteligencia para realizar cualquier tarea intelectual que un humano puede hacer. Para los propósitos de esta guía, orientada al criterio operativo, tratamos eso como una especulación teórica. Nuestro trabajo de Gobernanza y Ética se enfoca en gestionar el impacto real, actual y concreto de las potentes herramientas que sí tenemos.</p>
+**Nota sobre la AGI:**
+
+Escucharás sobre la "Inteligencia Artificial General" (AGI), un sistema de IA hipotético con la capacidad de comprender, aprender y aplicar inteligencia para realizar cualquier tarea intelectual que un humano puede hacer. Para los propósitos de esta guía, orientada al criterio operativo, tratamos eso como una especulación teórica. Nuestro trabajo de Gobernanza y Ética se enfoca en gestionar el impacto real, actual y concreto de las potentes herramientas que sí tenemos.
 
 ---
 
