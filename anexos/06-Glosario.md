@@ -48,6 +48,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un caso de estudio práctico y un plano de arquitectura. Es la plantilla que conecta la teoría de las Guías y la técnica de los Anexos para resolver un problema de negocio específico, detallando los ingredientes, el flujo y la sinergia resultante.  
 * **Referencia Principal:** Anexo 02 (Lecciones de Implementación).
 
+**Bucle de Costos (Cost Loop)**
+
+* **Definición:** Un riesgo operacional crítico donde un agente autónomo, usualmente operando en un ciclo ReAct, entra en un bucle (loop) infinito. Esto causa que el agente ejecute miles de llamadas a la API sin control, generando un gasto masivo e imprevisto.
+* **Referencia Principal:** Guía 07 (Gobernanza de IA), Guía 05 (Diseño de Sistemas Cognitivos).
+
 **Co-Piloto Estratégico**
 
 * **Definición:** El rol humano evolucionado en la sinergia Humano-IA. El Co-Piloto no es un "usuario" pasivo que "pide" tareas, sino un "operador" activo que "instruye", "valida" y "audita" a la IA, usando su criterio de "Sistema 2" para dirigir la herramienta. Ver también "Prosumer".  
