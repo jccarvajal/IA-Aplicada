@@ -75,6 +75,12 @@ El desafío más aterrizado es el costo de la inteligencia. Los LLM actuales (ba
 
 * **Impacto Práctico:** El "Vigilante" debe monitorear arquitecturas no-Transformers (como Mamba o State Space Models) y hardware nuevo (chips neuromórficos) que prometen un rendimiento similar con una fracción del costo energético.
 
+---
+
+**Nota sobre la AGI:** Escucharás sobre la "Inteligencia Artificial General" (AGI), un sistema de IA hipotético con la capacidad de comprender, aprender y aplicar inteligencia para realizar cualquier tarea intelectual que un humano puede hacer. Para los propósitos de esta guía, orientada al criterio operativo, tratamos eso como una especulación teórica. Nuestro trabajo de Gobernanza y Ética se enfoca en gestionar el impacto real, actual y concreto de las potentes herramientas que sí tenemos.
+
+---
+
 #### Conclusión: El Cierre de la Obra
 
 La obra termina aquí, pero la "Maestría" es un ciclo. 
