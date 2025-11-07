@@ -101,7 +101,7 @@ Hemos pasado del "Prototipo" a la Producción. Nuestro rol como "Director de Ope
 ---
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
   <div>
-    <a href="./08-Evaluación-Calidad.html">« Guía Anterior</a>
+    <a href="./08-Evaluacion-Calidad.html">« Guía Anterior</a>
   </div>
   <div>
     <a href="../">Volver al Índice</a>
