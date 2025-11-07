@@ -1,8 +1,8 @@
-## **Bloque 1: Los Fundamentos (Cómo funciona)**
+## Bloque 1: Los Fundamentos (Cómo funciona)
 
-### **Guía 01: La Guía Definitiva de la Ingeniería de Prompts**
+### Guía 01: La Guía Definitiva de la Ingeniería de Prompts
 
-**(Subtítulo: El Plano del "Arquitecto de Instrucciones")**
+Subtítulo: El Plano del "Arquitecto de Instrucciones"
 
 #### **Introducción: De la Instrucción a la Ingeniería**
 
