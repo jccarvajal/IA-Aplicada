@@ -1,4 +1,4 @@
-### **Bloque 4: El Impacto (Cómo nos afecta)**
+## **Bloque 4: El Impacto (Cómo nos afecta)**
 
 ### **Guía 10: Humanidad, Ética y Confianza**
 

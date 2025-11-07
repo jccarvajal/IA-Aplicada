@@ -1,4 +1,4 @@
-### **Bloque 5: La Expansión (Cómo proyectamos)**
+## **Bloque 5: La Expansión (Cómo proyectamos)**
 
 ### **Guía 13: Perspectivas y Futuro de la IA**
 

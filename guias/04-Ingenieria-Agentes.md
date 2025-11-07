@@ -1,4 +1,4 @@
-### **Bloque 2: La Construcción (Cómo se hace)**
+## **Bloque 2: La Construcción (Cómo se hace)**
 
 ### **Guía 04: La Guía Definitiva de la Ingeniería de Agentes de IA**
 
