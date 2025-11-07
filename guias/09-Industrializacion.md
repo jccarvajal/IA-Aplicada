@@ -1,8 +1,8 @@
-### **Guía 09: Industrialización de IA**
+### Guía 09: Industrialización de IA
 
-**(Subtítulo: Del "Ingeniero de Prototipos" al "Director de Operaciones")**
+Subtítulo: Del "Ingeniero de Prototipos" al "Director de Operaciones"
 
-#### **Introducción: Del Prototipo (1) a la Producción (1000)**
+#### Introducción: Del Prototipo (1) a la Producción (1000)
 
 En el prototipado, construimos con éxito nuestro primer "Agente PM" (un **agente** de IA enfocado en un proyecto único). Demostramos el valor, validamos la seguridad básica y probamos el concepto.
 
@@ -12,7 +12,7 @@ Esta guía es el manual para la industrialización. Es el plan para pasar de con
 
 ---
 
-#### **El Dilema Central: Agilidad vs. Robustez**
+#### El Dilema Central: Agilidad vs. Robustez
 
 * **El Mundo del Prototipo:** El objetivo es la agilidad. Puedes cambiar un **prompt** (la instrucción del agente) 20 veces al día. Si el agente falla, reinicias el script. El costo es irrelevante.  
 * **El Mundo de la Producción:** El objetivo es la robustez. El sistema debe ser:  
@@ -24,7 +24,7 @@ El "Director de Operaciones" gestiona este *trade-off* entre innovar rápido (ag
 
 ---
 
-#### **Parte 1: El "Stack" de Producción (Escalando las Guías)**
+#### Parte 1: El "Stack" de Producción (Escalando las Guías)
 
 El "Stack" del Prototipo era gratuito y local. El "Stack" de Producción es empresarial y está en la nube.
 
@@ -49,7 +49,7 @@ El "Stack" del Prototipo era gratuito y local. El "Stack" de Producción es empr
 
 ---
 
-#### **Parte 2: "Prompt-as-Code" (La Gobernanza del Plano)**
+#### Parte 2: "Prompt-as-Code" (La Gobernanza del Plano)
 
 Este es el núcleo de las Operaciones de IA. En el prototipo, un prompt es un texto que cambias. En producción, un prompt es la "lógica de negocio" central de tu fábrica. Si lo cambias y lo rompes, rompes la fábrica. Debes tratar los prompts como software.
 
@@ -71,7 +71,7 @@ Este es el núcleo de las Operaciones de IA. En el prototipo, un prompt es un te
 
 ---
 
-#### **Parte 3: La Observabilidad (La Gobernanza a Escala Industrial)**
+#### Parte 3: La Observabilidad (La Gobernanza a Escala Industrial)
 
 El "Dashboard de Gobernanza" del prototipo era una hoja de cálculo. En producción, es un sistema de monitoreo en tiempo real (como Datadog o Prometheus, pero para LLMs). No puedes gobernar lo que no puedes ver.
 
@@ -94,7 +94,7 @@ El "Dashboard de Gobernanza" del prototipo era una hoja de cálculo. En producci
 
 ---
 
-#### **Conclusión: De Ingeniero a Director de Ecosistema**
+#### Conclusión: De Ingeniero a Director de Ecosistema
 
 Hemos pasado del "Prototipo" a la Producción. Nuestro rol como "Director de Operaciones" ya no es "construir" un agente. Es gestionar un ecosistema vivo de cientos de agentes. Tu trabajo es ser el "ingeniero de confiabilidad" (SRE) de la fábrica. Te aseguras de que los planos (Prompts) estén versionados, que las máquinas (LLMs) estén monitoreadas y que los "Agentes PM" (la línea de ensamblaje) nunca se detengan, preparando el terreno para gestionar el impacto humano.
 
