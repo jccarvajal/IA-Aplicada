@@ -1,8 +1,8 @@
-### **Guía 11: Aprender a Pensar con IA: Habilidades y Tácticas por Rol**
+### Guía 11: Aprender a Pensar con IA: Habilidades y Tácticas por Rol
 
-**(Subtítulo: Alfabetización Cognitiva: De Usuario Pasivo a Co-Piloto Estratégico)**
+Subtítulo: Alfabetización Cognitiva: De Usuario Pasivo a Co-Piloto Estratégico
 
-#### **Introducción: El Desafío de la "Basura Elocuente"**
+#### Introducción: El Desafío de la "Basura Elocuente"
 
 En la guía anterior, definimos la nueva relación laboral: el humano como "Co-Piloto" y "Validador". Pero, ¿qué habilidades se necesitan para ser un buen "Validador" o un "Co-Piloto" eficaz? 
 
@@ -14,7 +14,7 @@ El mayor riesgo de la IA no es que mienta, es que **"alucina"** (inventa datos) 
 
 ---
 
-#### **1\. El Cambio de Mentalidad: De "Pedir" a "Instruir"**
+#### 1. El Cambio de Mentalidad: De "Pedir" a "Instruir"
 
 Este es el primer salto de habilidad. El "Usuario" trata a la IA como un oráculo mágico. El "Co-Piloto" la trata como un asistente increíblemente rápido, pero sin sentido común, contexto de negocio ni ética.
 
@@ -27,7 +27,7 @@ La **Ingeniería de Prompts** (Guía 01\) nos dio la técnica, pero esta guía n
 
 ---
 
-#### **2\. El Criterio es el Nuevo "Conocimiento"**
+#### 2. El Criterio es el Nuevo "Conocimiento"
 
 En la economía pre-IA, el valor de un profesional residía en su "conocimiento" (lo que sabía). Ahora, la IA tiene acceso a casi todo el conocimiento explícito. 
 
@@ -42,7 +42,7 @@ Tu trabajo ya no es "saber la respuesta", es "validar la respuesta".
 
 ---
 
-#### **3\. La Habilidad Cumbre: Desarrollar el "Pensamiento Algorítmico"**
+#### 3. La Habilidad Cumbre: Desarrollar el "Pensamiento Algorítmico"
 
 Esta es la habilidad cumbre del "Co-Piloto". Es la capacidad de descomponer un problema complejo de tu propio trabajo en una secuencia de **prompts** (instrucciones) lógicos, tal como un "Diseñador Cognitivo" diseña un agente.
 
@@ -59,7 +59,7 @@ Este profesional no está "usando" IA; está diseñando un flujo de trabajo cogn
 
 ---
 
-#### **4\. Tácticas Aplicadas por Rol (El "Criterio" en Acción)**
+#### 4. Tácticas Aplicadas por Rol (El "Criterio" en Acción)
 
 A continuación, se traduce la estrategia de alto nivel en acciones diarias para los roles clave que están siendo transformados por la IA, específicamente para **el Analista**, **el Gerente** y **el Programador**. Ya no hablamos de "construir" el agente, hablamos de "colaborar" con él.
 
@@ -140,7 +140,7 @@ A continuación, se traduce la estrategia de alto nivel en acciones diarias para
 
 ---
 
-#### **Conclusión**
+#### Conclusión
 
 La **Sinergia Humano-IA** no es automática. Requiere que el humano desarrolle nuevas habilidades. 
 
