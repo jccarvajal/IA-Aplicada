@@ -206,6 +206,7 @@ La ingeniería de prompts te transforma: dejas de ser un usuario que simplemente
 2. **El Arte (El Juicio):** Saber qué herramienta usar, en qué contexto y, crucialmente, cuándo aplicar el escepticismo crítico para validar la información y refinar el enfoque.
 
 Este juicio es la habilidad central que desarrollaremos en este marco. Esta guía te entrega el mapa para dominar ambas facetas. Al hacerlo, dejas de buscar respuestas para empezar a construir soluciones. Recuerda: el verdadero poder no reside en la IA, sino en la habilidad humana para guiarla con maestría.
+
 ---
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
   <div>
