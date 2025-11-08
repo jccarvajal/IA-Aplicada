@@ -10,9 +10,9 @@ Informes de la industria de 2025 (como el "State of AI in Business" del MIT) ide
 
 La "Brecha de Aprendizaje" tiene tres componentes:
 
-1. **No recuerdan el contexto:** (El problema de la "pizarra en blanco").  
-2. **No aprenden del feedback:** (Repiten los mismos errores).  
-3. **No se adaptan al flujo de trabajo:** (Son rígidas y frágiles).
+1. **No recuerdan el contexto:** (El problema de la "pizarra en blanco"). La IA olvida la conversación después de un breve intercambio.
+2. **No aprenden del feedback:** (Repiten los mismos errores). La IA no mejora su desempeño con el tiempo o con la corrección del usuario.
+3. **No se adaptan al flujo de trabajo:** (Son rígidas y frágiles). La IA no entiende las reglas o el proceso específico de tu organización.
 
 Esta brecha es la causa de la **"Brecha GenAI"** (la diferencia entre la alta inversión y el bajo o nulo retorno de inversión) y la razón por la que los empleados recurren a la **"IA en la Sombra"** (sus cuentas personales de ChatGPT), que son más flexibles.
 
