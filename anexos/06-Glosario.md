@@ -48,6 +48,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un caso de estudio práctico y un plano de arquitectura. Es la plantilla que conecta la teoría de las Guías y la técnica de los Anexos para resolver un problema de negocio específico, detallando los ingredientes, el flujo y la sinergia resultante.  
 * **Referencia Principal:** Anexo 02 (Lecciones de Implementación).
 
+**Brecha GenAI (GenAI Divide)**
+
+* **Definición:** Término de la industria (2025) que describe la amplia brecha entre la alta experimentación con IA Generativa (la mayoría de las organizaciones) y el bajo retorno de inversión tangible (el 5% que logra impacto real en el negocio ). También se le conoce como la "Brecha de Escalamiento" (Scaling Gap), ya que los sondeos muestran que la mayoría de las empresas (62%) están atascadas en fases de "Experimentación" o "Pilotaje" y no logran escalar el valor a nivel empresarial.  
+* **Referencia Principal:** Guía 12 (Estrategia y Valor en la Era de la IA).
+
 **Bucle de Costos (Cost Loop)**
 
 * **Definición:** Un riesgo operacional crítico donde un agente autónomo, usualmente operando en un ciclo ReAct, entra en un bucle (loop) infinito. Esto causa que el agente ejecute miles de llamadas a la API sin control, generando un gasto masivo e imprevisto.
@@ -73,11 +78,6 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** La ventaja estratégica defendible que una empresa construye con IA. El glosario argumenta que el "foso" no es el modelo LLM (que es un commodity), sino los datos propietarios (para RAG), los datos de juicio humano (para Ajuste Fino) y la eficiencia de la Gobernanza (Guía 07 y Guía 09).  
 * **Referencia Principal:** Guía 12 (Estrategia y Valor en la Era de la IA).
 
-**GenAI Divide (Brecha GenAI)**
-
-* **Definición:** Término de la industria (2025) que describe la amplia brecha entre la alta experimentación con IA Generativa (la mayoría de las organizaciones) y el bajo retorno de inversión tangible (el 5% que logra impacto real en el negocio).  
-* **Referencia Principal:** Guía 12 (Estrategia y Valor en la Era de la IA).
-
 **Gobernanza de IA (AI Governance)**
 
 * **Definición:** El marco de políticas, procesos y controles técnicos para gestionar la IA de forma segura, ética y eficiente. Su objetivo es maximizar el valor mientras se mitigan los riesgos clave (alucinaciones, fugas de datos, inyección de prompts, costos).  
@@ -92,6 +92,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Una perspectiva futura de la IA donde los "agentes" salen de la pantalla y se integran con la robótica. Es la fusión de los LLM (para entender el lenguaje natural) con cuerpos robóticos (para ejecutar acciones físicas en el mundo real).  
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
+**IA en la Sombra(Shadow AI)**
+
+* **Definición:** Término de la industria (2025) para el uso no autorizado de herramientas de IA públicas (ej. ChatGPT personal) por parte de empleados para tareas laborales. Es un riesgo de gobernanza principal por la fuga de datos sensibles.  
+* **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
 **Industrialización (Industrialization)**
 
@@ -163,11 +168,6 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** La arquitectura de sistema más común para dar "memoria" a largo plazo a un LLM. El sistema **Recupera (Retrieves)** información relevante de una base de datos externa (usualmente vectorizada) y la **Aumenta (Augments)**, inyectándola en el prompt del LLM como contexto justo a tiempo.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
-**Shadow AI (IA en la Sombra)**
-
-* **Definición:** Término de la industria (2025) para el uso no autorizado de herramientas de IA públicas (ej. ChatGPT personal) por parte de empleados para tareas laborales. Es un riesgo de gobernanza principal por la fuga de datos sensibles.  
-* **Referencia Principal:** Guía 07 (Gobernanza de IA).
-
 **Sinergia Humano-IA (Human-AI Synergy)**
 
 * **Definición:** La arquitectura de trabajo donde la IA y los humanos se fusionan en un solo flujo. Se basa en dividir el trabajo: la IA ejecuta el "Sistema 1" (tareas tácticas, rápidas, de bajo juicio) y el humano se enfoca en el "Sistema 2" (estrategia, validación, empatía, criterio).  
@@ -202,6 +202,9 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** El rol permanente del arquitecto de IA después de construir la fábrica. Es la función de escanear el horizonte en busca de la próxima disrupción tecnológica, no por curiosidad, sino como una función de negocio para anticipar la obsolescencia de la fábrica actual.  
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
+**Web Agéntica (Agentic Web)**
+* **Definición:** Concepto de la industria (mencionado en informes del MIT de 2025 ) que describe la siguiente evolución de la IA, más allá de los agentes individuales. Es una red persistente e interconectada de agentes autónomos que pueden colaborar, negociar y coordinar tareas entre sí a través de diferentes plataformas, dominios y organizaciones, utilizando protocolos de interoperabilidad (como NANDA, MCP o A2A ).* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA) .
 
 ---
   <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
