@@ -102,14 +102,14 @@ El Buen Enfoque: El juicio de ingeniería está en diseñar un sistema que sepa 
 
 Estas son las técnicas para dirigir a nuestros nuevos "trabajadores digitales" sin causar un desastre.
 
-**1\. El Agente con "Humano-en-el-Bucle" (Human-in-the-Loop)**  
+#### Estrategia 1: El Agente con "Humano-en-el-Bucle" (Human-in-the-Loop)
 Esta es la solución más práctica y segura al dilema de la "correa".
 
 * **¿Qué es?** Es diseñar un agente que tiene "puntos de control" obligatorios. El agente ejecuta sus ciclos ReAct (Razonar-Actuar-Observar) de forma autónoma, excepto en acciones críticas.  
 * **¿Por qué funciona?** Le das autonomía para lo trivial (buscar, analizar, redactar) pero le quitas autonomía para lo peligroso (gastar dinero, enviar comunicaciones, borrar datos).  
 * **Ejemplo de Punto de Control:** El agente redacta el email y, en lugar de enviarlo, se detiene y pregunta: "He redactado el borrador para el cliente. ¿Deseas \[Enviar\], \[Modificar\] o \[Cancelar\]?"
 
-**2\. La Orquesta de Agentes (La Analogía del Director de Programa)**  
+#### Estrategia 2: La Orquesta de Agentes (La Analogía del Director de Programa) 
 Esta es la estrategia de escalabilidad más importante. Ya no pensamos en un solo agente que lo hace todo. Pensamos en un equipo de especialistas, usando la analogía del mundo corporativo:
 
 * **Un Agente Individual es un Project Manager (PM):** Se enfoca en un proyecto único y bien definido. Recibe un objetivo (ej: "Escribir el informe del mercado europeo"), aplica el ciclo ReAct para planificar sus pasos, usa sus herramientas (buscar, analizar) para ejecutar y entrega un resultado final.  
@@ -123,7 +123,7 @@ Esta es la estrategia de escalabilidad más importante. Ya no pensamos en un sol
   3. **Síntesis:** El Director recibe los entregables de cada "PM" y los integra en el resultado final (la campaña completa).  
 * **Beneficio:** El Director se encarga de la estrategia de alto nivel. Además, cada "Agente PM" trabaja con su propia "pizarra limpia" (su propio **contexto**, o memoria de trabajo), volviéndose más rápido, barato y preciso en su tarea especializada.
 
-**3\. El Agente Especializado (El Flujo de "Auto-Prompting")**  
+#### Estrategia 3: El Agente Especializado (El Flujo de "Auto-Prompting")  
 Este es uno de los puntos de partida más simples y poderosos, que se conecta directamente con el concepto de Meta-Prompting (usar la IA para ayudarte a crear prompts).
 
 * **¿Qué es?** En lugar de un agente "que lo hace todo", creas un agente (un chat) dedicado a una sola tarea con un contexto perfecto.  

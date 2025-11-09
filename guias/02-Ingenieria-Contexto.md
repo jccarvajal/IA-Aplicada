@@ -24,14 +24,14 @@ No buscamos una "charla" brillante que se degrada; buscamos construir sistemas d
 
 #### Conceptos Fundamentales (El Problema)
 
-**¿Qué es la "Ventana de Contexto"?**  
+**1\. ¿Qué es la "Ventana de Contexto"?**  
 Pensemos en la "Ventana de Contexto" como la memoria a corto plazo de la IA, o mejor aún, como una pizarra blanca.
 
 * **Función:** Esta pizarra contiene toda la información que el LLM puede "ver" en un momento dado: el prompt original, tu historial de chat y cualquier dato que le hayas proporcionado.  
 * **Implicación Clave:** El LLM no "recuerda" nada fuera de esta pizarra. No "piensa" en el sentido humano; simplemente calcula la siguiente palabra basándose únicamente en lo que está escrito en esa pizarra.  
 * **Límite Físico:** La pizarra tiene un tamaño finito. Algunos modelos tienen pizarras más grandes y otros más pequeñas, pero todas tienen un límite.
 
-**El "Token": El Átomo del Contexto**  
+**2\. El "Token": El Átomo del Contexto**  
 Antes de hablar del "límite" de la pizarra, debemos definir cómo se mide su tamaño.
 
 * **¿Qué es?** Un "token" es la unidad de texto fundamental que un LLM procesa. Es el "ladrillo" o "átomo" con el que la IA lee el mundo y construye sus respuestas.  
@@ -46,7 +46,7 @@ Antes de hablar del "límite" de la pizarra, debemos definir cómo se mide su ta
   * **Videos:** Son la modalidad más "cara" de todas.  
   * *Implicación Práctica:* Subir un video de 1 minuto puede consumir la misma cantidad de tokens (o más) que un libro de 500 páginas. Ser consciente del "peso" de cada modalidad es fundamental.
 
-**¿Qué es la "Rotura de Contexto" (Context Rot)?**  
+**3\. ¿Qué es la "Rotura de Contexto" (Context Rot)?**  
 Este es el problema central que la ingeniería de contexto resuelve. Es lo que ocurre cuando la "pizarra blanca" se vuelve ilegible por estar sobrecargada de tokens.
 
 * **El Síntoma:** La IA empieza a "olvidar" instrucciones clave, se vuelve repetitiva (entra en bucles) o da respuestas irrelevantes.  
@@ -62,7 +62,7 @@ En la ingeniería de contexto, no hay soluciones mágicas, solo *trade-offs* ("c
 * **Mal Enfoque:** "Metamos todo en el contexto. Si el modelo tiene 1 millón de tokens, ¡usémoslos todos\!"  
 * **Buen Enfoque:** "Cada token en el contexto tiene un costo. ¿Cuál es la cantidad mínima de información de máxima calidad que necesitamos en la pizarra para que la IA complete el objetivo?"
 
-Las Métricas de Decisión (El "Trade-off"):
+**Las Métricas de Decisión (El "Trade-off"):**
 
 1. **Costo:** Más tokens en la pizarra \= mayor costo por cada llamada a la API.  
 2. **Latencia (Velocidad):** Más tokens en la pizarra \= más tiempo de procesamiento \= respuestas más lentas.  
@@ -78,7 +78,7 @@ Estas son las estrategias y arquitecturas para construir sistemas de IA que no o
 
 ---
 
-#### 1. Compactación (Gestión Eficiente de la "Pizarra")
+#### Solución 1. Compactación (Gestión Eficiente de la "Pizarra")
 
 Esta es la estrategia principal para gestionar el historial de la conversación y evitar que el 'ruido' de tokens degrade el contexto.
 
@@ -88,7 +88,7 @@ Esta es la estrategia principal para gestionar el historial de la conversación 
 
 ---
 
-#### 2. Generación Aumentada por Recuperación (RAG) (La "Biblioteca Externa")
+#### Solución 2. Generación Aumentada por Recuperación (RAG) (La "Biblioteca Externa")
 
 Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
@@ -109,7 +109,7 @@ Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
 ---
 
-#### 3. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)
+#### Solución 3. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)
 
 Si RAG es la "biblioteca" (conocimiento estático externo), la Memoria Explícita es el "bloc de notas personal" del agente (memoria dinámica interna).
 
@@ -152,7 +152,7 @@ El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar s
 
 ---
 
-#### 4. Arquitecturas de Agentes (Los "Sub-Agentes")
+#### Solución 4. Arquitecturas de Agentes (Los "Sub-Agentes")
 
 Esta es la estrategia de contexto más avanzada. En lugar de un solo "cerebro" tratando de manejar todo en una "pizarra", creas un equipo de "cerebros especialistas".
 
