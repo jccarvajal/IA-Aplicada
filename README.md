@@ -15,16 +15,6 @@ No busca enseñar a programar, sino enseñar a **decidir, diseñar y gobernar**.
 
 Su objetivo es trasladar a los equipos desde la curiosidad dispersa hacia un criterio aplicado, entregando un lenguaje común y una ruta metodológica para integrar la IA en procesos con rigor, transparencia y control.
 
-<div style="display:none;">
-
-### Descarga del Documento Completo
-
-Para una lectura secuencial o para conservar la obra completa, puedes descargar la versión oficial en PDF:
-
-* **[Descargar "IA-Aplicada-v1.0.pdf"](./IA-Aplicada-v1.0.pdf)**
-
-</div>
-
 ---
 
 ### Tabla de Contenidos
