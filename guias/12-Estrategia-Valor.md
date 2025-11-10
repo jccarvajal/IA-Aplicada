@@ -86,7 +86,7 @@ El "Director de Estrategia" debe saber dónde construir su "foso" (moat) para de
 
 * **La Ventaja:** Este es el foso más profundo. Tu competencia tiene agentes y tiene datos RAG. Pero tú has implementado la **Sinergia Humano-IA**.  
 * **El Activo Estratégico:** El "log" de cómo tus **"Validadores"** humanos corrigen las respuestas de tus agentes (el "feedback de Sistema 2") es el set de entrenamiento más valioso del mundo.  
-* **Tu Foso:** Usas estos "datos de juicio humano" para hacer **"Ajuste Fino" (Fine-Tuning)** —el proceso de especializar el "cerebro" del modelo— y crear un agente que nadie en el mundo puede replicar, porque nadie más tiene a tus expertos entrenándolo.
+* **Tu Foso:** Usas estos "datos de juicio humano" para hacer **"Ajuste Fino" (Fine-Tuning)**, el proceso de especializar el "cerebro" del modelo, y crear un agente que nadie en el mundo puede replicar, porque nadie más tiene a tus expertos entrenándolo.
 
 ---
 
