@@ -8,8 +8,6 @@ En las guías anteriores, completamos el viaje desde la idea hasta la operación
 
 Nuestra "fábrica" de IA es ahora una máquina segura y eficiente. Ahora, enfrentamos la pregunta final y más importante: ¿Para qué?
 
-Informes de la industria de 2025 (MIT Report) señalan una **"Brecha GenAI" (The GenAI Divide)**: la enorme diferencia entre la alta experimentación (casi el 95% de las empresas que invierten) y el bajo retorno de inversión (el 5% que realmente logra un impacto en el negocio). Un sondeo global de fines de 2025 (McKinsey) confirmó esta realidad: aunque el 88% de las empresas usa IA, casi dos tercios (62%) están atascados en fases de 'Experimentación' o 'Pilotaje', y solo el 39% reporta un impacto real en el EBIT (beneficios) a nivel empresarial.
-
 Informes clave de la industria de 2025, como el reporte **"The GenAI Divide" del MIT**, señalan una **"Brecha GenAI"**: la enorme diferencia entre la alta experimentación (casi el 95% de las empresas que invierten) y el bajo retorno de inversión (el 5% que realmente logra un impacto en el negocio). **Un sondeo global de QuantumBlack, la división de IA de McKinsey**, confirmó esta realidad a fines de 2025: aunque el 88% de las empresas usa IA, casi dos tercios (62%) están atascados en fases de 'Experimentación' o 'Pilotaje', y solo el 39% reporta un impacto real en el EBIT (beneficios) a nivel empresarial .
 
 Esta guía es el manual para el Director de Estrategia (Chief Strategy Officer). Nuestro trabajo ya no es gestionar la IA, es apalancarla para cruzar esa brecha y crear valor real.
