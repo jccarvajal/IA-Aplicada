@@ -18,7 +18,7 @@ Esta guía final cambia nuestro enfoque de la operación (gestionar lo conocido)
 
 El título de esta colección es "Inteligencia Artificial Aplicada". Pero, ¿qué significa "maestría" si la tecnología (modelos, arquitecturas, APIs) cambia cada seis meses? 
 
-La paradoja es que la maestría no reside en conocer las herramientas actuales —como **RAG** (el sistema para recuperar conocimiento externo) o los **Agentes ReAct** (el motor de razonamiento y acción)—. Esas son solo las primeras herramientas que aprendimos a usar. 
+La paradoja es que la maestría no reside en conocer las herramientas actuales, como **RAG** (el sistema para recuperar conocimiento externo) o los **Agentes ReAct** (el motor de razonamiento y acción). Esas son solo las primeras herramientas que aprendimos a usar. 
 
 La verdadera maestría, el objetivo de esta obra, fue desarrollar un marco de pensamiento y un criterio duradero.
 
