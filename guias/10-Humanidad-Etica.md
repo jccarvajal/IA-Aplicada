@@ -92,19 +92,19 @@ Respuesta: Su valor ha cambiado. Su trabajo ya no es hacer tareas de Sistema 1, 
 
 **La Nueva Ruta de Carrera (De Ejecutor a Gobernador):**
 
-**1\. Paso 1: El "Validador" (El Experto en "Juicio")**
+**Paso 1: El "Validador" (El Experto en "Juicio")**
 
 * **Rol:** Es el "Humano-en-el-Bucle" (Nivel 1).  
 * **Descripción:** El ex-analista ahora supervisa la salida del "Agente PM". Su trabajo es usar su experiencia (su juicio de "Sistema 2") para validar el trabajo del agente.  
 * **Habilidad Clave:** Juicio crítico, escepticismo. Se convierte en el "Jefe de Seguridad" que previene "alucinaciones operacionales".
 
-**2\. Paso 2: El "Entrenador de Agentes" (El "PM" Humano)**
+**Paso 2: El "Entrenador de Agentes" (El "PM" Humano)**
 
 * **Rol:** Es el "Diseñador de Prompts" y el "Arquitecto de Contexto".  
 * **Descripción:** El ex-analista no solo valida; ahora mejora al agente. Cuando el agente falla, el "Entrenador" ajusta el prompt del sistema o actualiza la base de RAG para hacerlo más inteligente.  
 * **Habilidad Clave:** Ingeniería de Prompts, Lógica, Curación de Datos.
 
-**3\. Paso 3: El "Diseñador de Sinergia" (El "Co-Piloto")**
+**Paso 3: El "Diseñador de Sinergia" (El "Co-Piloto")**
 
 * **Rol:** Es el experto en la Sinergia (el concepto central de esta guía).  
 * **Descripción:** El ex-analista ahora es un "Ingeniero de Prototipos". Su trabajo es proactivamente encontrar nuevos procesos de "Sistema 1" y diseñar el "Agente PM" que los automatice.  
