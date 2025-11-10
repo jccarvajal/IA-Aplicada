@@ -142,12 +142,12 @@ La Licencia Social es la aceptación y confianza que la ciudadanía deposita en 
 
 Cuando los "Agentes PM" se vuelven parte del equipo, surgen preguntas legales que el "Director de Transformación" debe responder.
 
-**1\. El Problema de la Propiedad Intelectual (PI)**
+**Problema 1: De la Propiedad Intelectual (PI)**
 
 * **La Pregunta:** Un humano (Co-Piloto) usa un "Agente PM" para generar el código de un nuevo producto. ¿De quién es la PI?  
 * **La Política de Gobernanza:** La política de la empresa debe ser explicita: "Toda Propiedad Intelectual generada usando herramientas de IA de la empresa, por empleados de la empresa, durante el horario de la empresa, es propiedad 100% de la empresa."
 
-**2\. El Problema de la "Caja Negra" (Auditabilidad)**
+**Problema 2: De la "Caja Negra" (Auditabilidad)**
 
 * **La Pregunta:** Un "Agente Director" optimiza la logística y causa una pérdida de $1M. ¿Cómo "interrogamos" al agente?  
 * **La Política de Gobernanza:** La **Observabilidad** (de la Guía 09\) no es solo técnica, es un requisito legal. El "Dashboard de Gobernanza" debe registrar obligatoriamente el "rastro de pensamiento" (el log del Ciclo ReAct) de cada agente. Debemos ser capaces de reconstruir la cadena de razonamiento.
