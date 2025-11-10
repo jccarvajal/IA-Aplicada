@@ -91,7 +91,27 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
 
 ---
 
-#### Parte 3: El Pilar de la Gobernanza (Observabilidad)
+### Parte 3: El Framework PPP: Gobernanza de la Calidad de Interacción)
+
+La Gobernanza (la "sala de control") no solo debe mitigar los riesgos obvios (costos, seguridad, alucinaciones). Debe ir más allá y gobernar activamente la calidad de la interacción con el usuario.
+
+Investigaciones recientes (Sun, et al., 2025) demuestran que el éxito de un agente depende de optimizar tres dimensiones en conjunto, un framework que podemos adoptar para nuestra Gobernanza: PPP (Productividad, Proactividad y Personalización).
+
+**1\. Productividad (El Control de Calidad)**
+* **Definición:* ¿El agente completó la tarea central con éxito?
+* **Métrica de Gobernanza:* Esta es la métrica de Evaluación (Guía 08). Es el baseline que mide la eficacia del agente (ej. Tasa de Éxito en el "Golden Set").
+
+**2\. Proactividad (El Control de Ambigüedad)**
+* **Definición:* La habilidad del agente para identificar instrucciones vagas y hacer preguntas aclaratorias estratégicas y de "bajo esfuerzo".
+* **Métrica de Gobernanza:** Debemos medir la tasa de "fracaso por ambigüedad". Un agente mal gobernado falla en silencio o frustra al usuario con preguntas irrelevantes (de "alto esfuerzo"). Un agente bien gobernado usa la proactividad para mejorar la Productividad.
+
+**3\. Personalización (El Control de Fricción)**
+* **Definición:* La habilidad del agente para adaptar su estilo de interacción (tono, formato, lenguaje) a las preferencias del usuario.
+* **Métrica de Gobernanza:** Debemos medir la "tasa de seguimiento de preferencias". Un agente que es productivo pero molesto (baja personalización) fallará en la adopción. La Gobernanza debe asegurar que el agente se adapte al usuario, y no al revés.
+
+---
+
+#### Parte 4: El Pilar de la Gobernanza (Observabilidad)
 
 No puedes "gobernar" lo que no puedes "ver". Muchos sistemas de IA son percibidos como "cajas negras", un problema conocido como **opacidad**: la incapacidad de entender cómo un sistema llega a un resultado. Para combatir la opacidad, la **Observabilidad** es el pilar central de la gobernanza.
 
