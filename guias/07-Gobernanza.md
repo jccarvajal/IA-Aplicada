@@ -93,9 +93,9 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
 
 ### Parte 3: El Framework PPP: Gobernanza de la Calidad de Interacción)
 
-La Gobernanza (la "sala de control") no solo debe mitigar los riesgos obvios (costos, seguridad, alucinaciones). Debe ir más allá y gobernar activamente la calidad de la interacción con el usuario.
+La Gobernanza (la "sala de control") no solo debe mitigar los riesgos obvios (costos, seguridad, alucinaciones). Debe ir más allá y gobernar activamente la **calidad de la interacción con el usuario**.
 
-Investigaciones recientes (Sun, et al., 2025) demuestran que el éxito de un agente depende de optimizar tres dimensiones en conjunto, un framework que podemos adoptar para nuestra Gobernanza: PPP (Productividad, Proactividad y Personalización).
+Investigaciones recientes (Sun, et al., 2025) demuestran que el éxito de un agente depende de optimizar tres dimensiones en conjunto, un framework que podemos adoptar para nuestra Gobernanza: **PPP (Productividad, Proactividad y Personalización)**.
 
 **1\. Productividad (El Control de Calidad)**
 * **Definición:** ¿El agente completó la tarea central con éxito?
@@ -103,11 +103,11 @@ Investigaciones recientes (Sun, et al., 2025) demuestran que el éxito de un age
 
 **2\. Proactividad (El Control de Ambigüedad)**
 * **Definición:** La habilidad del agente para identificar instrucciones vagas y hacer preguntas aclaratorias estratégicas y de "bajo esfuerzo".
-* **Métrica de Gobernanza:** Debemos medir la tasa de "fracaso por ambigüedad". Un agente mal gobernado falla en silencio o frustra al usuario con preguntas irrelevantes (de "alto esfuerzo"). Un agente bien gobernado usa la proactividad para mejorar la Productividad.
+* **Métrica de Gobernanza:** Debemos medir la **"tasa de fracaso por ambigüedad"**. Un agente mal gobernado falla en silencio o frustra al usuario con preguntas irrelevantes (de "alto esfuerzo"). Un agente bien gobernado usa la proactividad para mejorar la Productividad.
 
 **3\. Personalización (El Control de Fricción)**
 * **Definición:** La habilidad del agente para adaptar su estilo de interacción (tono, formato, lenguaje) a las preferencias del usuario.
-* **Métrica de Gobernanza:** Debemos medir la "tasa de seguimiento de preferencias". Un agente que es productivo pero molesto (baja personalización) fallará en la adopción. La Gobernanza debe asegurar que el agente se adapte al usuario, y no al revés.
+* **Métrica de Gobernanza:** Debemos medir la **"tasa de seguimiento de preferencias"**. Un agente que es productivo pero molesto (baja personalización) fallará en la adopción. La Gobernanza debe asegurar que el agente se adapte al usuario, y no al revés.
 
 ---
 
