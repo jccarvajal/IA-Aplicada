@@ -63,7 +63,9 @@ Este profesional no está "usando" IA; está diseñando un flujo de trabajo cogn
 
 A continuación, se traduce la estrategia de alto nivel en acciones diarias para los roles clave que están siendo transformados por la IA, específicamente para **el Analista**, **el Gerente** y **el Programador**. Ya no hablamos de "construir" el agente, hablamos de "colaborar" con él.
 
-**Manual de Campo para: El Analista (El "Validador" o "Prosumer")**
+---
+
+#### Manual de Campo para: El Analista (El "Validador" o "Prosumer")
 
 * **Tu Nuevo Rol:** Tu valor ya no es encontrar y resumir datos (trabajo de **"Sistema 1"** o "piloto automático"). Un **agente** de IA que usa una "biblioteca" **RAG** (Generación Aumentada por Recuperación) lo hace 1000 veces más rápido. Tu nuevo valor es tu juicio (trabajo de **"Sistema 2"** o "piloto manual"): cuestionar los resultados y detectar alucinaciones.  
 * **Tu Antigua Tarea:** "Pasa 3 horas buscando en 10 PDFs y haz un resumen."  
@@ -89,7 +91,9 @@ A continuación, se traduce la estrategia de alto nivel en acciones diarias para
    * **Tu Tarea:** Informar al "Director de Transformación": "El agente está confundiendo 'BCP' con 'DRP'. Necesitamos actualizar la base de RAG con definiciones claras."  
    * **Por Qué Funciona:** Dejas de ser un usuario y te conviertes en un entrenador, mejorando la "fábrica" para todos.
 
-**Manual de Campo para: El Gerente (El "Co-Piloto Estratégico")**
+---
+
+#### Manual de Campo para: El Gerente (El "Co-Piloto Estratégico")
 
 * **Tu Nuevo Rol:** Tu valor ya no es gestionar tareas (micro-gestión). Un **"Agente Director"** (un agente que coordina a otros agentes) puede asignar y rastrear el trabajo de "Sistema 1". Tu nuevo valor es definir la **intención** (el "por qué") y gestionar el riesgo humano y ético.  
 * **Tu Antigua Tarea:** "Equipo, esta semana quiero 10 reportes sobre el Tema X. Envíenme sus borradores el viernes."  
@@ -112,7 +116,9 @@ A continuación, se traduce la estrategia de alto nivel en acciones diarias para
    * **Preguntas de Auditoría:** "Muéstrame el log de 'rastro de pensamiento' de esta decisión. ¿En qué ciclo 'ReAct' (Razonar-Actuar) se basó? ¿Qué datos de RAG usó? ¿Qué sesgos podrían estar en esos datos?"  
    * **Por Qué Funciona:** Cumples tu rol de "Gobernador", gestionando la responsabilidad en un sistema híbrido humano-IA.
 
-**Manual de Campo para: El Programador (El "Gobernador de Código")**
+---
+
+#### Manual de Campo para: El Programador (El "Gobernador de Código")
 
 * **Tu Nuevo Rol:** Tu valor ya no es (solo) escribir código repetitivo ("boilerplate"). Un "Agente de Código" puede generar el 80% de ese trabajo. Tu nuevo valor es ser el "Arquitecto" (diseñar el sistema) y el "Jefe de Seguridad" (validar el código del agente).  
 * **Tu Antigua Tarea:** "Pasa dos días escribiendo estas 5 funciones."  
