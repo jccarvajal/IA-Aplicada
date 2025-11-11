@@ -48,42 +48,42 @@ Así es como "piensa" un agente en la práctica:
   * buscar\_clima(ciudad)  
   * enviar\_email(destinatario, cuerpo)
 
-El agente ahora debe "razonar" y "actuar" en un bucle:
+* El agente ahora debe "razonar" y "actuar" en un bucle:
 
-**CICLO 1: Obtener Información**
+  **CICLO 1: Obtener Información**
 
-1. **Razonar (Planificar):**
-   * *Pensamiento:* "El objetivo tiene dos partes: 'buscar' y 'enviar'. No puedo enviar sin la información. El primer paso es usar la herramienta buscar_clima."
-2. **Actuar (Usar Herramienta):**
-   * *Acción:*
-     ```yaml
-     acción: buscar_clima
-     argumentos:
-       ciudad: Valparaíso
-     ```
-3. **Observar (Reflexionar):**
-   * *Resultado de la Herramienta:* { 'max': '18C', 'min': '11C', 'estado': 'Parcialmente nublado' }
-   * *Pensamiento:* "Tengo el clima. El objetivo NO está completo. Ahora debo enviar el email."
-   * *(El bucle continúa porque el objetivo final no está cumplido)*
+  1. **Razonar (Planificar):**
+     * *Pensamiento:* "El objetivo tiene dos partes: 'buscar' y 'enviar'. No puedo enviar sin la información. El primer paso es usar la herramienta buscar_clima."
+  2. **Actuar (Usar Herramienta):**
+     * *Acción:*
+       ```yaml
+       acción: buscar_clima
+       argumentos:
+         ciudad: Valparaíso
+       ```
+  3. **Observar (Reflexionar):**
+     * *Resultado de la Herramienta:* { 'max': '18C', 'min': '11C', 'estado': 'Parcialmente nublado' }
+     * *Pensamiento:* "Tengo el clima. El objetivo NO está completo. Ahora debo enviar el email."
+     * *(El bucle continúa porque el objetivo final no está cumplido)*
 
-**CICLO 2: Ejecutar Acción Final**
+  **CICLO 2: Ejecutar Acción Final**
 
-1. **Razonar (Planificar):**
-   * *Pensamiento:* "Basado en la observación anterior, ya tengo la información ({ 'max': '18C'... }). El siguiente paso es usar la herramienta enviar_email."
-2. **Actuar (Usar Herramienta):**
-   * *Acción:*
-     ```yaml
-     acción: enviar_email
-     argumentos:
-       destinatario: usuario@ejemplo.com
-       cuerpo: "Clima de hoy en Valparaíso: 18C, parcialmente nublado."
-     ```
-3. **Observar (Reflexionar):**
-   * *Resultado de la Herramienta:* { 'status': 'enviado' }
-   * *Pensamiento:* "Email enviado. El objetivo ('buscar' Y 'enviar') está cumplido."
-   * *(El bucle se detiene)*
+  1. **Razonar (Planificar):**
+     * *Pensamiento:* "Basado en la observación anterior, ya tengo la información ({ 'max': '18C'... }). El siguiente paso es usar la herramienta enviar_email."
+  2. **Actuar (Usar Herramienta):**
+     * *Acción:*
+       ```yaml
+       acción: enviar_email
+       argumentos:
+         destinatario: usuario@ejemplo.com
+         cuerpo: "Clima de hoy en Valparaíso: 18C, parcialmente nublado."
+       ```
+  3. **Observar (Reflexionar):**
+     * *Resultado de la Herramienta:* { 'status': 'enviado' }
+     * *Pensamiento:* "Email enviado. El objetivo ('buscar' Y 'enviar') está cumplido."
+     * *(El bucle se detiene)*
 
-**Respuesta Final al Usuario:**
+* **Respuesta Final al Usuario:**
   ```text
   Listo. El clima en Valparaíso es de 18C, parcialmente nublado. Te he enviado el resumen.
   ```
@@ -93,6 +93,7 @@ El agente ahora debe "razonar" y "actuar" en un bucle:
 Las herramientas son la conexión del cerebro de la IA con el mundo digital. Sin herramientas, es solo un "conversador". Con herramientas, es un "actor".  
 
 *Ejemplos de Herramientas:*
+
 * buscar\_en\_google()  
 * leer\_archivo('documento.pdf')  
 * escribir\_en\_base\_de\_datos()  
