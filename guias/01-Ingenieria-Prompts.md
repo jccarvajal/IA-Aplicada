@@ -79,7 +79,10 @@ Si tienes un formato o estilo muy específico en mente, muéstrale al modelo un 
 **Paso 5: Incorpora Técnicas Avanzadas (Estratégicamente)**  
 Aquí es donde potencias tu prompt para tareas complejas que requieren razonamiento, creatividad o precisión, pero solo cuando la tarea lo justifica. Más sobre esto en la siguiente sección.
 
-* **Ejemplo (usando Chain-of-Thought):** "Un agricultor tiene 150 metros de valla para cercar un terreno rectangular. Quiere maximizar el área. ¿Cuáles deben ser las dimensiones del terreno? Explica tu razonamiento paso a paso antes de dar la respuesta final."
+* **Ejemplo (usando Chain-of-Thought):**
+  ```text
+  Un agricultor tiene 150 metros de valla para cercar un terreno rectangular. Quiere maximizar el área. ¿Cuáles deben ser las dimensiones del terreno? Explica tu razonamiento paso a paso antes de dar la respuesta final.
+  ```
 
 **Paso 6: Evalúa y Valida (En Dos Niveles)**  
 Una vez que recibes la respuesta, revísala críticamente. La confianza ciega en un LLM es un error de principiante. ¿Cumple con el objetivo del Paso 1? ¿Respetó el rol, las restricciones y el formato? ¿La información es factualmente correcta?. Los LLM pueden "alucinar" (inventar datos). Siempre verifica la información importante. La validación es un proceso dual.
