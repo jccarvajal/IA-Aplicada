@@ -1,4 +1,4 @@
-## Bloque 1: Los Fundamentos (Cómo funciona)
+hi## Bloque 1: Los Fundamentos (Cómo funciona)
 
 ### Guía 01: La Guía Definitiva de la Ingeniería de Prompts
 
@@ -45,18 +45,36 @@ La diferencia en la calidad y especificidad de la respuesta entre ambos ejemplos
 
 Este es un marco de trabajo que te guiará desde la idea inicial hasta un resultado pulido y de alta calidad.
 
-**Paso 1: Define el Objetivo y las Métricas de Éxito (El "Para Qué")**  
+**Paso 1: Define el Objetivo y las Métricas de Éxito (El "Para Qué")**
 Antes de escribir, define con precisión qué resultado necesitas y cómo medirás su éxito.
 
-* **El Objetivo:** ¿Qué quieres lograr?  
-  * *Mal Objetivo:* "Necesito un resumen de un artículo."  
-  * *Buen Objetivo:* "Necesito un resumen ejecutivo de 250 palabras del siguiente artículo \[texto\], enfocado en los tres hallazgos clave y sus implicaciones para nuestro equipo de marketing."  
-* **Las Métricas:** Un objetivo profesional incluye criterios de aceptación medibles. Sin ellos, la iteración es subjetiva e infinita.  
-  * *Ejemplos de Métricas:*  
-    * **Precisión:** "La respuesta debe incluir 5 cifras exactas del informe, sin errores."  
-    * **Formato:** "La salida debe ser un objeto JSON que valide contra este esquema."  
-    * **Estilo:** "El texto debe obtener una puntuación de legibilidad superior a 70 en la escala Flesch."  
-    * **Contenido:** "Debe mencionar obligatoriamente las palabras clave: 'sostenibilidad', 'logística' y 'optimización'."
+* **El Objetivo:** ¿Qué quieres lograr?
+  * *Mal Objetivo:*
+    ```text
+    Necesito un resumen de un artículo.
+    ```
+  * *Buen Objetivo:*
+    ```text
+    Necesito un resumen ejecutivo de 250 palabras del siguiente artículo [texto], enfocado en los tres hallazgos clave y sus implicaciones para nuestro equipo de marketing.
+    ```
+* **Las Métricas:** Un objetivo profesional incluye criterios de aceptación medibles. Sin ellos, la iteración es subjetiva e infinita.
+  * *Ejemplos de Métricas:*
+    * **Precisión:**
+      ```text
+      La respuesta debe incluir 5 cifras exactas del informe, sin errores.
+      ```
+    * **Formato:**
+      ```text
+      La salida debe ser un objeto JSON que valide contra este esquema.
+      ```
+    * **Estilo:**
+      ```text
+      El texto debe obtener una puntuación de legibilidad superior a 70 en la escala Flesch.
+      ```
+    * **Contenido:**
+      ```text
+      Debe mencionar obligatoriamente las palabras clave: 'sostenibilidad', 'logística' y 'optimización'.
+      ```
 
 **Paso 2: Asigna un Rol y Contexto**  
 Dale al LLM una "personalidad" o un rol de experto. Esto acota su conocimiento y define el tono, estilo y perspectiva de la respuesta.
