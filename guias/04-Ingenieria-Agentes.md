@@ -174,6 +174,72 @@ Este es uno de los puntos de partida más simples y poderosos, que se conecta di
 
 ---
 
+#### Estrategia 3: El Agente Especializado (El Flujo de "Auto-Prompting")
+
+Este es uno de los puntos de partida más simples y poderosos, que se conecta directamente con el concepto de **Meta-Prompting** (usar la IA para ayudarte a crear prompts).
+
+* **¿Qué es?** En lugar de un agente "que lo hace todo", creas un agente (un chat) dedicado a una sola tarea con un contexto perfecto.
+* **¿Por qué funciona?** Un flujo de trabajo de "auto-prompting" (self-prompting) es un ejemplo perfecto. Usas un "Chat 1" (El Taller) para que actúe como un Agente Especialista en crear prompts. Su "herramienta" es el conocimiento de la Guía 01. Luego, copias el resultado (el prompt avanzado) y lo pegas en un "Chat 2" (La Ejecución). Este segundo chat es el Agente Ejecutor, que opera con una "pizarra limpia" (contexto) y una instrucción perfecta.
+
+**Ejemplo de Flujo de Trabajo (El Taller y la Ejecución):**
+
+Tu objetivo es crear un email de marketing persuasivo.
+
+**Paso 1: Usar el "Chat 1" (El Taller)**
+
+Este chat está pre-cargado con el "Método de Prompting en 7 Pasos" (Guía 01).
+
+* 👤 **Usuario (Define el Objetivo):**
+  ```text
+  Quiero un prompt para un email de marketing para un nuevo software de contabilidad. El público son gerentes de finanzas.
+  ```
+
+* 💭 **Agente Taller (Razona):**
+  ```text
+  El usuario necesita un prompt (Paso 1). Mi trabajo es aplicar los 7 Pasos (Rol, Restricciones, Formato) para construir el prompt óptimo.
+  ```
+
+* ⚙️ **Agente Taller (Actúa - Genera el Prompt):**
+  ```text
+  Aquí tienes un prompt de "Nivel Arquitecto", optimizado según la Guía 01:
+
+  [INICIO DEL PROMPT GENERADO]
+  Actúa como un experto en redacción de marketing B2B, especializado en el sector financiero. Tu audiencia son Gerentes de Finanzas con poco tiempo.
+
+  Tu tarea es redactar un email que presente nuestro nuevo "Software de Contabilidad Quantum".
+
+  RESTRICCIONES:
+  1. El tono debe ser profesional, directo y centrado en el ROI.
+  2. El email NO debe exceder las 150 palabras.
+  3. El asunto debe ser corto y persuasivo.
+
+  FORMATO:
+  Asunto: [Tu Asunto Aquí]
+  Cuerpo: [Tu Email Aquí]
+  [FIN DEL PROMPT GENERADO]
+  ```
+
+**Paso 2: Usar el "Chat 2" (La Ejecución)**
+
+Abres un chat nuevo (una "pizarra limpia") para ejecutar la tarea.
+
+* 👤 **Usuario (Ejecuta el Prompt):**
+  *(El usuario copia y pega el prompt completo generado por el Taller)*
+  ```text
+  Actúa como un experto en redacción de marketing B2B, especializado en el sector financiero. Tu audiencia son Gerentes de Finanzas con poco tiempo.
+  ...
+  FORMATO:
+  Asunto: [Tu Asunto Aquí]
+  Cuerpo: [Tu Email Aquí]
+  ```
+
+* ⚙️ **Agente Ejecutor (Actúa):**
+  *(Genera el email de alta calidad)*
+
+**Aplicación Práctica:** Podemos diseñar chats pre-cargados (agentes) para tareas específicas: un "Agente-Traductor-Legal" (cargado con glosarios legales) o un "Agente-Revisor-de-Estilo" (cargado con la guía de marca de la empresa).
+
+---
+
 #### Conclusión: De Arquitecto de Sistemas a Director de Orquesta
 
 La evolución de nuestra maestría en IA ha sido un viaje de abstracción:
