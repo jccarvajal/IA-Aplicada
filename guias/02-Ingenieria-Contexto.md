@@ -122,12 +122,15 @@ Si RAG es la "biblioteca" (conocimiento estático externo), la Memoria Explícit
 El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar su memoria:
 
 1.  **El Usuario da Información (Lunes):**
-    * *Usuario:*
+    * 👤 **Usuario:**
       ```text
       Mi proyecto clave se llama 'Alfa' y la fecha límite es el 15 de noviembre.
       ```
-    * *Agente (Razona):* "Dato fáctico importante para el futuro. Debo usar mi herramienta `escribir_nota`."
-    * *Agente (Actúa):*
+    * 🧠 **Agente (Razona):**
+      ```text
+      Dato fáctico importante para el futuro. Debo usar mi herramienta `escribir_nota`.
+      ```
+    * ⚙️ **Agente (Actúa):**
       ```yaml
       acción: escribir_nota
       argumentos:
@@ -136,19 +139,24 @@ El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar s
       ```
 
 2.  **El Usuario Pregunta (Martes, Pizarra Limpia):**
-    * *Usuario:*
+    * 👤 **Usuario:**
       ```text
       ¿Cuánto falta para la entrega del proyecto 'Alfa'?
       ```
-    * *Agente (Razona):* "No sé qué es 'Alfa' en mi contexto actual. Antes de responder, debo revisar mi bloc de notas."
-    * *Agente (Actúa):*
+    * 🧠 **Agente (Razona):**
+      ```text
+      No sé qué es 'Alfa' en mi contexto actual. Antes de responder, debo revisar mi bloc de notas.
+      ```
+    * ⚙️ **Agente (Actúa):**
       ```yaml
       acción: leer_nota
       argumentos:
         llave: proyecto_alfa
       ```
-    * *Agente (Observa):* (Resultado: `{"deadline": "2025-11-15"}`)
-    * *Agente (Responde):* "Según mis notas, faltan 22 días para el proyecto 'Alfa'."
+    * 🗣️ **Agente (Observa):** (Resultado: `{"deadline": "2025-11-15"}`)
+    * 🤖 **Agente (Responde):** "Según mis notas, faltan 22 días para el proyecto 'Alfa'."
+
+
 
 ---
 
