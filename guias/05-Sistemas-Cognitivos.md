@@ -43,7 +43,7 @@ Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un pat
 
 **B. ReAct (Reason \+ Act): El "Detective con Herramientas"**
 
-* **Qué es:** El pilar de los agentes modernos. El modelo genera un "Pensamiento" (Reason) sobre lo que necesita hacer y qué "Herramienta" (Act) —una API o función externa— debe usar. Luego "Observa" el resultado de la herramienta y repite el ciclo. Es el motor fundamental de los agentes.
+* **Qué es:** El pilar de los agentes modernos. El modelo genera un "Pensamiento" (Reason) sobre lo que necesita hacer y qué "Herramienta" (Act), una API o función externa, debe usar. Luego "Observa" el resultado de la herramienta y repite el ciclo. Es el motor fundamental de los agentes.
 * **Metáfora:** Un detective que, en lugar de adivinar, usa activamente sus herramientas (lupa, teléfono, base de datos de huellas).
 * **Cuándo usarlo:** Casi siempre. Es la arquitectura fundamental para cualquier agente que deba interactuar con el mundo exterior.
 * **Ejemplo Práctico (Ciclo):**
