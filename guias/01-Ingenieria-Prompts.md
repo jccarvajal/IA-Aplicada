@@ -97,7 +97,12 @@ Aquí es donde defines el "cómo". Sé explícito sobre el formato, la estructur
   ```
 * **Ejemplo Instrucción Detallada:**
   ```text
-  Genera una lista con 5 ideas de negocios online con baja inversión inicial. Para cada idea, incluye: 1\) Nombre de la idea, 2\) Público objetivo, 3\) Un primer paso para validarla. Presenta el resultado en formato de tabla.
+  Genera una lista con 5 ideas de negocios online con baja inversión inicial. 
+  Para cada idea, incluye: 
+  1) Nombre de la idea, 
+  2) Público objetivo, 
+  3) Un primer paso para validarla. 
+  Presenta el resultado en formato de tabla.
   ```
 
 **Paso 4: Usa Ejemplos y Referencias (Few-Shot Prompting)**  
