@@ -43,22 +43,35 @@ Para que un agente "piense", debemos darle un "Manual de Procedimientos" (un pat
 
 **B. ReAct (Reason \+ Act): El "Detective con Herramientas"**
 
-* **Qué es:** El pilar de los agentes modernos. El modelo genera un "Pensamiento" (Reason) sobre lo que necesita hacer y qué "Herramienta" (Act) —una API o función externa— debe usar. Luego "Observa" el resultado de la herramienta y repite el ciclo. Es el motor fundamental de los agentes.  
-* **Metáfora:** Un detective que, en lugar de adivinar, usa activamente sus herramientas (lupa, teléfono, base de datos de huellas).  
-* **Cuándo usarlo:** Casi siempre. Es la arquitectura fundamental para cualquier agente que deba interactuar con el mundo exterior.  
-* Ejemplo Práctico (Ciclo):*
-* *Input:* "Recomiéndame un restaurante italiano cerca de la oficina."
-* *Ciclo 1:*
-  * *Reason (Pensamiento):* "Necesito la ubicación de la oficina y una lista de restaurantes. Usaré la herramienta get\_office\_location."
-  * *Act (Acción):* get\_office\_location()
-  * *Observe (Observación):* "Ubicación: Av. Principal 123."
-* *Ciclo 2:*
-  * *Reason (Pensamiento):* "Tengo la ubicación. Ahora necesito buscar restaurantes. Usaré search\_google\_maps('restaurante italiano', 'Av. Principal 123')."
-  * *Act (Acción):* search\_google\_maps(...)
-  * *Observe (Observación):* "Resultados: \[Restaurante A, Restaurante B, Restaurante C\]."
-* *Ciclo 3:*
-  * *Reason (Pensamiento):* "Tengo la lista. Ahora puedo formular la respuesta."
-  * *Act (Acción):* (Genera la respuesta final al usuario).
+* **Qué es:** El pilar de los agentes modernos. El modelo genera un "Pensamiento" (Reason) sobre lo que necesita hacer y qué "Herramienta" (Act) —una API o función externa— debe usar. Luego "Observa" el resultado de la herramienta y repite el ciclo. Es el motor fundamental de los agentes.
+* **Metáfora:** Un detective que, en lugar de adivinar, usa activamente sus herramientas (lupa, teléfono, base de datos de huellas).
+* **Cuándo usarlo:** Casi siempre. Es la arquitectura fundamental para cualquier agente que deba interactuar con el mundo exterior.
+* **Ejemplo Práctico (Ciclo):**
+  * *Input:*
+    ```text
+    Recomiéndame un restaurante italiano cerca de la oficina.
+    ```
+  * *Ciclo 1:*
+    * *Reason (Pensamiento):* "Necesito la ubicación de la oficina y una lista de restaurantes. Usaré la herramienta get\_office\_location."
+    * *Act (Acción):*
+      ```yaml
+      acción: get_office_location
+      argumentos: {}
+      ```
+    * *Observe (Observación):* "Ubicación: Av. Principal 123."
+  * *Ciclo 2:*
+    * *Reason (Pensamiento):* "Tengo la ubicación. Ahora necesito buscar restaurantes. Usaré search\_google\_maps."
+    * *Act (Acción):*
+      ```yaml
+      acción: search_google_maps
+      argumentos:
+        query: "restaurante italiano"
+        ubicacion: "Av. Principal 123"
+      ```
+    * *Observe (Observación):* "Resultados: \[Restaurante A, Restaurante B, Restaurante C\]."
+  * *Ciclo 3:*
+    * *Reason (Pensamiento):* "Tengo la lista. Ahora puedo formular la respuesta."
+    * *Act (Acción):* (Genera la respuesta final al usuario).
 
 **C. Tree of Thoughts (ToT): El "Comité de Estrategia"**
 
