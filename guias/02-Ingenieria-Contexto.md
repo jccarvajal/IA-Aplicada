@@ -126,13 +126,10 @@ El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar s
     * *Agente (Razona):* "Dato fáctico importante para el futuro. Debo usar mi herramienta `escribir_nota`."
     * *Agente (Actúa):*
         ```json
-        {
-          "acción": "escribir_nota",
-          "argumentos": {
-            "llave": "proyecto_alfa",
-            "valor": "2025-11-15"
-          }
-        }
+        acción: escribir_nota
+        argumentos:
+          llave: proyecto_alfa
+          valor: "2025-11-15"
         ```
 
 2.  **El Usuario Pregunta (Martes, Pizarra Limpia):**
