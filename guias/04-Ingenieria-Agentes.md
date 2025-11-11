@@ -162,16 +162,6 @@ Esta es la estrategia de escalabilidad más importante. Ya no pensamos en un sol
   3. **Síntesis:** El Director recibe los entregables de cada "PM" y los integra en el resultado final (la campaña completa).
 * **Beneficio:** El Director se encarga de la estrategia de alto nivel. Además, cada "Agente PM" trabaja con su propia "pizarra limpia" (su propio **contexto**, o memoria de trabajo), volviéndose más rápido, barato y preciso en su tarea especializada.
 
-
----
-
-#### Estrategia 3: El Agente Especializado (El Flujo de "Auto-Prompting")  
-Este es uno de los puntos de partida más simples y poderosos, que se conecta directamente con el concepto de Meta-Prompting (usar la IA para ayudarte a crear prompts).
-
-* **¿Qué es?** En lugar de un agente "que lo hace todo", creas un agente (un chat) dedicado a una sola tarea con un contexto perfecto.  
-* **¿Por qué funciona?** Un flujo de trabajo de "auto-prompting" (self-prompting) es un ejemplo perfecto. Usas un Chat 1 (El Taller), cargado con el conocimiento de la Guía 01 (Prompts), para que actúe como un Agente Especialista en crear prompts. Su "herramienta" es el conocimiento de esa guía. Luego, copias el resultado (el prompt avanzado) y lo pegas en un Chat 2 (La Ejecución). Este segundo chat es el Agente Ejecutor, que opera con una "pizarra limpia" (contexto) y una instrucción perfecta.  
-* **Aplicación Práctica:** Podemos diseñar chats pre-cargados (agentes) para tareas específicas: un "Agente-Traductor-Legal" (cargado con glosarios legales) o un "Agente-Revisor-de-Estilo" (cargado con la guía de marca de la empresa).
-
 ---
 
 #### Estrategia 3: El Agente Especializado (El Flujo de "Auto-Prompting")
