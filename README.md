@@ -7,6 +7,8 @@ Un "tratado de criterio" para profesionales que comienzan su integración con IA
 
 ![Portada de IA Aplicada](./IMG_1596.jpeg)
 
+<img src="./IMG_1596.jpeg" alt="Portada del Libro - Inteligencia Artificial Aplicada" width="600">
+
 ---
 
 ### Propósito de esta Obra
