@@ -79,20 +79,38 @@ Antes de escribir, define con precisión qué resultado necesitas y cómo medir�
 **Paso 2: Asigna un Rol y Contexto**  
 Dale al LLM una "personalidad" o un rol de experto. Esto acota su conocimiento y define el tono, estilo y perspectiva de la respuesta.
 
-* **Ejemplo Sin Rol:** "Explica la fotosíntesis."  
-* **Ejemplo Con Rol:** "Eres un biólogo y profesor apasionado. Explica el proceso de la fotosíntesis a niños de 10 años, usando una analogía con una fábrica de comida para plantas."
+* **Ejemplo Sin Rol:**
+  ```text
+  Explica la fotosíntesis.
+  ```
+* **Ejemplo Con Rol:**
+  ```text
+  Eres un biólogo y profesor apasionado. Explica el proceso de la fotosíntesis a niños de 10 años, usando una analogía con una fábrica de comida para plantas.
+  ```
 
 **Paso 3: Añade Instrucciones y Restricciones (El "Cómo")**  
 Aquí es donde defines el "cómo". Sé explícito sobre el formato, la estructura, la extensión, las prohibiciones y el estilo que deseas.
 
-* **Ejemplo Poca Instrucción:** "Dame ideas para un negocio."  
-* **Ejemplo Instrucción Detallada:** "Genera una lista con 5 ideas de negocios online con baja inversión inicial. Para cada idea, incluye: 1\) Nombre de la idea, 2\) Público objetivo, 3\) Un primer paso para validarla. Presenta el resultado en formato de tabla."
+* **Ejemplo Poca Instrucción:**
+  ```text
+  Dame ideas para un negocio.
+  ```
+* **Ejemplo Instrucción Detallada:**
+  ```text
+  Genera una lista con 5 ideas de negocios online con baja inversión inicial. Para cada idea, incluye: 1\) Nombre de la idea, 2\) Público objetivo, 3\) Un primer paso para validarla. Presenta el resultado en formato de tabla.
+  ```
 
 **Paso 4: Usa Ejemplos y Referencias (Few-Shot Prompting)**  
 Si tienes un formato o estilo muy específico en mente, muéstrale al modelo un ejemplo. Los LLM son excelentes para reconocer y replicar patrones.
 
-* **Ejemplo 1:** "Quiero crear resúmenes de libros con este estilo: 'Libro: El Principito. Idea Clave: Lo esencial es invisible a los ojos; las relaciones y el amor son más importantes que las apariencias.' Ahora, genera un resumen con el mismo estilo para el libro 'Cien años de soledad'."  
-* **Ejemplo 2:** "Quiero respuestas en el estilo 'Pregunta-Respuesta Invertida'. Ejemplo: 'Fue la penicilina el descubrimiento que revolucionó la medicina moderna. ¿Cuál fue el descubrimiento de Alexander Fleming?'. Ahora, usa ese estilo para el concepto de la relatividad de Einstein."
+* **Ejemplo 1:**
+  ```text
+  Quiero crear resúmenes de libros con este estilo: 'Libro: El Principito. Idea Clave: Lo esencial es invisible a los ojos; las relaciones y el amor son más importantes que las apariencias.' Ahora, genera un resumen con el mismo estilo para el libro 'Cien años de soledad'.
+  ```
+* **Ejemplo 2:**
+  ```text
+  Quiero respuestas en el estilo 'Pregunta-Respuesta Invertida'. Ejemplo: 'Fue la penicilina el descubrimiento que revolucionó la medicina moderna. ¿Cuál fue el descubrimiento de Alexander Fleming?'. Ahora, usa ese estilo para el concepto de la relatividad de Einstein.
+  ```
 
 **Paso 5: Incorpora Técnicas Avanzadas (Estratégicamente)**  
 Aquí es donde potencias tu prompt para tareas complejas que requieren razonamiento, creatividad o precisión, pero solo cuando la tarea lo justifica. Más sobre esto en la siguiente sección.
