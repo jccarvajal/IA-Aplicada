@@ -225,7 +225,10 @@ Las siguientes técnicas se integran en el método para resolver problemas más 
 Aquí conectamos las técnicas avanzadas con el método de 7 pasos para ver dónde aportan más valor.
 
 * **Paso 1 (Objetivo):**  
-  * **Técnica de más valor: Meta-Prompting.** Si tu objetivo es difuso, puedes pedirle al LLM que te ayude a clarificarlo. "Quiero escribir algo sobre IA, pero no estoy seguro del enfoque. Sugiere 3 objetivos claros y específicos para un artículo dirigido a dueños de pequeñas empresas."  
+  * **Técnica de más valor: Meta-Prompting.** Si tu objetivo es difuso, puedes pedirle al LLM que te ayude a clarificarlo.
+    ```text
+    Quiero escribir algo sobre IA, pero no estoy seguro del enfoque. Sugiere 3 objetivos claros y específicos para un artículo dirigido a dueños de pequeñas empresas.
+    ```
 * **Paso 2 (Rol) y Paso 3 (Instrucciones):**  
   * Estas fases dependen más de la claridad y especificidad del usuario que de una técnica avanzada. La clave es ser directo y no dejar espacio a la ambigüedad.  
 * **Paso 4 (Ejemplos \- Few-Shot):**  
@@ -234,11 +237,17 @@ Aquí conectamos las técnicas avanzadas con el método de 7 pasos para ver dón
   * **Técnica de más valor: Chain-of-Thought (CoT).** Este es el lugar natural para usar CoT cuando la tarea implica lógica, cálculo o deducción.  
   * **Técnica de más valor: Self-Consistency.** Si la tarea es creativa o subjetiva (escribir textos de marketing, generar ideas), pedir múltiples variantes aquí es la mejor estrategia.  
 * **Paso 6 (Evalúa y Valida):**  
-  * **Técnica de más valor: Meta-Prompting (en modo autocritica).** Pedirle al modelo que evalúe su propia respuesta es una forma rápida y eficaz de detectar errores o debilidades. "Analiza la respuesta anterior. ¿Es el tono adecuado para el público objetivo? ¿Hay alguna frase que podría sonar confusa? Propón mejoras."  
+  * **Técnica de más valor: Meta-Prompting (en modo autocritica).** Pedirle al modelo que evalúe su propia respuesta es una forma rápida y eficaz de detectar errores o debilidades.
+    ```text
+    Analiza la respuesta anterior. ¿Es el tono adecuado para el público objetivo? ¿Hay alguna frase que podría sonar confusa? Propón mejoras.
+    ```
   * **Técnica de más valor: Self-Consistency.** Al comparar las diferentes salidas generadas, puedes evaluar cuál cumple mejor el objetivo inicial.  
 * **Paso 7 (Itera con Intención):**  
   * **Técnica de más valor: Prompt Chaining.** Si un prompt monolítico y complejo falla repetidamente, la mejor forma de iterar es descomponerlo en una cadena de prompts más simples. Esto te da control granular sobre cada parte del proceso.  
-  * **Técnica de más valor: Meta-Prompting.** Si estás atascado, pregúntale al modelo: "Mi prompt anterior \[pegar prompt\] no está funcionando. Generó \[describir salida no deseada\]. ¿Cómo puedo refinar mi prompt para obtener \[describir resultado deseado\]?"
+  * **Técnica de más valor: Meta-Prompting.** Si estás atascado, pregúntale al modelo:
+    ```text
+    Mi prompt anterior \[pegar prompt\] no está funcionando. Generó \[describir salida no deseada\]. ¿Cómo puedo refinar mi prompt para obtener \[describir resultado deseado\]?
+    ```
 
 ---
 
