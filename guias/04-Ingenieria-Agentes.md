@@ -40,7 +40,10 @@ Esto es lo más importante. Un agente no solo da una respuesta y se detiene. Ope
 
 Así es como "piensa" un agente en la práctica:
 
-* **Objetivo del Usuario:** "Busca el pronóstico del clima de hoy en Valparaíso y envíame un resumen por email."  
+* **Objetivo del Usuario:**
+  ```text
+  Busca el pronóstico del clima de hoy en Valparaíso y envíame un resumen por email.
+  ```
 * **Herramientas Disponibles:**  
   * buscar\_clima(ciudad)  
   * enviar\_email(destinatario, cuerpo)
@@ -80,14 +83,16 @@ El agente ahora debe "razonar" y "actuar" en un bucle:
    * *Pensamiento:* "Email enviado. El objetivo ('buscar' Y 'enviar') está cumplido."
    * *(El bucle se detiene)*
 
-**Respuesta Final al Usuario:** "Listo. El clima en Valparaíso es de 18C, parcialmente nublado. Te he enviado el resumen."
+**Respuesta Final al Usuario:**
+  ```text
+  Listo. El clima en Valparaíso es de 18C, parcialmente nublado. Te he enviado el resumen.
+  ```
 
 **3\. Las Herramientas (Tools): Las "Manos" del Agente**
 
 Las herramientas son la conexión del cerebro de la IA con el mundo digital. Sin herramientas, es solo un "conversador". Con herramientas, es un "actor".  
 
 *Ejemplos de Herramientas:*
-
 * buscar\_en\_google()  
 * leer\_archivo('documento.pdf')  
 * escribir\_en\_base\_de\_datos()  
@@ -100,9 +105,15 @@ Las herramientas son la conexión del cerebro de la IA con el mundo digital. Sin
 
 Aquí es donde reside el verdadero "arte" de la ingeniería de agentes. El *trade-off* ya no es solo costo vs. latencia, sino **Autonomía vs. Seguridad**.
 
-* **Correa Suelta (Autonomía Total):** "OK Agente, aquí tienes $100 y mi tarjeta de crédito. Reserva el mejor viaje."  
+* **Correa Suelta (Autonomía Total):**
+  ```text
+  OK Agente, aquí tienes $100 y mi tarjeta de crédito. Reserva el mejor viaje.
+  ```
   * *Riesgo:* Poderoso, pero aterrador. El agente podría entrar en un bucle, gastar todo el dinero, reservar el hotel equivocado o enviar un email vergonzoso a tu jefe.  
-* **Correa Corta (Control Total):** "OK Agente, dime tu primer paso.... OK, apruebo ese paso, ejecútalo.... OK, muéstrame el resultado.... Ahora, dime tu segundo paso."  
+* **Correa Corta (Control Total):**
+  ```text
+  OK Agente, dime tu primer paso.... OK, apruebo ese paso, ejecútalo.... OK, muéstrame el resultado.... Ahora, dime tu segundo paso.
+  ```
   * *Riesgo:* 100% seguro, pero lento y tedioso. Básicamente, volvemos a la ingeniería de prompts (una técnica conocida como **Prompt Chaining**, o dividir una tarea en muchos prompts) y perdemos el beneficio de la autonomía.
 
 El Buen Enfoque: El juicio de ingeniería está en diseñar un sistema que sepa cuándo actuar solo y cuándo parar para pedir validación humana.
@@ -110,8 +121,6 @@ El Buen Enfoque: El juicio de ingeniería está en diseñar un sistema que sepa 
 ---
 
 #### Estrategias Fundamentales de Ingeniería de Agentes
-
-Estas son las técnicas para dirigir a nuestros nuevos "trabajadores digitales" sin causar un desastre.
 
 Estas son las técnicas para dirigir a nuestros nuevos “trabajadores digitales” sin causar un desastre. A continuación, revisaremos tres estrategias fundamentales: **El Agente con "Humano-en-el-Bucle"**, **La Orquesta de Agentes (El Director de Programa)** y **El Agente Especializado (El Flujo de "Auto-Prompting")**.
 
