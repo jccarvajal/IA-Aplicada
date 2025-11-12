@@ -31,7 +31,16 @@ Más adelante nos enfocaremos en la **Gobernanza de IA** (el control sobre las *
 Las Políticas del "Arquitecto de la Información":
 
 1. **Catalogación (Metadata):** No puedes gobernar lo que no puedes encontrar. Cada documento en tu "biblioteca" RAG debe tener "etiquetas" (metadata):  
-   * *Ejemplo:* { documento: 'manual\_bcp.pdf', versión: 'v3.1', fecha: '2025-10-01', propietario: 'Depto. Riesgos', sensibilidad: 'Confidencial' }.  
+   * *Ejemplo:*
+     ```text
+     { 
+     documento: 'manual\_bcp.pdf', 
+     versión: 'v3.1', 
+     fecha: '2025-10-01', 
+     propietario: 'Depto. Riesgos', 
+     sensibilidad: 'Confidencial' 
+     }
+     ```
 2. **Protección y Control de Acceso:** No todos los agentes deben leerlo todo. El acceso a los datos debe cumplir con los marcos legales (como la Ley N° 19.628 en Chile) sobre protección de datos personales y sensibles.  
    * *Política:* El "Agente de Soporte al Cliente" solo puede "leer" (RAG) documentos con la etiqueta sensibilidad: 'Público'. El "Agente Legal" puede leer sensibilidad: 'Confidencial'.  
 3. **Gestión del Ciclo de Vida (Archivado):** Los datos obsoletos son peligrosos; son el combustible de las alucinaciones factuales.  
