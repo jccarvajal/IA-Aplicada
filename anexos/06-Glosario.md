@@ -78,6 +78,12 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** La ventaja estratégica defendible que una empresa construye con IA. El glosario argumenta que el "foso" no es el modelo LLM (que es un commodity), sino los datos propietarios (para RAG), los datos de juicio humano (para Ajuste Fino) y la eficiencia de la Gobernanza (Guía 07 y Guía 09).  
 * **Referencia Principal:** Guía 12 (Estrategia y Valor en la Era de la IA).
 
+**Framework PPP (Productividad, Proactividad y Personalización)**
+
+* **Definición:** Un *framework* de Gobernanza y Evaluación (introducido en la Guía 07), basado en investigaciones de 2025 (Sun, et al.), para medir la calidad de un agente de IA. Establece que el éxito de un agente no solo depende de la **Productividad** (completar la tarea), sino también de la **Proactividad** (gestionar la ambigüedad) y la **Personalización** (adaptarse al usuario).
+* **Referencia Principal:** Guía 07 (Gobernanza de IA).
+
+
 **Gobernanza de IA (AI Governance)**
 
 * **Definición:** El marco de políticas, procesos y controles técnicos para gestionar la IA de forma segura, ética y eficiente. Su objetivo es maximizar el valor mientras se mitigan los riesgos clave (alucinaciones, fugas de datos, inyección de prompts, costos).  
