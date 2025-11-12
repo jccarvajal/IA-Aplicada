@@ -128,7 +128,7 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Una perspectiva futura de la IA donde los "agentes" salen de la pantalla y se integran con la robótica. Es la fusión de los LLM (para entender el lenguaje natural) con cuerpos robóticos (para ejecutar acciones físicas en el mundo real).  
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
 
-**IA en la Sombra(Shadow AI)**
+**IA en la Sombra (Shadow AI)**
 
 * **Definición:** Término de la industria (2025) para el uso no autorizado de herramientas de IA públicas (ej. ChatGPT personal) por parte de empleados para tareas laborales. Es un riesgo de gobernanza principal por la fuga de datos sensibles.  
 * **Referencia Principal:** Guía 07 (Gobernanza de IA).
@@ -319,7 +319,8 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
 
 **Web Agéntica (Agentic Web)**
-* **Definición:** Concepto de la industria (mencionado en informes del MIT de 2025 ) que describe la siguiente evolución de la IA, más allá de los agentes individuales. Es una red persistente e interconectada de agentes autónomos que pueden colaborar, negociar y coordinar tareas entre sí a través de diferentes plataformas, dominios y organizaciones, utilizando protocolos de interoperabilidad (como NANDA, MCP o A2A ).* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA) .
+* **Definición:** Concepto de la industria (mencionado en informes del MIT de 2025 ) que describe la siguiente evolución de la IA, más allá de los agentes individuales. Es una red persistente e interconectada de agentes autónomos que pueden colaborar, negociar y coordinar tareas entre sí a través de diferentes plataformas, dominios y organizaciones, utilizando protocolos de interoperabilidad (como NANDA, MCP o A2A ).
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA) .
 
 ---
   <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
