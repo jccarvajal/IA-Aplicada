@@ -155,13 +155,13 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 **Personalización (Personalization)**
 
-**Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para adaptar su estilo de interacción (tono, formato, lenguaje) a las preferencias explícitas o implícitas del usuario, reduciendo la fricción y mejorando la adopción.
-**Referencia Principal:** Guía 07 (Gobernanza de IA).
+* **Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para adaptar su estilo de interacción (tono, formato, lenguaje) a las preferencias explícitas o implícitas del usuario, reduciendo la fricción y mejorando la adopción.
+* **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
 **Proactividad (Proactivity)**
 
-**Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para identificar instrucciones vagas o ambiguas y solicitar aclaraciones estratégicas ("preguntas de bajo esfuerzo"), en lugar de fallar o frustrar al usuario con preguntas irrelevantes ("alto esfuerzo").
-**Referencia Principal:** Guía 07 (Gobernanza de IA).
+* **Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para identificar instrucciones vagas o ambiguas y solicitar aclaraciones estratégicas ("preguntas de bajo esfuerzo"), en lugar de fallar o frustrar al usuario con preguntas irrelevantes ("alto esfuerzo").
+* **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
 **Productividad (Productivity)**
 
