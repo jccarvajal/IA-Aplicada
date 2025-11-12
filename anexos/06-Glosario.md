@@ -153,20 +153,20 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Una habilidad cognitiva humana clave (Guía 11). Es la capacidad de descomponer un problema complejo del mundo real en una secuencia de pasos lógicos (un algoritmo) que pueden ser ejecutados por un Co-Piloto de IA.  
 * **Referencia Principal:** Guía 11 (Aprender a Pensar con IA).
 
-**Personalización (Personalization)**
+**Personalización (dentro del Framework PPP)**
 
-* **Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para adaptar su estilo de interacción (tono, formato, lenguaje) a las preferencias explícitas o implícitas del usuario, reduciendo la fricción y mejorando la adopción.
+* **Definición:** En el contexto del **Framework PPP** (Guía 07), la 'Personalización' es la métrica de calidad de interacción que mide la habilidad del agente para reducir la fricción adaptando su estilo (tono, formato, etc.) a las preferencias del usuario.
+* **Referencia Principal:** Guía 07 (Gobernanza de IA), Guía 10 (Humanidad, Ética y Confianza).
+
+**Proactividad (dentro del Framework PPP)**
+
+* **Definición:** En el contexto del **Framework PPP** (Guía 07), la 'Proactividad' es la métrica de calidad de interacción que mide la habilidad del agente para gestionar la ambigüedad. Un agente proactivo identifica instrucciones vagas y solicita aclaraciones estratégicas ("preguntas de bajo esfuerzo").
 * **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
-**Proactividad (Proactivity)**
+**Productividad (dentro del Framework PPP)**
 
-* **Definición:** Una métrica de gobernanza y calidad de la interacción. Es la habilidad de un agente de IA para identificar instrucciones vagas o ambiguas y solicitar aclaraciones estratégicas ("preguntas de bajo esfuerzo"), en lugar de fallar o frustrar al usuario con preguntas irrelevantes ("alto esfuerzo").
-* **Referencia Principal:** Guía 07 (Gobernanza de IA).
-
-**Productividad (Productivity)**
-
-* **Definición:** Una métrica de gobernanza y el pilar de la evaluación. Mide la capacidad del agente para completar la tarea asignada con éxito (ej. su Tasa de Éxito en el "Golden Set"). Es el *baseline* de rendimiento antes de optimizar la Proactividad y la Personalización.
-* **Referencia Principal:** Guía 08 (Evaluación, Calidad y Validación de IA), Guía 07 (Gobernanza de IA).
+* **Definición:** En el contexto del **Framework PPP** (Guía 07), la 'Productividad' es la métrica *baseline* que mide la eficacia del agente, es decir, su Tasa de Éxito en la Tarea (Task Success Rate). Es la métrica que se mide en la Guía 08 (Evaluación).
+* **Referencia Principal:** Guía 07 (Gobernanza de IA), Guía 08 (Evaluación, Calidad y Validación de IA).
 
 **Prosumer**
 
