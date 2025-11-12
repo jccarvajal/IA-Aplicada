@@ -74,7 +74,7 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de lecturas funda
 * **Gobierno de Chile. (2012). "Ley N° 20.609 que establece medidas contra la discriminación".**  
   * **Por qué leerlo:** Proporciona la definición legal de **"discriminación arbitraria"** y las categorías protegidas, el "guardarraíl" legal para la **Guía 08 (Evaluación)** y la **Guía 10 (Ética)**.
 * **Unión Europea. (2024). "Reglamento del Parlamento Europeo [...] por el que se establecen normas armonizadas en materia de inteligencia artificial (Ley de Inteligencia Artificial)".**
-  * **Por qué leerlo:** Es el primer marco regulatorio integral de IA del mundo. Proporciona el fundamento legal que convierte la Gobernanza (Guía 07), la Evaluación (Guía 08) y la Gobernanza de Datos (Guía 03) de "mejores prácticas" en "obligaciones legales" para sistemas de alto riesgo. Valida la tesis de esta obra.
+  * **Por qué leerlo:** Es el primer marco regulatorio integral de IA del mundo. Proporciona el fundamento legal que convierte la **Gobernanza** (Guía 07), la **Evaluación** (Guía 08) y la **Gobernanza de Datos** (Guía 03) de "mejores prácticas" en "obligaciones legales" para sistemas de alto riesgo. Valida la tesis de esta obra.
 
 ---
 
