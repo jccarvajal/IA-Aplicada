@@ -23,6 +23,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un tipo de agente "gerente" (o de metacognición) cuyo único trabajo es analizar una solicitud y dirigirla al agente especialista o al modelo de IA (LLM) más adecuado para esa tarea específica (ej: enviar tareas analíticas a Claude 3 Opus y tareas simples a Haiku).  
 * **Referencia Principal:** Guía 05 (Diseño de Sistemas Cognitivos), Anexo 05 (Modelos y Mercado LLM).
 
+**Agentes-como-Servicio (AaaS)**
+
+* **Definición:** Una estrategia de adquisición (Anexo 05) donde se "contrata al especialista". Es un producto de IA terminado (ej. Perplexity, Copilot) que se consume vía suscripción, ofreciendo rápida implementación a cambio de baja flexibilidad técnica.
+* **Referencia Principal:** Anexo 05 (Modelos y Mercado LLM).
+
 **Ajuste Fino (Fine-Tuning)**
 
 * **Definición:** El proceso de re-entrenar un modelo de IA preexistente (como Llama 3\) usando un conjunto de datos más pequeño y específico. No le enseña nuevo conocimiento, sino que ajusta su comportamiento, tono, estilo o su habilidad para realizar una tarea muy específica.  
@@ -48,6 +53,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un caso de estudio práctico y un plano de arquitectura. Es la plantilla que conecta la teoría de las Guías y la técnica de los Anexos para resolver un problema de negocio específico, detallando los ingredientes, el flujo y la sinergia resultante.  
 * **Referencia Principal:** Anexo 02 (Lecciones de Implementación).
 
+**Brecha de Aprendizaje (Learning Gap)**
+
+* **Definición:** El concepto central de la obra. Describe por qué la mayoría de los pilotos de IA fracasan (el 95%). Se debe a que las herramientas genéricas son "tontas" y operan sin memoria, lo que se manifiesta en tres fallos: no recuerdan el contexto, no aprenden del feedback y no se adaptan al flujo de trabajo.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
 **Brecha GenAI (GenAI Divide)**
 
 * **Definición:** Término de la industria (2025) que describe la amplia brecha entre la alta experimentación con IA Generativa (la mayoría de las organizaciones) y el bajo retorno de inversión tangible (el 5% que logra impacto real en el negocio ). También se le conoce como la "Brecha de Escalamiento" (Scaling Gap), ya que los sondeos muestran que la mayoría de las empresas (62%) están atascadas en fases de "Experimentación" o "Pilotaje" y no logran escalar el valor a nivel empresarial.  
@@ -58,6 +68,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un riesgo operacional crítico donde un agente autónomo, usualmente operando en un ciclo ReAct, entra en un bucle (loop) infinito. Esto causa que el agente ejecute miles de llamadas a la API sin control, generando un gasto masivo e imprevisto.
 * **Referencia Principal:** Guía 07 (Gobernanza de IA), Guía 05 (Diseño de Sistemas Cognitivos).
 
+**Chain-of-Thought (CoT)**
+
+* **Definición:** Una técnica de *prompting* (Guía 01) y un patrón de razonamiento (Guía 05). Consiste en forzar al modelo a explicar su razonamiento "paso a paso" antes de dar la respuesta final, lo que aumenta la precisión en tareas lógicas.
+* **Referencia Principal:** Guía 01 (Ingeniería de Prompts), Guía 05 (Diseño de Sistemas Cognitivos).
+
 **Co-Piloto Estratégico**
 
 * **Definición:** El rol humano evolucionado en la sinergia Humano-IA. El Co-Piloto no es un "usuario" pasivo que "pide" tareas, sino un "operador" activo que "instruye", "valida" y "audita" a la IA, usando su criterio de "Sistema 2" para dirigir la herramienta. Ver también "Prosumer".  
@@ -67,6 +82,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Una estrategia de ingeniería de contexto donde, en una conversación larga, el sistema usa un LLM para resumir automáticamente el historial de chat anterior, preservando el contexto clave sin exceder la Ventana de Contexto.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**Datos Sintéticos (Synthetic Data)**
+
+* **Definición:** Una táctica de Estrategia de Datos donde se utiliza un modelo de IA potente para generar un gran volumen de ejemplos de entrenamiento de alta calidad. Es la fuente de datos clave para el Ajuste Fino.
+* **Referencia Principal:** Guía 03 (Estrategia de Datos), Anexo 01 (Ajuste Fino).
 
 **Estrategia de Datos (Data Strategy)**
 
@@ -83,6 +103,10 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un *framework* de Gobernanza y Evaluación (introducido en la Guía 07), basado en investigaciones de 2025 (Sun, et al.), para medir la calidad de un agente de IA. Establece que el éxito de un agente no solo depende de la **Productividad** (completar la tarea), sino también de la **Proactividad** (gestionar la ambigüedad) y la **Personalización** (adaptarse al usuario).
 * **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
+**Gobernanza de Datos (Data Governance)**
+
+* **Definición:** El "Pre-Juego" de la Gobernanza de IA. Es el marco de políticas para controlar la *fuente* de datos (el "combustible"). Incluye la Catalogación (metadata), el Control de Acceso (seguridad) y la Gestión del Ciclo de Vida (archivar datos obsoletos).
+* **Referencia Principal:** Guía 03 (Estrategia de Datos).
 
 **Gobernanza de IA (AI Governance)**
 
@@ -93,6 +117,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Un modelo de negocio habilitado por la IA. Es la capacidad de usar agentes para ofrecer un servicio de "conserje" personalizado a millones de clientes simultáneamente, un servicio que antes era económicamente inviable y se reservaba solo para clientes "premium".  
 * **Referencia Principal:** Guía 12 (Estrategia y Valor en la Era de la IA).
+
+**Humano-en-el-Bucle (Human-in-the-Loop)**
+
+* **Definición:** Un control de Gobernanza (Guía 07) y Sinergia (Guía 10). Es un punto de control obligatorio donde un agente autónomo debe detenerse y pedir validación a un humano antes de ejecutar una acción crítica o peligrosa (ej. enviar un email, gastar dinero).
+* **Referencia Principal:** Guía 06 (Prototipado y Experimentación), Guía 05 (Diseño de Sistemas Cognitivos), Guía 10 (Humanidad, Ética y Confianza).
 
 **IA Corpórea (Embodied AI)**
 
@@ -129,6 +158,16 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** La aceptación, aprobación y confianza continua que la sociedad (usuarios, clientes, ciudadanos) otorga a un proyecto de IA. Es un "permiso" ético e informal, distinto del legal, que se gana demostrando justicia, transparencia y operación responsable.
 * **Referencia Principal:** Guía 10 (Humanidad, Ética y Confianza).
 
+**LLM (Large Language Model)**
+
+* **Definición:** Un modelo de IA entrenado con un volumen masivo de texto. Su función es predecir la siguiente palabra más probable en una secuencia basándose en el contexto proporcionado. No "piensa", sino que calcula probabilidades.
+* **Referencia Principal:** Guía 01 (Ingeniería de Prompts).
+
+**LLM-como-Juez (LLM-as-a-judge)**
+
+* **Definición:** Una táctica de Evaluación (Guía 08). Consiste en usar un LLM de máxima potencia (ej. GPT-4o) como un "robot de QA". Se le entrega la Rúbrica de Evaluación (Anexo 03) como prompt para que califique de forma rápida y escalable las respuestas del agente.
+* **Referencia Principal:** Guía 08 (Evaluación, Calidad y Validación de IA).
+
 **LLM-Ops (Large Language Model Operations)**
 
 * **Definición:** Una especialización de DevOps. Es el conjunto de prácticas de ingeniería para gestionar el ciclo de vida completo de las aplicaciones de LLM, incluyendo la gestión de datos, el versionado de prompts, la evaluación (QA) y el monitoreo de costos y rendimiento en producción.  
@@ -143,6 +182,26 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Literalmente, "pensar sobre el pensamiento". En IA, se refiere a la capacidad de un sistema (usualmente un Agente Enrutador) para analizar una tarea, descomponerla y decidir qué proceso o agente especialista es el mejor para resolverla.  
 * **Referencia Principal:** Guía 05 (Diseño de Sistemas Cognitivos).
+
+**Modelos Open-Source (Ejecución Local)**
+
+* **Definición:** Una estrategia de adquisición (Anexo 05) donde se "compra la máquina". El modelo (ej. Llama, Mistral) se ejecuta en infraestructura propia, dando **Control** y **Soberanía de Datos** total. Es clave para el Ajuste Fino.
+* **Referencia Principal:** Anexo 05 (Modelos y Mercado LLM).
+
+**Modelos Pequeños (SLMs)**
+
+* **Definición:** (Small Language Models). Una tendencia clave (Guía 13) de modelos (ej. Phi-3, Llama 4-8B) diseñados para ejecutarse localmente en dispositivos (On-Device). Ofrecen Privacidad Total y Latencia Cero, revolucionando el **Control** y el **Costo**.
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
+**Modelos Propietarios (APIs)**
+
+* **Definición:** Una estrategia de adquisición (Anexo 05) donde se "arrienda el cerebro". Se accede al modelo (ej. GPT, Claude) a través de una API, pagando por token. Prioriza el **Rendimiento** sobre el **Control**.
+* **Referencia Principal:** Anexo 05 (Modelos y Mercado LLM).
+
+**Multimodalidad (Multimodality)**
+
+* **Definición:** La capacidad de los LLM modernos (Guía 13) de procesar múltiples tipos de *input* (modalidades) más allá del texto, incluyendo imágenes, audio y video.
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA), Guía 02 (Ingeniería de Contexto y Memoria).
 
 **Observabilidad (Observability)**
 
@@ -189,10 +248,35 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** El proceso rápido y de bajo costo para validar una hipótesis de IA. Su objetivo no es construir un sistema robusto, sino "matar malas ideas rápidamente" y aprender sobre la viabilidad de un agente, un prompt o un flujo de datos antes de invertir en la Industrialización (Guía 09).  
 * **Referencia Principal:** Guía 06 (Prototipado y Experimentación).
 
+**Quick Win (Victoria Rápida)**
+
+* **Definición:** El objetivo central del Prototipado (Guía 06). Es un caso de uso piloto que busca el **Máximo Valor de Negocio** con el **Mínimo Riesgo Técnico y de Seguridad**, para demostrar valor sin "hervir el océano".
+* **Referencia Principal:** Guía 06 (Prototipado y Experimentación).
+
 **RAG (Retrieval-Augmented Generation)**
 
 * **Definición:** La arquitectura de sistema más común para dar "memoria" a largo plazo a un LLM. El sistema **Recupera (Retrieves)** información relevante de una base de datos externa (usualmente vectorizada) y la **Aumenta (Augments)**, inyectándola en el prompt del LLM como contexto justo a tiempo.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**ReAct (Reason + Act)**
+
+* **Definición:** El "motor" o patrón de razonamiento fundamental de un Agente (Guía 04). El agente opera en un bucle (loop) donde genera un **Razonamiento** (el plan) y luego una **Acción** (el uso de una herramienta) para alcanzar un objetivo.
+* **Referencia Principal:** Guía 04 (Ingeniería de Agentes), Guía 05 (Diseño de Sistemas Cognitivos).
+
+**Reflexión (Reflection)**
+
+* **Definición:** Un patrón de razonamiento (Guía 05) donde un agente genera un primer borrador y luego invoca a un "agente crítico" (o a sí mismo en un rol de auditor) para que revise, critique y corrija su propio trabajo, mejorando la fiabilidad.
+* **Referencia Principal:** Guía 05 (Diseño de Sistemas Cognitivos).
+
+**Rotura de Contexto (Context Rot)**
+
+* **Definición:** Un problema operacional (Guía 02) que ocurre cuando la Ventana de Contexto (la "pizarra") se sobrecarga de tokens. Causa que la IA "olvide" instrucciones clave (el "Punto Ciego") o se confunda por el "Ruido".
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**Rúbrica de Evaluación (Evaluation Rubric)**
+
+* **Definición:** Una plantilla de calificación (Anexo 03) usada en la Evaluación (Guía 08) para medir objetivamente la calidad de la respuesta de un agente. Incluye métricas clave como Facticidad, Relevancia, Tono y Seguridad.
+* **Referencia Principal:** Guía 08 (Evaluación, Calidad y Validación de IA), Anexo 03 (Plantillas y Recursos).
 
 **Sinergia Humano-IA (Human-AI Synergy)**
 
@@ -213,6 +297,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** La unidad fundamental de procesamiento de un LLM. Un token no es una palabra; es una "pieza" de palabra (ej: "Gobernanza" pueden ser 3: "Gob", "er", "nanza"). Los costos y la Ventana de Contexto se miden en tokens.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**Tree of Thoughts (ToT)**
+
+* **Definición:** Un patrón de razonamiento avanzado (Guía 05) donde el agente explora múltiples caminos de razonamiento en paralelo (como un "Comité de Estrategia"), evalúa los pros y contras de cada uno, y descarta los callejones sin salida.
+* **Referencia Principal:** Guía 05 (Diseño de Sistemas Cognitivos).
 
 **Vectorización (Vectorization)**
 
