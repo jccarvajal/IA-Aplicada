@@ -319,6 +319,7 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
 
 **Web Agéntica (Agentic Web)**
+
 * **Definición:** Concepto de la industria (mencionado en informes del MIT de 2025 ) que describe la siguiente evolución de la IA, más allá de los agentes individuales. Es una red persistente e interconectada de agentes autónomos que pueden colaborar, negociar y coordinar tareas entre sí a través de diferentes plataformas, dominios y organizaciones, utilizando protocolos de interoperabilidad (como NANDA, MCP o A2A ).
 * **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA) .
 
