@@ -64,6 +64,12 @@ La obra está diseñada como un viaje de aprendizaje secuencial.
 
 ---
 
+### Mejora Continua
+
+Si encuentras una errata o tienes una sugerencia de mejora, puedes reportarla directamente en el [**Repositorio de GitHub**](https://github.com/jccarvajal/IA-Aplicada)
+
+---
+
 ### Licencia
 
 Esta obra se distribuye bajo la Licencia **Creative Commons Atribución-NoComercial-SinObrasDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)**.
