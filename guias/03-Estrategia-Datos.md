@@ -39,8 +39,16 @@ Las Políticas del "Arquitecto de la Información":
        propietario: 'Depto. Riesgos', 
        sensibilidad: 'Confidencial' }
      ```
-2. **Protección y Control de Acceso:** No todos los agentes deben leerlo todo. El acceso a los datos debe cumplir con los marcos legales (como la Ley N° 19.628 en Chile) sobre protección de datos personales y sensibles.  
-   * *Política:* El "Agente de Soporte al Cliente" solo puede "leer" (RAG) documentos con la etiqueta sensibilidad: 'Público'. El "Agente Legal" puede leer sensibilidad: 'Confidencial'.  
+2. **Protección y Control de Acceso:** No todos los agentes deben leerlo todo. El acceso a los datos debe cumplir con los marcos legales  sobre protección de datos personales y sensibles (como la Ley N° 19.628 en Chile).
+   * *Política:* 
+     El "Agente de Soporte al Cliente" solo puede "leer" (RAG) documentos con la etiqueta:
+     ```text
+     { sensibilidad: 'Público' }
+     ```
+     El "Agente Legal" solo puede leer la etiqueta:
+     ```text
+     { sensibilidad: 'Confidencial' }
+     ```
 3. **Gestión del Ciclo de Vida (Archivado):** Los datos obsoletos son peligrosos; son el combustible de las alucinaciones factuales.  
    * *Política:* "Cualquier documento con más de X tiempo (ej. 2 años) de antigüedad o que sea reemplazado por una v\_nueva debe ser automáticamente archivado (retirado de la biblioteca RAG)."
 
