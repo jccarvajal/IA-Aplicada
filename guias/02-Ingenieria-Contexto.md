@@ -4,8 +4,6 @@ Subtítulo: Resolviendo la "Brecha de Aprendizaje" de la IA
 
 #### Introducción: Del Prompt Perfecto a la Coherencia Sostenida
 
-Si la Ingeniería de Prompts (Guía 01) es la disciplina que nos permite construir una *instrucción* perfecta, la Ingeniería de Contexto es la ciencia de darle *memoria*.
-
 Si la Ingeniería de Prompts (Guía 01) es la disciplina que nos permite construir una *instrucción* perfecta, la **Ingeniería de Contexto (Context Engineering)** es la ciencia de construir el entorno donde vive esa instrucción.
 
 Informes de la industria de 2025 (como el "State of AI in Business" del MIT) identifican que el mayor obstáculo para el éxito de la IA no es la calidad del modelo, sino la **"Brecha de Aprendizaje" (The Learning Gap)**. Este término describe por qué la mayoría de los pilotos de IA (el 95%) fracasan: las herramientas genéricas son fundamentalmente "tontas" porque operan sin memoria.
