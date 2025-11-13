@@ -38,6 +38,26 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Un riesgo operacional crítico donde el LLM genera información que es factualmente incorrecta, inventada o contradictoria, pero la presenta con total confianza y elocuencia. Es una "mentira" no intencional.  
 * **Referencia Principal:** Guía 07 (Gobernanza de IA), Guía 08 (Evaluación, Calidad y Validación de IA).
 
+**Amnesia Estática (Static Amnesia)**
+
+* **Definición:** Un término conceptual (basado en la "amnesia anterógrada" de la investigación) para describir la limitación fundamental de la arquitectura Transformer. Es la incapacidad estructural del modelo para consolidar nueva información (aprendida de las interacciones) en su memoria a largo plazo (los pesos del modelo) después de que finaliza su entrenamiento.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria), Guía 13 (Perspectivas y Futuro de la IA).
+
+**Aprendizaje Anidado (Nested Learning)**
+
+* **Definición:** Un paradigma de arquitectura de IA que se perfila como el sucesor del Transformer. Propuesto por Google Research (NeurIPS 2025), abandona las "capas de cómputo" estáticas por "capas de cognición" que operan y se actualizan a múltiples frecuencias (escalas de tiempo).
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
+**Aprendizaje Continuo (Continual Learning)**
+
+* **Definición:** El objetivo de las arquitecturas de próxima generación (como "Nested Learning"). Es la capacidad de un modelo de IA para aprender continuamente de nuevas interacciones y datos sin sufrir un "olvido catastrófico" (olvidar lo que sabía antes). Es la solución a la "Amnesia Estática".
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
+**Auto-Modificable (Self-Modifying)**
+
+* **Definición:** Una característica clave de los modelos de Aprendizaje Anidado. Es la capacidad del sistema para aprender y modificar su propio algoritmo de actualización, en lugar de depender de una regla de aprendizaje fija.
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
+
 **Basura Elocuente (Eloquent Bullshit)**
 
 * **Definición:** El principal producto de riesgo de la IA. Es el resultado de combinar una "basura cognitiva" (un prompt vago, sin criterio o mal formulado) con un LLM potente. La IA produce una respuesta fluida, profesional y convincente que es fundamentalmente incorrecta o inútil.  
@@ -81,6 +101,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 **Compactación (de Contexto)**
 
 * **Definición:** Una estrategia de ingeniería de contexto donde, en una conversación larga, el sistema usa un LLM para resumir automáticamente el historial de chat anterior, preservando el contexto clave sin exceder la Ventana de Contexto.  
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**Costo Cuadrático (Quadratic Cost)**
+
+* **Definición:** La principal limitación de costo y rendimiento de la arquitectura Transformer. Se refiere al hecho de que el costo computacional y el uso de memoria crecen exponencialmente ($O(n^2)$) con la longitud de la Ventana de Contexto, haciendo que procesar secuencias muy largas sea extremadamente costoso.
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
 **Datos Sintéticos (Synthetic Data)**
@@ -177,6 +202,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** (Low-Rank Adaptation) La técnica de ingeniería clave para el Ajuste Fino eficiente. En lugar de re-entrenar el modelo completo (miles de millones de parámetros), "congela" el modelo base e inserta una pequeña "capa adaptadora" que es la única que se entrena. QLoRA es una versión aún más eficiente en memoria.  
 * **Referencia Principal:** Anexo 01 (Ajuste Fino y Adaptación de Modelos).
+
+**Memoria Continua (Continuum Memory)**
+
+* **Definición:** Un sistema de memoria que generaliza la visión tradicional de memoria "a corto/largo plazo". Permite al modelo un acceso y consolidación fluidos a través de múltiples escalas de tiempo (corta, media y larga).
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA).
 
 **Metacognición (Metacognition)**
 
@@ -297,6 +327,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** La unidad fundamental de procesamiento de un LLM. Un token no es una palabra; es una "pieza" de palabra (ej: "Gobernanza" pueden ser 3: "Gob", "er", "nanza"). Los costos y la Ventana de Contexto se miden en tokens.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
+**Transformer**
+
+* **Definición:** La arquitectura de IA fundamental que define la generación actual de LLMs (GPT, Llama, Gemini, etc.). Su mecanismo clave es la "auto-atención". Sus limitaciones estratégicas son el **Costo Cuadrático** (un problema de contexto) y la **Amnesia Estática** (un problema de memoria).
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria), Anexo 05 (Modelos y Mercado LLM).
 
 **Tree of Thoughts (ToT)**
 
