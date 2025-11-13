@@ -147,17 +147,28 @@ Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
 ---
 
-#### Solución 3. Gestión de Memoria Explícita (El "Bloc de Notas" del Agente)
+#### Solución 3. Gestión de Memoria (El "Asistente Personal")
 
-Si RAG es la "biblioteca" (conocimiento estático externo), la Memoria Explícita es el "bloc de notas personal" del agente (memoria dinámica interna).
+Si RAG es la biblioteca, la Memoria es el "bloc de notas" personal del agente.
 
-* **¿Qué es?** Es darle al **agente**, el sistema de IA que puede razonar y usar herramientas (como veremos en la Guía 04), un "bloc de notas" externo y la habilidad de escribir y leer de él. Es una memoria a largo plazo persistente.
-* **¿Por qué funciona?** Permite al agente recordar hechos clave ("El proyecto Alfa vence el 15/11") a través de múltiples sesiones, incluso después de que la "pizarra" se haya borrado. Resuelve la parte de "aprender del feedback" de la "Brecha de Aprendizaje".
-* **Ideal para:** Proyectos largos, recordar preferencias del usuario.
+* **¿Qué es?** Es la capacidad de darle al agente una memoria a largo plazo persistente que sobrevive entre sesiones. A diferencia de la "pizarra" (Sesión) que se borra al final, la Memoria persiste.
+* **La Metáfora (Google, 2025):** Es un **Asistente Personal**. El asistente te conoce a ti (contexto del usuario), recuerda tus preferencias, aprende de tus cambios de opinión y te da un trato único.
+* **¿Por qué funciona?** Permite la **Personalización Real**. El agente no te trata como a un extraño en cada interacción. Resuelve la parte de "aprender del feedback" de la "Brecha de Aprendizaje", evitando que el usuario tenga que repetir instrucciones.
+* **Ideal para:** Proyectos de larga duración, asistentes personales, recordar preferencias de usuario y mantener la continuidad en tareas complejas.
 
-**Cómo Funciona (El Ciclo ReAct):**
+**Cómo Funciona (El Proceso ETL de Memoria):**
 
-El agente usa su bucle de pensamiento de Razonar-Actuar (ReAct) para gestionar su memoria:
+A diferencia de RAG (que es estático), la memoria es dinámica y requiere un ciclo de vida activo de dos pasos clave:
+
+1.  **Extracción (El "Filtro"):** Un LLM especializado analiza la conversación en tiempo real para identificar hechos nuevos y relevantes (ej. "El usuario prefiere reuniones los viernes"). Descarta el ruido.
+2.  **Consolidación (La "Curaduría"):** Este es el paso crítico. El sistema compara el nuevo hecho con la memoria existente para mantener la coherencia:
+    * **Actualizar:** Si antes prefería los lunes, se actualiza el dato.
+    * **Fusionar:** Si el dato complementa información previa, se enriquece.
+    * **Olvidar:** Si un dato es obsoleto, se elimina.
+
+**Ejemplo Práctico: Memoria como Herramienta (Memory-as-a-Tool)**
+
+Para que la memoria sea dinámica, el agente debe tener permiso para usarla. Bajo el patrón "Memory-as-a-Tool", el agente utiliza su ciclo de Razonar-Actuar (ReAct) para decidir cuándo leer o escribir en su "bloc de notas":
 
 1.  **El Usuario da Información (Lunes):**
     * 👤 **Usuario:**
