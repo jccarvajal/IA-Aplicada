@@ -113,6 +113,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Una táctica de Estrategia de Datos donde se utiliza un modelo de IA potente para generar un gran volumen de ejemplos de entrenamiento de alta calidad. Es la fuente de datos clave para el Ajuste Fino.
 * **Referencia Principal:** Guía 03 (Estrategia de Datos), Anexo 01 (Ajuste Fino).
 
+**Divulgación (Disclosure)**
+
+* **Definición:** Un principio legal y técnico para Agentes Autónomos (Guía 13). Requiere que el agente se identifique transparentemente como una IA y revele ante Terceros a quién representa (quién es su "Principal"). Es la base de la confianza en el comercio automatizado para asignar responsabilidad financiera.
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA), Anexo 07 (Bibliografía Fundamental).
+
 **Estrategia de Datos (Data Strategy)**
 
 * **Definición:** El plan maestro para la adquisición, almacenamiento, limpieza, seguridad y (crucialmente) vectorización de los datos propietarios de una organización. Define el "combustible" que alimentará a los sistemas RAG y de Ajuste Fino.  
@@ -177,6 +182,16 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Una métrica de rendimiento (eficiencia). Es el tiempo total que tarda el sistema de IA en procesar una solicitud y entregar la respuesta final al usuario.  
 * **Referencia Principal:** Guía 08 (Evaluación, Calidad y Validación de IA).
+
+**Lealtad Agéntica (Agentic Loyalty)**
+
+* **Definición:** Un nuevo riesgo de gobernanza para agentes autónomos (identificado por Riedl & Desai, 2025). Se refiere al conflicto de interés potencial donde un agente podría priorizar los intereses comerciales de su plataforma desarrolladora sobre los intereses de su usuario (el Principal), violando el "deber fiduciario".
+* **Referencia Principal:** Guía 13 (Perspectivas y Futuro de la IA), Anexo 07 (Bibliografía Fundamental).
+
+**Ley de Agencia (Agency Law)**
+
+* **Definición:** El marco legal centenario que regula las relaciones donde una persona (Agente) actúa en nombre de otra (Principal). Se ha convertido en el marco de referencia crítico (Guía 13) para determinar la responsabilidad y los límites de autoridad de los nuevos Agentes Autónomos de IA que ejecutan transacciones.
+* **Referencia Principal:** Anexo 07 (Bibliografía Fundamental).
 
 **Licencia Social (Social License)**
 
