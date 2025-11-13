@@ -1,4 +1,4 @@
-## Anclajes Conceptuales:
+## Ideas Centrales:
 
 * **Guía 01 (Ingeniería de Prompts):** "El prompt no es una pregunta, es un instrumento de control. La maestría no consiste en 'hablar' con la IA, sino en 'diseñar' una instrucción que no deje espacio para el error."  
 
