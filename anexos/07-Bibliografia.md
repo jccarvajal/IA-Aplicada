@@ -20,6 +20,8 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de lecturas funda
   * **Por qué leerlo:** Es el pilar legal de la **Gobernanza de Datos** (Guía 03\) en Chile. Define "dato personal" y "dato sensible", estableciendo la base legal de la "Estrategia de Datos".  
 * **Cavoukian, A. (2009). "Privacy by Design: The 7 Foundational Principles".**  
   * **Por qué leerlo:** Establece el marco internacional para la "Privacidad desde el Diseño" y "por Defecto", un concepto central de la "Guía Ética" (BID/UAI) para la formulación de proyectos.
+* **Milam, K., & Gulli, A. (Noviembre 2025). "Context Engineering: Sessions, Memory". privada".**  
+  * **Por qué leerlo:** El *whitepaper* fundacional de Google que define la "Ingeniería de Contexto" (la evolución de la Ingeniería de Prompts). Proporciona el "criterio de arquitecto" clave para diferenciar **RAG** (el "bibliotecario" experto en hechos) de la **Memoria** (el "asistente personal" experto en el usuario).
 
 ---
 
