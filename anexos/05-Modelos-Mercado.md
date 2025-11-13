@@ -10,19 +10,21 @@ En guías anteriores aprendimos a diseñar y **gobernar** —es decir, controlar
 
 #### Parte 1: El Pilar Técnico: La Arquitectura Transformer
 
-Antes de analizar el mercado de "motores" (modelos), es crucial entender la arquitectura técnica que define a la generación actual de IA: el Transformer.
+Antes de analizar el mercado de "motores" (modelos), es crucial entender la arquitectura técnica que define a la generación actual de IA: el **Transformer**.
+
 Presentada en 2017 por Google, esta arquitectura es el motor detrás de casi todos los modelos que dominan el panorama 2025-2026, incluyendo las familias GPT (OpenAI), Gemini (Google), Claude (Anthropic) y los principales modelos open-source como Llama (Meta) y Mistral.
 
 **¿Qué es y por qué domina?**
 
-El Transformer resolvió el problema de cómo "entender" secuencias de texto a gran escala. Su innovación clave es el mecanismo de "auto-atención" (self-attention), que permite al modelo sopesar la importancia de diferentes palabras en una oración, sin importar qué tan lejos estén unas de otras.
+El Transformer resolvió el problema de cómo "entender" secuencias de texto a gran escala. Su innovación clave es el mecanismo de **"auto-atención" (self-attention)**, que permite al modelo sopesar la importancia de diferentes palabras en una oración, sin importar qué tan lejos estén unas de otras.
+
 Es esta capacidad de "ver" y "conectar" el contexto completo de un texto lo que les da su poder para razonar, traducir y generar lenguaje con coherencia.
 
 **La Limitación Estratégica**
 
 Sin embargo, esta arquitectura tiene dos implicaciones estratégicas que impactan directamente en el "Triángulo de Adquisición" (Rendimiento, Control, Costo):
-1. Costo de Escalado (Costo): El mecanismo de auto-atención es computacionalmente intensivo. Su costo y uso de memoria crecen cuadráticamente con la longitud del contexto. Duplicar la longitud de un documento no duplica el costo, sino que lo cuadruplica (o más), lo que encarece la operación a gran escala.
-2. Naturaleza Estática (Control): Los Transformers se entrenan en una "foto" masiva del conocimiento (un corpus de datos) y luego se "congelan". No están diseñados para aprender de forma continua o para integrar nueva información después de su entrenamiento, un desafío que exploramos en la Guía 13: Perspectivas.
+1\. **Costo de Escalado (Costo):** El mecanismo de auto-atención es computacionalmente intensivo. Su costo y uso de memoria crecen cuadráticamente con la longitud del contexto. Duplicar la longitud de un documento no duplica el costo, sino que lo cuadruplica (o más), lo que encarece la operación a gran escala.
+2\. **Naturaleza Estática (Control):** Los Transformers se entrenan en una "foto" masiva del conocimiento (un corpus de datos) y luego se "congelan". No están diseñados para aprender de forma continua o para integrar nueva información después de su entrenamiento, un desafío que exploramos en la Guía 13: Perspectivas.
 
 ---
 
