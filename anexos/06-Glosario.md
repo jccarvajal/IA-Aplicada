@@ -103,6 +103,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** Una estrategia de ingeniería de contexto donde, en una conversación larga, el sistema usa un LLM para resumir automáticamente el historial de chat anterior, preservando el contexto clave sin exceder la Ventana de Contexto.  
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
+**Consolidación (de Memoria)**
+
+* **Definición:** Un proceso crítico en la gestión de Memoria. Es la etapa de "curaduría" donde un LLM analiza la nueva información extraída y la compara con los recuerdos existentes para fusionar duplicados, resolver contradicciones y eliminar datos obsoletos, manteniendo el conocimiento del agente coherente.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
 **Costo Cuadrático (Quadratic Cost)**
 
 * **Definición:** La principal limitación de costo y rendimiento de la arquitectura Transformer. Se refiere al hecho de que el costo computacional y el uso de memoria crecen exponencialmente (O(n<sup>2</sup>)) con la longitud de la Ventana de Contexto, haciendo que procesar secuencias muy largas sea extremadamente costoso.
@@ -168,6 +173,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** El proceso de llevar un prototipo de IA funcional (Guía 06\) a un sistema de nivel de producción: escalable, confiable, monitoreado y mantenible. Ver LLM-Ops.  
 * **Referencia Principal:** Guía 09 (Industrialización de IA).
 
+**Ingeniería de Contexto (Context Engineering)**
+
+* **Definición:** La evolución de la Ingeniería de Prompts. Es la disciplina técnica (definida por Google, 2025) de ensamblar dinámicamente *toda* la información necesaria (instrucciones, herramientas, RAG, memoria y sesión) dentro de la ventana de contexto de un LLM para crear agentes inteligentes y con estado.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria), Anexo 07 (Bibliografía Fundamental).
+
 **Ingeniería de Prompts (Prompt Engineering)**
 
 * **Definición:** La disciplina de diseñar y estructurar instrucciones (prompts) de manera clara, contextualizada y precisa para obtener respuestas controladas, predecibles y de alta calidad por parte de un LLM.  
@@ -217,6 +227,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** (Low-Rank Adaptation) La técnica de ingeniería clave para el Ajuste Fino eficiente. En lugar de re-entrenar el modelo completo (miles de millones de parámetros), "congela" el modelo base e inserta una pequeña "capa adaptadora" que es la única que se entrena. QLoRA es una versión aún más eficiente en memoria.  
 * **Referencia Principal:** Anexo 01 (Ajuste Fino y Adaptación de Modelos).
+
+**Memoria (vs. RAG)**
+
+* **Definición:** Una distinción arquitectónica clave. Mientras **RAG** actúa como un "bibliotecario" (experto en hechos externos y estáticos), la **Memoria** actúa como un "asistente personal" (experto en el usuario). La memoria es dinámica, privada y se deriva de las interacciones pasadas para permitir la personalización.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
 **Memoria Continua (Continuum Memory)**
 
@@ -273,6 +288,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 * **Definición:** En el contexto del **Framework PPP** (Guía 07), la 'Proactividad' es la métrica de calidad de interacción que mide la habilidad del agente para gestionar la ambigüedad. Un agente proactivo identifica instrucciones vagas y solicita aclaraciones estratégicas ("preguntas de bajo esfuerzo").
 * **Referencia Principal:** Guía 07 (Gobernanza de IA).
 
+**Procedencia (de Memoria)**
+
+* **Definición:** (Memory Provenance). El registro del origen y el historial de un recuerdo (ej. ¿lo dijo el usuario en un chat o vino de una base de datos confiable?). Es un metadato crítico que permite al agente asignar un nivel de "confianza" a la información antes de usarla para razonar.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
+
 **Productividad (dentro del Framework PPP)**
 
 * **Definición:** En el contexto del **Framework PPP** (Guía 07), la 'Productividad' es la métrica *baseline* que mide la eficacia del agente, es decir, su Tasa de Éxito en la Tarea (Task Success Rate). Es la métrica que se mide en la Guía 08 (Evaluación).
@@ -322,6 +342,11 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 * **Definición:** Una plantilla de calificación (Anexo 03) usada en la Evaluación (Guía 08) para medir objetivamente la calidad de la respuesta de un agente. Incluye métricas clave como Facticidad, Relevancia, Tono y Seguridad.
 * **Referencia Principal:** Guía 08 (Evaluación, Calidad y Validación de IA), Anexo 03 (Plantillas y Recursos).
+
+**Sesión (de Agente)**
+
+* **Definición:** El "mesón de trabajo" temporal del agente. Es el contenedor cronológico de una única conversación continua. A diferencia de la Memoria (que es el "archivador" a largo plazo), la Sesión contiene el historial inmediato y el estado de trabajo, y suele descartarse o compactarse al finalizar la tarea.
+* **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
 **Sinergia Humano-IA (Human-AI Synergy)**
 
