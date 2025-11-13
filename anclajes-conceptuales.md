@@ -2,7 +2,7 @@
 
 * **Guía 01 (Ingeniería de Prompts):** "El prompt no es una pregunta, es un instrumento de control. La maestría no consiste en 'hablar' con la IA, sino en 'diseñar' una instrucción que no deje espacio para el error."  
 
-* **Guía 02 (Ingeniería de Contexto y Memoria):** "El 'contexto' es la memoria de la IA, y es finita. La maestría consiste en entender sus límites (la 'pizarra en blanco') y no pedirle que recuerde lo que está diseñada para olvidar."  
+* **Guía 02 (Ingeniería de Contexto y Memoria):** "“El ‘contexto’ es la memoria de la IA, y es finita. La maestría consiste en no pedirle que recuerde lo que su arquitectura (el Transformer) la obliga a olvidar.”
 
 * **Guía 03 (Estrategia de Datos):** "El modelo es el 'motor', pero tus datos son el 'combustible'. La maestría consiste en tratar los datos no como un 'insumo', sino como el 'patrimonio estratégico' más valioso de la organización."  
 
