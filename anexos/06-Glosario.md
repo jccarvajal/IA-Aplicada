@@ -105,7 +105,7 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 **Costo Cuadrático (Quadratic Cost)**
 
-* **Definición:** La principal limitación de costo y rendimiento de la arquitectura Transformer. Se refiere al hecho de que el costo computacional y el uso de memoria crecen exponencialmente ($O(n^2)$) con la longitud de la Ventana de Contexto, haciendo que procesar secuencias muy largas sea extremadamente costoso.
+* **Definición:** La principal limitación de costo y rendimiento de la arquitectura Transformer. Se refiere al hecho de que el costo computacional y el uso de memoria crecen exponencialmente (O(n<sup>2</sup>)) con la longitud de la Ventana de Contexto, haciendo que procesar secuencias muy largas sea extremadamente costoso.
 * **Referencia Principal:** Guía 02 (Ingeniería de Contexto y Memoria).
 
 **Datos Sintéticos (Synthetic Data)**
