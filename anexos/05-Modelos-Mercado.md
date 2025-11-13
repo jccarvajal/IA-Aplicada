@@ -30,7 +30,9 @@ Sin embargo, esta arquitectura tiene dos implicaciones estratégicas que impacta
 
 #### Parte 2: El Panorama 2025-2026: Los Tres Ecosistemas
 
-Como "Jefes de Adquisiciones" de nuestra fábrica de IA, el mercado de "motores" (LLMs) se ha consolidado en tres ecosistemas claros. Ya no elegimos un modelo; elegimos una estrategia de suministro.
+Como “Jefes de Adquisiciones” de nuestra fábrica de IA, el mercado de “motores” (LLMs) se ha consolidado en tres ecosistemas claros. Como establecimos en la Guía 02, la arquitectura Transformer es el motor técnico fundamental que impulsa a la gran mayoría de los modelos en estos ecosistemas (GPT, Llama, Claude, etc.).
+
+Este anexo se enfoca en cómo los proveedores "empaquetan" esa arquitectura —con sus límites de costo cuadrático y memoria estática— en distintas estrategias de suministro:
 
 **A. Modelos Propietarios (APIs) \- "Arrendar el Cerebro"**
 
@@ -125,6 +127,8 @@ Para instituciones públicas o reguladas (finanzas, salud), el factor **Control*
 1. **Priorizar Soberanía de Datos:** Favorecer soluciones locales (Open-Source) para cualquier información crítica o sensible.  
 2. **Exigir Transparencia y Auditoría:** Exigir documentación técnica clara y la capacidad de auditar los procesos y los logs.  
 3. **Contratar con Cláusulas de Gobernanza:** Al usar APIs (Ecosistema A) o AaaS (Ecosistema C), incluir cláusulas contractuales específicas sobre residencia de datos, trazabilidad y retención de logs.
+
+---
 
 #### Conclusión: De Gobernador a Arquitecto de Portafolio
 
