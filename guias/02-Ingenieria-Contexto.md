@@ -42,7 +42,7 @@ El Transformer posee una "memoria" poderosa, pero solo a corto plazo:
 
 * **Memoria de Corto Plazo:** La ventana de contexto. El modelo puede "recordar" y conectar ideas perfectamente dentro de ese contexto.
 * **Ausencia de Memoria a Largo Plazo:** Una vez que la ventana de contexto se cierra (termina la conversación), el modelo olvida todo. No puede **consolidar** lo aprendido en esa sesión en sus pesos (su "cerebro" permanente).
-* **Implicación Estratégica:** Los Transformers son estáticos; están "congelados" en el tiempo después de su entrenamiento. Esta **"Amnesia Estática"** es su mayor limitación funcional y la causa raíz de la "Brecha de Aprendizaje". Es el principal motor de investigación para futuras arquitecturas (como exploramos en la Guía 13: Perspectivas).
+* **Implicación Estratégica:** Los Transformers son **estáticos**; están "congelados" en el tiempo después de su entrenamiento. Esta **"Amnesia Estática"** es su mayor limitación funcional y la causa raíz de la "Brecha de Aprendizaje". Es el principal motor de investigación para futuras arquitecturas (como exploramos en la Guía 13: Perspectivas).
 
 Toda la disciplina de "Ingeniería de Contexto y Memoria" opera dentro de estas dos restricciones fundamentales impuestas por la arquitectura Transformer.
 
