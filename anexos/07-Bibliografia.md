@@ -94,9 +94,12 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de lecturas funda
 * **Tendencia 4: IA Corpórea (Embodied AI)**  
   * **Figure AI / Boston Dynamics / Tesla (2025). "Fleet Learning: Bridging Vision-Language-Action Models with Humanoid Hardware".**  
     * **Por qué leerlo:** Demuestra la fusión de la multimodalidad (visión) con la acción física (robótica).  
-* **Tendencia 5: Más Allá de la "Fuerza Bruta" (Eficiencia)**  
+* **Tendencia 5: Más Allá del Transformer, La Era del "Aprendizaje Continuo"**  
   * **Dao, T., et al. (2025). "Mamba-2 and State Space Models: Production-Scale Efficiency".**  
-    * **Por qué leerlo:** Detalla las arquitecturas **no-Transformers** que resuelven el problema del costo y la energía de la "fuerza bruta" actual.
+    * **Por qué leerlo:** Es el paper de referencia para las arquitecturas **no-Transformers** (Modelos de Espacio de Estado) que resuelven el primer límite del Transformer (Guía 02): el **Costo Cuadrático**. Permiten eficiencia a escala y costo lineal.
+  * **Behrouz, A., et al. (2025). "Nested Learning: The Illusion of Deep Learning Architectures".**
+    * **Por qué leerlo:** Es el paper de investigación (Google Research, NeurIPS 2025) que aborda el segundo límite del Transformer (Guía 02): la **Amnesia Estática**. Introduce el paradigma del "Aprendizaje Anidado" y prototipos capaces de **Aprendizaje Continuo** y auto-modificación. Es la fuente clave para el "Vigilante Estratégico".
+
 
 ---
   <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
