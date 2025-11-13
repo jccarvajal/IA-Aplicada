@@ -34,7 +34,7 @@ Sin embargo, para un Arquitecto de IA, el valor no está en cómo funciona, sino
 La "auto-atención" debe calcular la relación de cada token con todos los demás. Esto tiene una implicación de costo no lineal:
 
 * Si duplicas la longitud del contexto (de 100 a 200 tokens), el costo computacional no se duplica, sino que se **cuadruplica**.
-* Esto se conoce como **escalado cuadrático** (o O(n^2)).
+* Esto se conoce como **escalado cuadrático** (o O(n<sup>2</sup>)).
 * **Implicación Estratégica:** Esta es la razón por la cual las ventanas de contexto más grandes (como 1 millón de tokens) son tan costosas y lentas. La ingeniería de contexto (como RAG) existe fundamentalmente para evitar tener que procesar todo con la "fuerza bruta" del Transformer.
 
 **2\. El Límite de la Memoria: La "Amnesia Estática"**
