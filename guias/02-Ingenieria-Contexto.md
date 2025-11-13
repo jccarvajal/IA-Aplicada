@@ -53,6 +53,7 @@ Toda la disciplina de "Ingeniería de Contexto y Memoria" opera dentro de estas 
 #### Conceptos Fundamentales (El Problema)
 
 **1\. ¿Qué es la "Ventana de Contexto"?**  
+
 Pensemos en la "Ventana de Contexto" como la memoria a corto plazo de la IA, o mejor aún, como una pizarra blanca.
 
 * **Función:** Esta pizarra contiene toda la información que el LLM puede "ver" en un momento dado: el prompt original, tu historial de chat y cualquier dato que le hayas proporcionado.  
@@ -60,6 +61,7 @@ Pensemos en la "Ventana de Contexto" como la memoria a corto plazo de la IA, o m
 * **Límite Físico:** La pizarra tiene un tamaño finito. Algunos modelos tienen pizarras más grandes y otros más pequeñas, pero todas tienen un límite.
 
 **2\. El "Token": El Átomo del Contexto**  
+
 Antes de hablar del "límite" de la pizarra, debemos definir cómo se mide su tamaño.
 
 * **¿Qué es?** Un "token" es la unidad de texto fundamental que un LLM procesa. Es el "ladrillo" o "átomo" con el que la IA lee el mundo y construye sus respuestas.  
@@ -75,6 +77,7 @@ Antes de hablar del "límite" de la pizarra, debemos definir cómo se mide su ta
   * *Implicación Práctica:* Subir un video de 1 minuto puede consumir la misma cantidad de tokens (o más) que un libro de 500 páginas. Ser consciente del "peso" de cada modalidad es fundamental.
 
 **3\. ¿Qué es la "Rotura de Contexto" (Context Rot)?**  
+
 Este es el problema central que la ingeniería de contexto resuelve. Es lo que ocurre cuando la "pizarra blanca" se vuelve ilegible por estar sobrecargada de tokens.
 
 * **El Síntoma:** La IA empieza a "olvidar" instrucciones clave, se vuelve repetitiva (entra en bucles) o da respuestas irrelevantes.  
