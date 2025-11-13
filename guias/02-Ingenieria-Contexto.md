@@ -129,20 +129,21 @@ Esta es la estrategia principal para gestionar el historial de la conversación 
 
 Esta es, quizás, la arquitectura más transformadora en la IA aplicada.
 
-* **¿Qué es?** Es la técnica de no poner el conocimiento en la pizarra, sino dejarlo en una "biblioteca" externa (como una Base de Datos Vectorial, un concepto clave de la estrategia de datos). Cuando el usuario pregunta, un sistema "Recuperador" busca el dato exacto y se lo "pincha" en la pizarra a la IA.  
-* **¿Por qué funciona?** La IA no necesita "memorizar" 10.000 documentos. Solo lee el único párrafo relevante. Mantiene la pizarra limpia, rápida y relevante. Es la solución principal a la "Brecha de Aprendizaje".  
-* **Ideal para:** Consultar bases de conocimiento (documentos, manuales) sin contaminar el contexto.  
-* **Cómo Funciona (El Proceso en 3 Pasos):**  
-  1. **Indexación (La "Mudanza"):** Se hace una sola vez por documento.  
-     * **Trocear (Chunking):** Tomas un PDF y lo partes en "trozos" (chunks) manejables.  
-     * **Vectorizar (Embedding):** Un modelo de IA "lee" cada trozo y lo convierte en un "vector" (representación numérica de su significado).  
-     * **Almacenar:** Guardas estos "vectores" en una Base de Datos Vectorial (la "biblioteca").  
-  2. **Recuperación (El "Bibliotecario"):** Ocurre cada vez que preguntas.  
-     * **Vectorizar la Pregunta:** El sistema "vectoriza" tu pregunta.  
-     * **Búsqueda Semántica:** Compara el vector de la pregunta con todos los vectores de la biblioteca y recupera los trozos más similares en significado.  
-  3. **Generación (La "Lectura"):**  
-     * **Aumentar el Prompt:** El sistema arma un nuevo prompt que incluye los trozos recuperados como contexto.  
-     * **Respuesta Final:** El LLM genera una respuesta precisa, basada solo en los datos frescos y relevantes.
+* **¿Qué es?** Es la técnica de mantener el conocimiento fuera de la "pizarra" (ventana de contexto) en una base de datos externa optimizada para búsqueda. Cuando el usuario pregunta, un sistema recupera solo los fragmentos relevantes y los inyecta en el contexto *just-in-time*.
+* **La Metáfora:** Es un **Bibliotecario de Investigación**. El bibliotecario no sabe quién eres (sin contexto del usuario), pero sabe *dónde está todo* (experto en hechos).
+* **¿Por qué funciona?** La IA no necesita "memorizar" 10.000 documentos. Solo lee el único párrafo relevante. Mantiene la pizarra limpia, rápida y relevante, y reduce las alucinaciones al basarse en evidencia.
+* **Ideal para:** Consultar bases de conocimiento corporativas, documentos técnicos, manuales y cualquier información estática y autoritativa.
+* **Cómo Funciona (El Proceso en 3 Pasos):**
+  1. **Indexación (La "Mudanza"):** Se hace una sola vez por documento (offline).
+     * **Trocear (Chunking):** Tomas un PDF y lo partes en "trozos" (chunks) semánticos manejables.
+     * **Vectorizar (Embedding):** Un modelo de IA especializado convierte cada trozo en un "vector" (una coordenada numérica de su significado).
+     * **Almacenar:** Guardas estos vectores en una Base de Datos Vectorial (la "biblioteca").
+  2. **Recuperación (El "Bibliotecario"):** Ocurre en tiempo de ejecución.
+     * **Vectorizar la Pregunta:** El sistema convierte la pregunta del usuario en un vector.
+     * **Búsqueda Semántica:** Compara el vector de la pregunta con todos los vectores de la biblioteca para encontrar los matemáticamente más cercanos (los más relevantes por significado).
+  3. **Generación (La "Lectura"):**
+     * **Aumentar el Prompt:** El sistema inyecta los trozos recuperados en la ventana de contexto junto con la pregunta original.
+     * **Respuesta Final:** El LLM genera una respuesta basada *únicamente* en la evidencia fresca proporcionada.
 
 ---
 
