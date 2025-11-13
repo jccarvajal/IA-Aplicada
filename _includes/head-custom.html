@@ -46,6 +46,7 @@
     display: block;
     width: 100%;
     overflow-x: auto;
+    font-size: 0.9em !important; /* Ajuste de tamaño de fuente para tablas */
   }
 
   /* --- 5. REGLAS PARA MÓVIL --- */
@@ -62,27 +63,28 @@
   h1 {
     font-size: 1.5rem;
   }
-  /* Nueva regla para reducir e
-  l tamaño de fuente en bloques de código */
+  
+  /* --- 6. BLOQUES DE CÓDIGO --- */
+  /* Reducir el tamaño de fuente en bloques de código */
   pre code {
     font-size: 0.8em; /* 90% del tamaño de fuente normal */
   }
-  
 
   /* Solución para el problema de Scroll Horizontal en Bloques de Código Largos */
   pre {
-    white-space: pre-wrap !important; /* Permite que el texto se envuelva automáticamente (wrapping) */
-    word-wrap: break-word !important; /* Asegura que las palabras muy largas se rompan si es necesario */
-    overflow-x: auto; /* Mantiene la barra de scroll horizontal para la seguridad */
+    white-space: pre-wrap !important; /* Permite que el texto se envuelva automáticamente */
+    word-wrap: break-word !important; /* Rompe palabras largas */
+    overflow-x: auto; /* Mantiene la barra de scroll si es necesario */
   }
 
-  
-  /* NUEVA REGLA: Ajuste de tamaño de fuente para todas las tablas */
-  table {
-    font-size: 0.9em !important; 
-    /* 0.9em es el 90% del tamaño normal. 
-       Si 0.9em sigue siendo muy grande, prueba con 0.85em. */
+  /* --- 7. FIX PARA IPHONE LANDSCAPE --- */
+  /* Esta regla es la clave: le prohíbe a Safari inflar el texto al girar la pantalla */
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
-  
-  
+
+
+
+
 </style>
