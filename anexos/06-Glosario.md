@@ -335,7 +335,7 @@ Este anexo es el léxico centralizado de "Inteligencia Artificial Aplicada". La 
 
 **Tree of Thoughts (ToT)**
 
-* **Definición:** Un patrón de razonamiento avanzado (Guía 05) donde el agente explora múltiples caminos de razonamiento en paralelo (como un "Comité de Estrategia"), evalúa los pros y contras de cada uno, y descarta los callejones sin salida.
+* **Definición:** Un patrón de razonamiento avanzado donde el agente explora múltiples caminos de razonamiento en paralelo (como un "Comité de Estrategia"), evalúa los pros y contras de cada uno, y descarta los callejones sin salida.
 * **Referencia Principal:** Guía 05 (Diseño de Sistemas Cognitivos).
 
 **Vectorización (Vectorization)**
