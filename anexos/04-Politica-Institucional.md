@@ -80,7 +80,7 @@ Todo proyecto o adquisición de un nuevo Sistema de IA debe seguir este procedim
 2. **Clasificación de Riesgo:** Este "screening" clasifica el proyecto (ej. "Riesgo Normal", "Riesgo Elevado", "Riesgo Prohibido").  
 3. **Gobernanza Proporcional:** El resultado del "triage" determina el nivel de gobernanza requerido:  
    * Los casos de "Riesgo Normal" pueden ser aprobados por el "Dueño de la Política".
-   * Los casos de "Riesgo Elevado" (ej. que afecten derechos, manejen datos sensibles) deben ser escalados al **Comité de Gobernanza de IA** para su revisión y aprobación explícita.  
+   * Los casos de "Riesgo Elevado" (ej. que afecten derechos, manejen datos sensibles) deben ser escalados al **Comité de Gobernanza de Datos e IA** para su revisión y aprobación explícita.  
 
 **5.3 Registro Central de IA (AI Register)**
 
