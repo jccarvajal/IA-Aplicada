@@ -101,7 +101,7 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
      * *Control:*
      ```text
      Si un solo agente ('PM') ejecuta más de X ciclos (ej. 20 ciclos) en una sola tarea, o falla X veces seguidas, detenerlo ('matar' el proceso) y escalarlo a un humano.
-     ```text
+     ```
   2. **Presupuestos de Agente (Agent Budgeting):** Asignar un presupuesto por tarea.  
      * *Control:* "El 'Agente Director' (PM de PMs) no solo asigna la tarea, asigna un presupuesto. (Ej: 'Agente Investigador, tienes $1.00 para completar esta investigación'). El agente debe optimizar sus acciones (ej. usar un modelo más barato) para cumplir la misión dentro del costo."
 
