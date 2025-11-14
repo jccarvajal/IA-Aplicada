@@ -6,7 +6,7 @@ Subtítulo: El Laboratorio de Control de Calidad: De la "Sensación" a la Métri
 
 En el prototipado, construimos una máquina que "funciona". En la **Gobernanza**, definimos las reglas de seguridad para evitar que explote.
 
-Ahora, en la Guía 08, debemos probar científicamente que esa máquina produce un producto de calidad y lo hace de forma consistente.
+Ahora debemos probar científicamente que esa máquina produce un producto de calidad y lo hace de forma consistente.
 
 Esta guía es el "Laboratorio de Control de Calidad" (QA) de nuestra fábrica. Es el puente indispensable entre la Gobernanza y la **Industrialización** (el escalado a producción). No podemos industrializar un sistema cuya calidad no podemos medir. Esta guía nos lleva de la "sensación" subjetiva ("creo que funciona bien") a la "métrica" objetiva ("puedo probar que tiene un 92% de precisión factual").
 
