@@ -260,7 +260,7 @@ A continuación, una comparativa de las cuatro estrategias que hemos revisado:
 
 | Característica | Compactación (El "Resumidor") | RAG (El "Bibliotecario") | Memoria Explícita (El "Bloc de Notas") | Arquitectura de Agentes |
 | :---- | :---- | :---- | :---- | :---- |
-| **Metáfora** | El "Resumidor" | "Biblioteca de Investigación" | "Asistente Personal" | El "Equipo de Especialistas" |
+| **Metáfora** | El "Resumidor" | El "Bibliotecario de Investigación" | El "Asistente Personal" | El "Equipo de Especialistas" |
 | **Propósito** | Usar menos "pizarra" | Aumentar conocimiento fáctico estático | Construir memoria personal dinámica | Distribuir la "carga cognitiva" |
 | **Fuente** | Resumen de la historia | El humano carga documentos | El agente mismo decide qué escribir | Delegación a otros agentes |
 | **Uso Típico** | Chatbots de larga duración | "Chat con tus Documentos" | Asistentes personales | Sistemas complejos multi-paso |
