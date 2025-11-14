@@ -75,7 +75,7 @@ La IA sale de la pantalla. Nuestra "fábrica" ha sido puramente digital. La pró
 
 Como establecimos en la Guía 02 (Ingeniería de Contexto y Memoria), la arquitectura Transformer define la generación actual de IA, pero su naturaleza es fundamentalmente estática. Allí definimos su limitación clave como la "Amnesia Estática": los modelos se "congelan" y no pueden consolidar nuevo conocimiento en su memoria a largo plazo.
 
-Investigaciones recientes (Google Research, NeurIPS 2025) buscan resolver precisamente esta amnesia. El **"Nested Learning" (Aprendizaje Anidado)** es un nuevo paradigma que reemplaza las "capas de cómputo" estáticas por "capas de cognición" que operan y se actualizan a múltiples frecuencias (escalas de tiempo), similar a las ondas cerebrales. Prototipos como "Hope" implementan esta idea, introduciendo modelos "auto-modificables" con "memoria continua".
+Investigaciones recientes (Google Research, NeurIPS 2025) buscan resolver precisamente esta amnesia. El **"Nested Learning" (Aprendizaje Anidado)** es un nuevo paradigma que reemplaza las "capas de cómputo" estáticas por "capas de cognición" que operan y se actualizan a múltiples frecuencias (escalas de tiempo), similar a las ondas cerebrales. Prototipos han implementado esta idea, introduciendo modelos "auto-modificables" con "memoria continua".
 
 * **Impacto Práctico:** El "Vigilante Estratégico" debe entender que esto no es una simple mejora, sino un cambio de arquitectura que resuelve las dos limitaciones clave de la Guía 02:
   * **Resuelve el Costo Cuadrático:** Arquitecturas alternativas (como Mamba, referenciada en el Anexo 07) habilitan el procesamiento de contexto largo a un costo lineal, haciendo viables los análisis masivos.
