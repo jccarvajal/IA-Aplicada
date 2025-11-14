@@ -76,9 +76,9 @@ Se establecen roles granulares para asegurar la separación de deberes y la rend
 **5.2 Procedimiento para Nuevos Casos de Uso (Triage y Aprobación)**
 
 Todo proyecto o adquisición de un nuevo Sistema de IA debe seguir este procedimiento antes de su implementación:  
-1\. Screening (Triage) Obligatorio: El "Dueño del Sistema" propuesto debe presentar el caso de uso para un "screening" o "triage" inicial.  
-2\. Clasificación de Riesgo: Este "screening" clasifica el proyecto (ej. "Riesgo Normal", "Riesgo Elevado", "Riesgo Prohibido").  
-3\. Gobernanza Proporcional: El resultado del "triage" determina el nivel de gobernanza requerido:  
+1. Screening (Triage) Obligatorio: El "Dueño del Sistema" propuesto debe presentar el caso de uso para un "screening" o "triage" inicial.  
+2. Clasificación de Riesgo: Este "screening" clasifica el proyecto (ej. "Riesgo Normal", "Riesgo Elevado", "Riesgo Prohibido").  
+3. Gobernanza Proporcional: El resultado del "triage" determina el nivel de gobernanza requerido:  
    * Los casos de "Riesgo Normal" pueden ser aprobados por el "Dueño de la Política".
    * Los casos de "Riesgo Elevado" (ej. que afecten derechos, manejen datos sensibles) deben ser escalados al Comité de Gobernanza de IA para su revisión y aprobación explícita.  
 
