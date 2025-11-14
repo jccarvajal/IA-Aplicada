@@ -107,7 +107,7 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
 
 ---
 
-### Parte 3: El Framework PPP: Gobernanza de la Calidad de Interacción)
+### Parte 3: El Framework PPP: Gobernanza de la Calidad de Interacción
 
 La Gobernanza (la "sala de control") no solo debe mitigar los riesgos obvios (costos, seguridad, alucinaciones). Debe ir más allá y gobernar activamente la **calidad de la interacción con el usuario**.
 
