@@ -18,7 +18,7 @@ Resolver esto es el principal desafío de la industria. El riesgo de "Inexactitu
 
 En el software tradicional, la QA es binaria: el botón funciona o no (Pasa / Falla). En la IA Generativa, la calidad es "blanda" y subjetiva. Una respuesta puede ser:
 
-* Fluida, pero una **"alucinación"** (una invención factual, un riesgo clave de gobernanza).  
+* Fluida, pero una "alucinación" (una invención factual, un riesgo clave de gobernanza).  
 * Factualmente correcta, pero con el tono incorrecto (un fallo en el diseño del prompt).  
 * Creativa, pero irrelevante para la intención del usuario.  
 * Correcta, pero demasiado cara o lenta (un riesgo operativo).
