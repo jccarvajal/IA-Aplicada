@@ -263,7 +263,7 @@ Este juicio es la habilidad central que desarrollaremos en este marco. Esta guí
 ---
 <div style="display: flex; justify-content: space-between; font-size: 0.9em; padding-top: 10px;">
   <div>
-    <a href="../anclajes-conceptuales.html">« Anclajes Conceptuales</a>
+    <a href="../anclajes-conceptuales.html">« Ideas Centrales</a>
   </div>
   <div>
     <a href="../">Volver al Índice</a>
