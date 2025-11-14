@@ -59,11 +59,31 @@ La finalidad principal de la IA es automatizar o asistir en tareas de **"Sistema
 4. **Prohibición de Datos Sensibles:** Queda estrictamente prohibido ingresar datos personales sensibles, reservados o confidenciales en herramientas de IA públicas o de terceros que no estén validadas por el Comité de Gobernanza.  
 5. **Transparencia Obligatoria:** Todo *chatbot* o asistente virtual debe identificarse claramente como una IA. Todo documento oficial generado con asistencia sustancial de IA deberá declararlo.
 
-#### 5. Gobernanza y Responsabilidades
+#### 5. Gobernanza, Roles y Procedimientos
 
-1. **Comité de Gobernanza de Datos e IA:** Supervisará esta política, aprobará proyectos de alto riesgo y auditará el cumplimiento.  
-2. **Unidad de Tecnologías de la Información:** Implementará la **Observabilidad** (el "Dashboard de Gobernanza") para monitorear métricas de costo, seguridad (ej. Inyecciones de Prompt bloqueadas) y calidad (ej. tasa de alucinación).  
-3. **Funcionarios (Evolución de Rol):** Asumen los nuevos roles de **"Validadores"** y **"Entrenadores de Agentes"**. Son la primera línea de defensa de la calidad y la principal fuente de retroalimentación para la mejora del sistema.
+Para asegurar la gobernanza efectiva, se establecen los siguientes roles y procedimientos:
+
+5.1 Roles y Responsabilidades Clave  
+Se establecen roles granulares para asegurar la separación de deberes y la rendición de cuentas (accountability):
+* Dueño de la Política (Policy Owner): Un líder senior designado (ej. Jefe de Servicio) que es el responsable final de mantener y patrocinar esta política.  
+* Comité de Gobernanza de IA: (Tu rol existente). Actúa como el punto de escalamiento para revisar y aprobar sistemas de "alto riesgo" identificados en el Triage.  
+* Dueño del Sistema de IA (System Owner): Por cada sistema de IA aprobado, se debe designar un "Dueño de Sistema" específico. Esta persona es responsable del ciclo de vida de ese sistema, su cumplimiento con esta política y sus resultados.  
+* Monitor de Cumplimiento (Compliance Monitor): Un rol (ej. Auditoría Interna) responsable de verificar y auditar el cumplimiento de esta política, revisando que los proyectos hayan completado su Triage y que el Registro de IA esté actualizado.  
+* Unidad de Tecnologías de la Información: (Tu rol existente). Implementa la Observabilidad (el "Dashboard de Gobernanza") para monitorear métricas de costo, seguridad y calidad de los sistemas en producción.
+* Funcionarios (Usuarios Finales): (Tu rol existente). Asumen los roles de "Validadores" y "Entrenadores", cumpliendo con esta política y reportando cualquier incidente.  
+
+5.2 Procedimiento para Nuevos Casos de Uso (Triage y Aprobación)
+Todo proyecto o adquisición de un nuevo Sistema de IA debe seguir este procedimiento antes de su implementación:  
+1. Screening (Triage) Obligatorio: El "Dueño del Sistema" propuesto debe presentar el caso de uso para un "screening" o "triage" inicial.  
+2. Clasificación de Riesgo: Este "screening" clasifica el proyecto (ej. "Riesgo Normal", "Riesgo Elevado", "Riesgo Prohibido").  
+3. Gobernanza Proporcional: El resultado del "triage" determina el nivel de gobernanza requerido:  
+* Los casos de "Riesgo Normal" pueden ser aprobados por el "Dueño de la Política".
+* Los casos de "Riesgo Elevado" (ej. que afecten derechos, manejen datos sensibles) deben ser escalados al Comité de Gobernanza de IA para su revisión y aprobación explícita.  
+
+5.3 Registro Central de IA (AI Register)
+Todo Sistema de IA que haya sido aprobado mediante el procedimiento de Triage debe ser inscrito en el "Registro Central de IA" de la institución.
+* Este registro es el inventario central y la "fuente única de verdad" sobre qué sistemas de IA están en uso y quién es el "Dueño de Sistema" responsable de cada uno.
+* Este registro es la herramienta principal de transparencia para el "Monitor de Cumplimiento" y la gobernanza interna.  
 
 #### 6. Cumplimiento y Sanciones
 
