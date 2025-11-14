@@ -88,7 +88,10 @@ En el prototipado, le dimos "manos y pies" (Herramientas) a nuestros agentes par
 * **El Ataque (Interno):** El agente "alucina" un cálculo financiero y usa su herramienta escribir\_en\_base\_de\_datos, corrompiendo tus registros.  
 * **Controles de Seguridad (Verificación y Validación):**  
   1. **Forzar el "Grounding" (Anclaje a RAG):** Obliga al agente a verificar antes de actuar.  
-     * *Ejemplo (Prompting):* "REGLA: Antes de ejecutar enviar\_email(direccion), DEBES verificar que esa direccion existe explícitamente en los \<DATOS\> proporcionados. Si no puedes verificarlo y estás 'adivinando', detente y pide confirmación."  
+     * *Ejemplo (Prompting):* 
+     ```text
+     REGLA: Antes de ejecutar enviar_email(direccion), DEBES verificar que esa direccion existe explícitamente en los <DATOS> proporcionados. Si no puedes verificarlo y estás 'adivinando', detente y pide confirmación.
+     ```
   2. **Humano-en-el-Bucle (El Control Definitivo):** La autonomía total es un riesgo. Implementa el punto de control donde el agente planifica su acción (ej. "Enviar email a direccion.alucinada@empresa.com"), pero el sistema se detiene y pide validación humana: "¿\[Aprobar\] \[Rechazar\]?" El humano detecta la alucinación y evita el desastre.
 
 **5\. Riesgo: Bucle de Costos y Recursos (El "Agente Desbocado")**
