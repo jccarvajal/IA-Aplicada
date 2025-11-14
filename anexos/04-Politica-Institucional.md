@@ -26,7 +26,7 @@ Aplica a todas las unidades y funcionarios, así como a terceros que desarrollen
 **Definición de "Sistema de IA":** 
 Para efectos de esta política, definimos un Sistema de IA como "cualquier tecnología que usa datos para hacer inferencias y generar resultados como predicciones, recomendaciones o decisiones con un grado de autonomía".  
 * **Esto incluye, pero no se limita a:** Modelos de machine learning, herramientas de IA Generativa, sistemas de análisis predictivo y chatbots que generan sus propias respuestas.  
-* **Esto excluye explícitamente:** Fórmulas estándar de hojas de cálculo, automatizaciones basadas en reglas (como macros "si-entonces") y dashboards de Business Intelligence tradicionales.  
+* **Esto excluye explícitamente:** Fórmulas estándar de hojas de cálculo, automatizaciones basadas en reglas (como macros "if-then") y dashboards de Business Intelligence tradicionales.  
 
 Esta política regula tanto sistemas de soporte de decisión (que informan a un humano) como sistemas de toma de decisión (automatizados), y establece los controles para el uso de herramientas no aprobadas (IA en la Sombra).
 
